@@ -1,0 +1,35 @@
+{
+	name: "",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Licenciado en Comunicación presenta habilidades para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Plantear y solucionar problemas comunicacionales en el contexto social",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Planificar y administrar procesos comunicacionales",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear eficazmente información para diferentes audiencias",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Organizar las relaciones públicas de instituciones privadas y públicas",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Administrar y operar medios de comunicación masiva",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Formular estrategias de diseño y comunicación de imagen corporativa",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

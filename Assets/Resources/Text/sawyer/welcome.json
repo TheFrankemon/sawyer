@@ -1,0 +1,22 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "¡Bienvenid@ {0} a la UPB!",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Mi nombre es Tom, pero puedes llamarme Sawyer.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Seré tu guía en este recorrido virtual.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "¡Disfruta tu estadía acá!",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

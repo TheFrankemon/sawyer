@@ -1,0 +1,14 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "Esta es la biblioteca.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "¿Sabías que anteriormente era una iglesia?",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

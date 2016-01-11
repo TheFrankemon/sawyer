@@ -1,0 +1,31 @@
+{
+	name: "Mgr. Martín Arandia",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "Las competencias de un Licenciado en Marketing y Logística le permiten:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Responder a las necesidades cambiantes de los consumidores",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Posicionar productos y servicios",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Aplicar técnicas de comercialización de alta competitividad",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Optimizar los procedimientos de distribución de los bienes o servicios",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Asesorar sobre las ventajas de la localización del negocio y puntos de venta (logística)",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

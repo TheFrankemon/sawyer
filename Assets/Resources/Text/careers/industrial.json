@@ -1,0 +1,35 @@
+{
+	name: "Mgr. Fernando López",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Ingeniero Industrial y de Sistemas tiene las habilidades profesionales para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Planificar, desarrollar e implementar sistemas de información",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar y/o mejorar los sistemas de actividad humana",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Preparar y evaluar proyectos de inversión",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Planificar, administrar y optimizar los procesos productivos",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Organizar y coordinar grupos de trabajo utilizando el enfoque sistémico",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar e implementar sistemas de calidad",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

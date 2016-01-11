@@ -1,0 +1,27 @@
+{
+	name: "",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Arquitecto está capacitado para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desarrollar proyectos arquitectónicos",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Administrar recursos técnicos",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Promover la profundización de valores socioculturales de las construcciones",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Dirigir la planificación, diseño y ejecución de obras civiles",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

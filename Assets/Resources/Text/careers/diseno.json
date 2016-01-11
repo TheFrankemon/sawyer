@@ -1,0 +1,43 @@
+{
+	name: "",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Licenciado en Diseño Gráfico presenta habilidades para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Transmitir ideas y enviar mensajes visuales de forma estética y atrayente",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear y difundir la imagen de los productos y de la misma empresa",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear identidad corporativa",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desarrollar campañas publicitarias",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear páginas web",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear campañas de difusión y concientización",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Realizar Fotografía artística y publicitaria",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Realizar animaciones",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

@@ -1,0 +1,43 @@
+{
+	name: "Juan José Jordán Ph.D.c.",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "Las competencias profesionales más relevantes de un Ingeniero Financiero son:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Analizar la situación financiera de la organización",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Elaborar y evaluar proyectos de inversión",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Analizar y determinar la estructura de capital y financiera",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desarrollar estrategias de inversión y financiamiento",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Administrar el financiamiento internacional y sociedades de inversión",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Conocer y analizar el marco legal de los mercados de dinero y capitales",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar portafolios de inversión",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Analizar la actividad tributaria",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

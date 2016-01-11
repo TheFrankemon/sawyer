@@ -1,0 +1,128 @@
+{
+	name: "Mgr. Marcel Barrero",
+	img: "Image/MarcelToon",
+	start: [
+		{
+			text: "Buenas tardes {0}",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Mi nombre es Marcel, soy el jefe de la carrera de Ingeniería de Sistemas Computacionales",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "¿Deseas averiguar información sobre algún tema de la carrera?",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero de Sistemas Computacionales está capacitado para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Brindar soluciones informáticas a instituciones industriales o de servicios tanto a nivel de software como de hardware.",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Promover el desarrollo de tres capacidades fundamentales:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "espíritu de análisis, desarrollo de una visión del sistema futuro y trabajo interdisciplinario.",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Administrar sistemas informáticos y desarrollar aplicaciones a medida del cliente en diferentes campos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Relacionarse con el mundo profesional en cualquier rama",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "¿Deseas averiguar información sobre algún otro tema de la carrera?",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "Mercado de trabajo",
+			nans: [
+				{
+					text: "El Ingeniero de Sistemas Computacionales puede desempeñarse:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "En cualquier organización que cuente o requiera un sistema informático",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "En grupos multidisciplinarios que desarrollen soluciones de software o hardware",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "En empresas internacionales, aplicando conceptos de teletrabajo vía Internet",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "En su propia empresa",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "¿Deseas averiguar información sobre algún otro tema de la carrera?",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "Áreas de estudio",
+			nans: [
+				{
+					text: "Las áreas de estudio de un Ingeniero de Sistemas Computacionales son:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Programación en Sistemas Informáticos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Inteligencia Artificial",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Administración y Desarrollo de Sistemas de Información",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Teleinformática",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Generación de Empresas",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "¿Deseas averiguar información sobre algún otro tema de la carrera?",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
+}

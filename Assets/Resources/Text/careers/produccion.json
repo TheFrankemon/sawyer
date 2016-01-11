@@ -1,0 +1,31 @@
+{
+	name: "Elizabeth Torres Ph.D.",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Ingeniero de la Producción tiene habilidades profesionales para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Combinar el manejo de los recursos naturales, humanos, financieros, tecnológicos y sociales",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Conciliar las operaciones de producción",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar, instalar, operar, controlar y optimizar los sistemas productivos",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desenvolverse en industrias manufactureras y/o de servicios en ingeniería",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Administrar y gerenciar proyectos",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

@@ -1,0 +1,27 @@
+{
+	name: "Ricardo Nogales Ph.D.c.",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Licenciado en Economía tiene capacidad para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Efectuar diagnósticos de la evolución económica",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Evaluar los impactos de políticas sobre actividades económicas y sociales",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Efectuar análisis de la evolución económica orientada a mejorar la toma de decisiones de las empresas con respecto a las inversiones",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Analizar los mercados",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

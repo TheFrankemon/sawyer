@@ -1,0 +1,140 @@
+	{
+		name: "Mgr. Gustavo Molina",
+		img: "Image/GusToon",
+		start: [
+			{
+				text: "¡Bienvenid@ {0}!",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Soy el Decano del área de admisiones de la UPB.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "¿Deseas averiguar información sobre algún tema?",
+				audio: "Audio/player_hurt"
+			}
+		],
+		ans: [
+			{
+				text: "PAA",
+				nans: [
+					{
+						text: "La Prueba de Aptitud Académica (PAA) del College Board...",
+						audio: "Audio/gus/paa1"
+					},
+					{
+						text: "...ha sido diseñada para medir el desarrollo de las aptitudes: Verbal, matemática y de redacción en el estudiante.",
+						audio: "Audio/gus/paa2"
+					},
+					{
+						text: "Los resultados de dicha prueba permiten anticipar el desempeño del estudiante en la Universidad.",
+						audio: "Audio/gus/paa3"
+					},
+					{
+						text: "Para ello, los puntajes mínimos requeridos para la admisión en la UPB son...",
+						audio: "Audio/gus/paa4"
+					},
+					{
+						text: "Para las carreras de Ingenierías y Ciencias Empresariales, 1050 puntos sobre 1600...",
+						audio: "Audio/gus/paa5"
+					},
+					{
+						text: "...sumando los puntajes de Razonamiento Verbal y Razonamiento Matemático.",
+						audio: "Audio/gus/paa6"
+					},
+					{
+						text: "Para las carreras de Derecho y Comunicación...",
+						audio: "Audio/gus/paa7"
+					},
+					{
+						text: "...sumadas las notas de Razonamiento Verbal y de Redacción...",
+						audio: "Audio/gus/paa8"
+					},
+					{
+						text: "...el puntaje también debe llegar a 1050 sobre 1600 puntos.",
+						audio: "Audio/gus/paa9"
+					},
+					{
+						text: "¿Deseas averiguar información sobre algún otro tema?",
+						audio: "Audio/player_hurt"
+					}
+				]
+			},
+			{
+				text: "Examen de conocimientos",
+				nans: [
+					{
+						text: "Es una prueba  cuyo propósito es medir los conocimientos adquiridos en el colegio.",
+						audio: "Audio/player_hurt"
+					},
+					{
+						text: "Mide los conocimientos específicos de asignaturas necesarias para iniciar la carera elegida.",
+						audio: "Audio/player_hurt"
+					},
+					{
+						text: "Los estudiantes que obtengan notas superiores a 60 sobre 100 Puntos en cada materia, quedarán eximidos de cursar el Preuniversitario.",
+						audio: "Audio/player_hurt"
+					},
+					{
+						text: "¿Deseas averiguar información sobre algún otro tema?",
+						audio: "Audio/player_hurt"
+					}
+				]
+			},
+			{
+				text: "Curso Preuniversitario",
+				nans: [
+					{
+						text: "Los cursos preuniversitarios tienen como objetivo...",
+						audio: "Audio/gus/preu1"
+					},
+					{
+						text: "...reforzar y mejorar tus conocimientos en ciencias exactas y lenguaje...",
+						audio: "Audio/gus/preu2"
+					},
+					{
+						text: "...con la finalidad de fortalecer la base para materias de semestre.",
+						audio: "Audio/gus/preu3"
+					},
+					{
+						text: "Cuando comiences tu carrera...",
+						audio: "Audio/gus/preu4"
+					},
+					{
+						text: "...llevarás entre otras materias asignaturas como Matemáticas I, Química I o Física I...",
+						audio: "Audio/gus/preu5"
+					},
+					{
+						text: "...dependiendo de tu carrera.",
+						audio: "Audio/gus/preu6"
+					},
+					{
+						text: "Por lo que es importante que en esta etapa previa mejores tus bases...",
+						audio: "Audio/gus/preu7"
+					},
+					{
+						text: "...para tener ÉXITO en las materias mencionadas.",
+						audio: "Audio/gus/preu8"
+					},
+					{
+						text: "¿Deseas averiguar información sobre algún otro tema?",
+						audio: "Audio/player_hurt"
+					}
+				]
+			},
+			{
+				text: "No, gracias",
+				nans: [
+					{
+						text: "Fue un gusto hablar contigo.",
+						audio: "Audio/player_hurt"
+					}
+					{
+						text: "¡Vuelve cuando quieras!",
+						audio: "Audio/player_hurt"
+					}
+				]
+			}
+		]
+	}

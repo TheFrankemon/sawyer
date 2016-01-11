@@ -1,0 +1,14 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "¿Cansado después de una larga clase?",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "¡La sala Viva es el lugar ideal para ti!",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

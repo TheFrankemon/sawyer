@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 64c2cd03abb9c4a489dbf242cb61897c
+timeCreated: 1446322791
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9d49a53e636459184ebcc52d909d2fc3
+  longitude: -105.24213899999999
+  latitude: 40.018309000000002
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 13.9342947, y: 4.90450048, z: -5.15576077}
+      lookAt: {x: -3.50671005, y: -1.5090189, z: 4.49360132}
+      up: {x: -.268014431, y: .95193547, z: .148280919}
+      fov: 12.4185362
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: 3_SDSLPA6078L
+    100002: 3_SDSLPA6078L 1
+    100004: 3_SDSLPA6078L#1
+    100006: 3_SDSLPA6078L#1 1
+    100008: 3_WAPRN1966
+    100010: 3_WAPRN1966 1
+    100012: 3_ZSPEPBF241526M#1
+    100014: 3_ZSPEPBF241526M#1 1
+    100016: 3_ZSPEPBF241526M#1 2
+    100018: 3_ZSPEPBF241526M#1 3
+    100020: cOPNSE011
+    100022: cOPNSE011 1
+    100024: cOPNSE011#1
+    100026: cOPNSE011#1 1
+    100028: Group 101
+    100030: Group 103
+    100032: Group 105
+    100034: Group 109
+    100036: Group 111
+    100038: Group 113
+    100040: Group 133
+    100042: Group 137
+    100044: Group 14
+    100046: Group 148
+    100048: Group 150
+    100050: Group 154
+    100052: Group 156
+    100054: Group 158
+    100056: Group 16
+    100058: Group 162
+    100060: Group 164
+    100062: Group 166
+    100064: Group 18
+    100066: Group 22
+    100068: Group 24
+    100070: Group 26
+    100072: Group 56
+    100074: Group 58
+    100076: Group 60
+    100078: Group 64
+    100080: Group 66
+    100082: Group 68
+    100084: Group 95
+    100086: Group 97
+    100088: //RootNode
+    100090: SevenLegBeam#1
+    100092: SevenLegBeam#1 1
+    100094: SevenLegBeam#1 2
+    100096: SevenLegBeam#1 3
+    100098: SevenLegBeam#2
+    100100: SevenLegBeam#2 1
+    100102: SevenLegBeam#2 2
+    100104: SevenLegBeam#2 3
+    100106: SevenLegElectric24L-Lifted
+    100108: SevenLegElectric24L-Lifted 1
+    100110: SevenLegElectric24R
+    100112: SevenLegElectric24R 1
+    100114: SevenLegElectric24R-Lifted
+    100116: SevenLegElectric24R-Lifted 1
+    100118: SevenLegElectric30L
+    100120: SevenLegElectric30L 1
+    100122: SevenLegElectric30R
+    100124: SevenLegElectric30R 1
+    100126: SevenPostLeg
+    100128: SevenPostLeg 1
+    100130: SevenPostLeg-Lifted
+    100132: SevenPostLeg-Lifted 1
+    100134: ZoPedCaster
+    100136: ZoPedCaster 1
+    100138: ZoPedCaster 10
+    100140: ZoPedCaster 11
+    100142: ZoPedCaster 12
+    100144: ZoPedCaster 13
+    100146: ZoPedCaster 14
+    100148: ZoPedCaster 15
+    100150: ZoPedCaster 2
+    100152: ZoPedCaster 3
+    100154: ZoPedCaster 4
+    100156: ZoPedCaster 5
+    100158: ZoPedCaster 6
+    100160: ZoPedCaster 7
+    100162: ZoPedCaster 8
+    100164: ZoPedCaster 9
+    100166: ZoPedPull
+    100168: ZoPedPull 1
+    100170: ZoPedPull 10
+    100172: ZoPedPull 11
+    100174: ZoPedPull 2
+    100176: ZoPedPull 3
+    100178: ZoPedPull 4
+    100180: ZoPedPull 5
+    100182: ZoPedPull 6
+    100184: ZoPedPull 7
+    100186: ZoPedPull 8
+    100188: ZoPedPull 9
+    400000: 3_SDSLPA6078L
+    400002: 3_SDSLPA6078L 1
+    400004: 3_SDSLPA6078L#1
+    400006: 3_SDSLPA6078L#1 1
+    400008: 3_WAPRN1966
+    400010: 3_WAPRN1966 1
+    400012: 3_ZSPEPBF241526M#1
+    400014: 3_ZSPEPBF241526M#1 1
+    400016: 3_ZSPEPBF241526M#1 2
+    400018: 3_ZSPEPBF241526M#1 3
+    400020: cOPNSE011
+    400022: cOPNSE011 1
+    400024: cOPNSE011#1
+    400026: cOPNSE011#1 1
+    400028: Group 101
+    400030: Group 103
+    400032: Group 105
+    400034: Group 109
+    400036: Group 111
+    400038: Group 113
+    400040: Group 133
+    400042: Group 137
+    400044: Group 14
+    400046: Group 148
+    400048: Group 150
+    400050: Group 154
+    400052: Group 156
+    400054: Group 158
+    400056: Group 16
+    400058: Group 162
+    400060: Group 164
+    400062: Group 166
+    400064: Group 18
+    400066: Group 22
+    400068: Group 24
+    400070: Group 26
+    400072: Group 56
+    400074: Group 58
+    400076: Group 60
+    400078: Group 64
+    400080: Group 66
+    400082: Group 68
+    400084: Group 95
+    400086: Group 97
+    400088: //RootNode
+    400090: SevenLegBeam#1
+    400092: SevenLegBeam#1 1
+    400094: SevenLegBeam#1 2
+    400096: SevenLegBeam#1 3
+    400098: SevenLegBeam#2
+    400100: SevenLegBeam#2 1
+    400102: SevenLegBeam#2 2
+    400104: SevenLegBeam#2 3
+    400106: SevenLegElectric24L-Lifted
+    400108: SevenLegElectric24L-Lifted 1
+    400110: SevenLegElectric24R
+    400112: SevenLegElectric24R 1
+    400114: SevenLegElectric24R-Lifted
+    400116: SevenLegElectric24R-Lifted 1
+    400118: SevenLegElectric30L
+    400120: SevenLegElectric30L 1
+    400122: SevenLegElectric30R
+    400124: SevenLegElectric30R 1
+    400126: SevenPostLeg
+    400128: SevenPostLeg 1
+    400130: SevenPostLeg-Lifted
+    400132: SevenPostLeg-Lifted 1
+    400134: ZoPedCaster
+    400136: ZoPedCaster 1
+    400138: ZoPedCaster 10
+    400140: ZoPedCaster 11
+    400142: ZoPedCaster 12
+    400144: ZoPedCaster 13
+    400146: ZoPedCaster 14
+    400148: ZoPedCaster 15
+    400150: ZoPedCaster 2
+    400152: ZoPedCaster 3
+    400154: ZoPedCaster 4
+    400156: ZoPedCaster 5
+    400158: ZoPedCaster 6
+    400160: ZoPedCaster 7
+    400162: ZoPedCaster 8
+    400164: ZoPedCaster 9
+    400166: ZoPedPull
+    400168: ZoPedPull 1
+    400170: ZoPedPull 10
+    400172: ZoPedPull 11
+    400174: ZoPedPull 2
+    400176: ZoPedPull 3
+    400178: ZoPedPull 4
+    400180: ZoPedPull 5
+    400182: ZoPedPull 6
+    400184: ZoPedPull 7
+    400186: ZoPedPull 8
+    400188: ZoPedPull 9
+    2300000: 3_SDSLPA6078L
+    2300002: 3_SDSLPA6078L 1
+    2300004: 3_SDSLPA6078L#1
+    2300006: 3_SDSLPA6078L#1 1
+    2300008: 3_WAPRN1966
+    2300010: 3_WAPRN1966 1
+    2300012: 3_ZSPEPBF241526M#1
+    2300014: 3_ZSPEPBF241526M#1 1
+    2300016: 3_ZSPEPBF241526M#1 2
+    2300018: 3_ZSPEPBF241526M#1 3
+    2300020: Group 101
+    2300022: Group 103
+    2300024: Group 105
+    2300026: Group 109
+    2300028: Group 111
+    2300030: Group 113
+    2300032: Group 133
+    2300034: Group 137
+    2300036: Group 14
+    2300038: Group 148
+    2300040: Group 150
+    2300042: Group 154
+    2300044: Group 156
+    2300046: Group 158
+    2300048: Group 16
+    2300050: Group 162
+    2300052: Group 164
+    2300054: Group 166
+    2300056: Group 18
+    2300058: Group 22
+    2300060: Group 24
+    2300062: Group 26
+    2300064: Group 56
+    2300066: Group 58
+    2300068: Group 60
+    2300070: Group 64
+    2300072: Group 66
+    2300074: Group 68
+    2300076: Group 95
+    2300078: Group 97
+    2300080: //RootNode
+    2300082: SevenLegBeam#1
+    2300084: SevenLegBeam#1 1
+    2300086: SevenLegBeam#1 2
+    2300088: SevenLegBeam#1 3
+    2300090: SevenLegBeam#2
+    2300092: SevenLegBeam#2 1
+    2300094: SevenLegBeam#2 2
+    2300096: SevenLegBeam#2 3
+    2300098: SevenLegElectric24L-Lifted
+    2300100: SevenLegElectric24L-Lifted 1
+    2300102: SevenLegElectric24R-Lifted
+    2300104: SevenLegElectric24R-Lifted 1
+    2300106: SevenLegElectric30L
+    2300108: SevenLegElectric30L 1
+    2300110: SevenLegElectric30R
+    2300112: SevenLegElectric30R 1
+    2300114: SevenPostLeg
+    2300116: SevenPostLeg 1
+    2300118: SevenPostLeg-Lifted
+    2300120: SevenPostLeg-Lifted 1
+    2300122: ZoPedCaster
+    2300124: ZoPedCaster 1
+    2300126: ZoPedCaster 10
+    2300128: ZoPedCaster 11
+    2300130: ZoPedCaster 12
+    2300132: ZoPedCaster 13
+    2300134: ZoPedCaster 14
+    2300136: ZoPedCaster 15
+    2300138: ZoPedCaster 2
+    2300140: ZoPedCaster 3
+    2300142: ZoPedCaster 4
+    2300144: ZoPedCaster 5
+    2300146: ZoPedCaster 6
+    2300148: ZoPedCaster 7
+    2300150: ZoPedCaster 8
+    2300152: ZoPedCaster 9
+    2300154: ZoPedPull
+    2300156: ZoPedPull 1
+    2300158: ZoPedPull 10
+    2300160: ZoPedPull 11
+    2300162: ZoPedPull 2
+    2300164: ZoPedPull 3
+    2300166: ZoPedPull 4
+    2300168: ZoPedPull 5
+    2300170: ZoPedPull 6
+    2300172: ZoPedPull 7
+    2300174: ZoPedPull 8
+    2300176: ZoPedPull 9
+    3300000: 3_SDSLPA6078L
+    3300002: 3_SDSLPA6078L 1
+    3300004: 3_SDSLPA6078L#1
+    3300006: 3_SDSLPA6078L#1 1
+    3300008: 3_WAPRN1966
+    3300010: 3_WAPRN1966 1
+    3300012: 3_ZSPEPBF241526M#1
+    3300014: 3_ZSPEPBF241526M#1 1
+    3300016: 3_ZSPEPBF241526M#1 2
+    3300018: 3_ZSPEPBF241526M#1 3
+    3300020: Group 101
+    3300022: Group 103
+    3300024: Group 105
+    3300026: Group 109
+    3300028: Group 111
+    3300030: Group 113
+    3300032: Group 133
+    3300034: Group 137
+    3300036: Group 14
+    3300038: Group 148
+    3300040: Group 150
+    3300042: Group 154
+    3300044: Group 156
+    3300046: Group 158
+    3300048: Group 16
+    3300050: Group 162
+    3300052: Group 164
+    3300054: Group 166
+    3300056: Group 18
+    3300058: Group 22
+    3300060: Group 24
+    3300062: Group 26
+    3300064: Group 56
+    3300066: Group 58
+    3300068: Group 60
+    3300070: Group 64
+    3300072: Group 66
+    3300074: Group 68
+    3300076: Group 95
+    3300078: Group 97
+    3300080: //RootNode
+    3300082: SevenLegBeam#1
+    3300084: SevenLegBeam#1 1
+    3300086: SevenLegBeam#1 2
+    3300088: SevenLegBeam#1 3
+    3300090: SevenLegBeam#2
+    3300092: SevenLegBeam#2 1
+    3300094: SevenLegBeam#2 2
+    3300096: SevenLegBeam#2 3
+    3300098: SevenLegElectric24L-Lifted
+    3300100: SevenLegElectric24L-Lifted 1
+    3300102: SevenLegElectric24R-Lifted
+    3300104: SevenLegElectric24R-Lifted 1
+    3300106: SevenLegElectric30L
+    3300108: SevenLegElectric30L 1
+    3300110: SevenLegElectric30R
+    3300112: SevenLegElectric30R 1
+    3300114: SevenPostLeg
+    3300116: SevenPostLeg 1
+    3300118: SevenPostLeg-Lifted
+    3300120: SevenPostLeg-Lifted 1
+    3300122: ZoPedCaster
+    3300124: ZoPedCaster 1
+    3300126: ZoPedCaster 10
+    3300128: ZoPedCaster 11
+    3300130: ZoPedCaster 12
+    3300132: ZoPedCaster 13
+    3300134: ZoPedCaster 14
+    3300136: ZoPedCaster 15
+    3300138: ZoPedCaster 2
+    3300140: ZoPedCaster 3
+    3300142: ZoPedCaster 4
+    3300144: ZoPedCaster 5
+    3300146: ZoPedCaster 6
+    3300148: ZoPedCaster 7
+    3300150: ZoPedCaster 8
+    3300152: ZoPedCaster 9
+    3300154: ZoPedPull
+    3300156: ZoPedPull 1
+    3300158: ZoPedPull 10
+    3300160: ZoPedPull 11
+    3300162: ZoPedPull 2
+    3300164: ZoPedPull 3
+    3300166: ZoPedPull 4
+    3300168: ZoPedPull 5
+    3300170: ZoPedPull 6
+    3300172: ZoPedPull 7
+    3300174: ZoPedPull 8
+    3300176: ZoPedPull 9
+    4300000: Mesh OPNSE011
+    4300002: Mesh 3_SDSLPA6078L
+    4300004: Mesh SevenPostLeg
+    4300006: Mesh SevenLegBeam#1
+    4300008: Mesh SevenLegBeam#2
+    4300010: Mesh SevenLegElectric30R
+    4300012: Mesh Group 14
+    4300014: Mesh Group 16
+    4300016: Mesh Group 18
+    4300018: Mesh SevenLegElectric30L
+    4300020: Mesh 3_ZSPEPBF241526M#1
+    4300022: Mesh ZoPedCaster
+    4300024: Mesh ZoPedPull
+    4300026: Mesh 3_SDSLPA6078L#1
+    4300028: Mesh SevenPostLeg-Lifted
+    4300030: Mesh Group 95
+    4300032: Mesh Group 97
+    4300034: Mesh SevenLegElectric24R-Lifted
+    4300036: Mesh SevenLegElectric24L-Lifted
+    4300038: Mesh 3_WAPRN1966
+    4300040: Mesh Group 133
+    6400000: 3_SDSLPA6078L
+    6400002: 3_SDSLPA6078L 1
+    6400004: 3_SDSLPA6078L#1
+    6400006: 3_SDSLPA6078L#1 1
+    6400008: 3_WAPRN1966
+    6400010: 3_WAPRN1966 1
+    6400012: 3_ZSPEPBF241526M#1
+    6400014: 3_ZSPEPBF241526M#1 1
+    6400016: 3_ZSPEPBF241526M#1 2
+    6400018: 3_ZSPEPBF241526M#1 3
+    6400020: Group 101
+    6400022: Group 103
+    6400024: Group 105
+    6400026: Group 109
+    6400028: Group 111
+    6400030: Group 113
+    6400032: Group 133
+    6400034: Group 137
+    6400036: Group 14
+    6400038: Group 148
+    6400040: Group 150
+    6400042: Group 154
+    6400044: Group 156
+    6400046: Group 158
+    6400048: Group 16
+    6400050: Group 162
+    6400052: Group 164
+    6400054: Group 166
+    6400056: Group 18
+    6400058: Group 22
+    6400060: Group 24
+    6400062: Group 26
+    6400064: Group 56
+    6400066: Group 58
+    6400068: Group 60
+    6400070: Group 64
+    6400072: Group 66
+    6400074: Group 68
+    6400076: Group 95
+    6400078: Group 97
+    6400080: //RootNode
+    6400082: SevenLegBeam#1
+    6400084: SevenLegBeam#1 1
+    6400086: SevenLegBeam#1 2
+    6400088: SevenLegBeam#1 3
+    6400090: SevenLegBeam#2
+    6400092: SevenLegBeam#2 1
+    6400094: SevenLegBeam#2 2
+    6400096: SevenLegBeam#2 3
+    6400098: SevenLegElectric24L-Lifted
+    6400100: SevenLegElectric24L-Lifted 1
+    6400102: SevenLegElectric24R-Lifted
+    6400104: SevenLegElectric24R-Lifted 1
+    6400106: SevenLegElectric30L
+    6400108: SevenLegElectric30L 1
+    6400110: SevenLegElectric30R
+    6400112: SevenLegElectric30R 1
+    6400114: SevenPostLeg
+    6400116: SevenPostLeg 1
+    6400118: SevenPostLeg-Lifted
+    6400120: SevenPostLeg-Lifted 1
+    6400122: ZoPedCaster
+    6400124: ZoPedCaster 1
+    6400126: ZoPedCaster 10
+    6400128: ZoPedCaster 11
+    6400130: ZoPedCaster 12
+    6400132: ZoPedCaster 13
+    6400134: ZoPedCaster 14
+    6400136: ZoPedCaster 15
+    6400138: ZoPedCaster 2
+    6400140: ZoPedCaster 3
+    6400142: ZoPedCaster 4
+    6400144: ZoPedCaster 5
+    6400146: ZoPedCaster 6
+    6400148: ZoPedCaster 7
+    6400150: ZoPedCaster 8
+    6400152: ZoPedCaster 9
+    6400154: ZoPedPull
+    6400156: ZoPedPull 1
+    6400158: ZoPedPull 10
+    6400160: ZoPedPull 11
+    6400162: ZoPedPull 2
+    6400164: ZoPedPull 3
+    6400166: ZoPedPull 4
+    6400168: ZoPedPull 5
+    6400170: ZoPedPull 6
+    6400172: ZoPedPull 7
+    6400174: ZoPedPull 8
+    6400176: ZoPedPull 9
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

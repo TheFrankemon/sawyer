@@ -1,0 +1,18 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "Este es el edificio fundadores.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "En la planta baja podrás encontrar a los jefes de carrera.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Bueno, excepto al medio día, ¡ellos también comen!",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

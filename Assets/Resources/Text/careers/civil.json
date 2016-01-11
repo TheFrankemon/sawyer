@@ -1,0 +1,27 @@
+{
+	name: "Francisco Aguirre Ph.D.c.",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Ingeniero Civil cuenta con los conocimientos para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Participar en las licitaciones de obras públicas y privadas",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Aplicar normas nacionales o internacionales para el control de calidad",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Realizar estudios de factibilidad técnico-económica y diseño final de proyectos de obras civiles",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Vincularse directamente al diseño, construcción y mantenimiento de obras",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

@@ -1,0 +1,27 @@
+{
+	name: "Omar Ormachea Ph.D.",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Ingeniero en Electrónica y Telecomunicaciones está capacitado para:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar e implementar sistemas electrónicos digitales y analógicos",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Implementar y controlar comunicaciones satelitales y de fibra óptica",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Diseñar e implementar redes de transmisión de datos (MAN y WAN)",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desarrollar soluciones telemáticas",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

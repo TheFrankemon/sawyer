@@ -1,0 +1,18 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "Estás ingresando a la cafetería.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Está llena de estudiantes la mayoría del tiempo.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "¡Incluso la utilizan para estudiar!",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

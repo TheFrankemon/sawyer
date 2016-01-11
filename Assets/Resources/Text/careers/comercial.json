@@ -1,0 +1,31 @@
+{
+	name: "Mgr. Rommel Rojas",
+	img: "Image/unknown",
+	start: [
+		{
+			text: "El Ingeniero Comercial posee amplios conocimientos en:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Marketing Estratégico",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Negocios Internacionales (International Business)",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Comercio Electrónico (e-Business, e-Commerce)",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "El área financiera",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Simulación de modelos de comercio.",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

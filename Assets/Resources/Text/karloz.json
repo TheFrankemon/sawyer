@@ -1,0 +1,30 @@
+	{
+		name: "Ing. Carlos de la Torre",
+		img: "Image/KarlozToon",
+		messages: [
+			{
+				text: "Hola {0}, que tal!",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Soy docente de varias materias del área de matemáticas.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Mira que ahora estoy dando clases de Cálculo I",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Pero muy muy pronto podrás pasar nuevamente por acá...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...y no pues, capaz y me ayudas a resolver un par de ejercicios",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Así ves que tal el nivel de las materias, eh?",
+				audio: "Audio/player_hurt"
+			},
+		]
+	}

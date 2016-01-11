@@ -1,0 +1,35 @@
+{
+	name: "Mgr. Laura García",
+	img: "Image/LauraToon",
+	start: [
+		{
+			text: "El Licenciado en Derecho posee aptitudes de:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Análisis, interpretación y aplicación de la norma jurídica",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Profundos conocimientos legales teórico-prácticos en las diferentes áreas del Derecho",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Destrezas en procedimientos judiciales, administrativos, arbitrales y gestión de empresas",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Eficiente comunicación oral y escrita",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Ejercicio ético de la profesión",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Capacidad para investigar, innovar y lograr un aprendizaje permanente",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: []
+}

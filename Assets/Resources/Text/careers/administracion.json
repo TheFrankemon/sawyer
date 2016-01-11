@@ -1,0 +1,29 @@
+
+{
+	name: "Juan Carlos Jordán Ph.D.c.",
+	img: "Image/JCToon",
+	start: [
+		{
+			text: "Entre las competencias de un Licenciado en Administración de Empresas están:",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Crear y desarrollar empresas",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Aplicar modernas herramientas de administración",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Desarrollar y potenciar habilidades de liderazgo",
+			audio: "Audio/player_hurt"
+		},
+		{
+			text: "Utilizar la tecnología como herramienta de gestión.",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

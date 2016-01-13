@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 00000000010000000200000003000000040000000500000006000000
+  selectedNodes: 000000000100000002000000030000000400000005000000
   assetHash:
     serializedVersion: 2
-    Hash: b073c2a7f937ca3c371cf597ecbe99b5
+    Hash: b665168426e4da3123321d1a60d9e17f
   longitude: 2.1829999999999998
   latitude: 41.383000000000003
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -79.8507843, y: 424.656525, z: -749.178223}
-      lookAt: {x: 103856.531, y: -50742.8398, z: 154529.016}
-      up: {x: .146912724, y: .964491367, z: .219483703}
+      position: {x: 99.4999313, y: 402.448242, z: -5.85033369}
+      lookAt: {x: 175118.906, y: -16731.0469, z: 81276.6875}
+      up: {x: .080210872, y: .996081591, z: .0372515433}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,31 +30,45 @@ SketchUpImporter:
     100004: Image 5
     100006: Image 6
     100008: //RootNode
+    100010: Group 1
+    100012: Image 3
     400000: Group 2
     400002: Image 4
     400004: Image 5
     400006: Image 6
     400008: //RootNode
+    400010: Group 1
+    400012: Image 3
     2300000: Group 2
     2300002: Image 4
     2300004: Image 5
     2300006: Image 6
     2300008: //RootNode
+    2300010: Group 1
+    2300012: Image 3
     3300000: Group 2
     3300002: Image 4
     3300004: Image 5
     3300006: Image 6
     3300008: //RootNode
+    3300010: Group 1
+    3300012: Image 3
     4300000: Mesh PS3+COVER
     4300002: Mesh Group 2
     4300004: Mesh Group 2
     4300006: Mesh Group 2
     4300008: Mesh Group 2
+    4300010: Mesh Group 1
+    4300012: Mesh Group 1
+    4300014: Mesh Group 1
+    4300016: Mesh Group 1
     6400000: Group 2
     6400002: Image 4
     6400004: Image 5
     6400006: Image 6
     6400008: //RootNode
+    6400010: Group 1
+    6400012: Image 3
   materials:
     importMaterials: 1
     materialName: 2

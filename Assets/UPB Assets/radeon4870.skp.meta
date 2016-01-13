@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000
+  selectedNodes: 0000000001000000020000000300000004000000
   assetHash:
     serializedVersion: 2
-    Hash: 37639fea2eb4cfb406490c9bb22c48bb
+    Hash: 7dd932c298c81191e124003e26737aa8
   longitude: -105.283
   latitude: 40.017000000000003
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 1.32366133, y: .38360846, z: -.0521879494}
-      lookAt: {x: .345933557, y: .341288567, z: .469783425}
-      up: {x: -.0336592495, y: .99927181, z: .0179693848}
+      position: {x: .927846193, y: .85542345, z: .299683183}
+      lookAt: {x: .0831079185, y: .200873837, z: .596632183}
+      up: {x: -.556743145, y: .807300687, z: .195710719}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -31,21 +31,26 @@ SketchUpImporter:
     100006: motor
     100008: motor64362
     100010: //RootNode
+    100012: Group 3
     400000: Group 1
     400002: Group 5
     400004: Group 7
     400006: motor
     400008: motor64362
     400010: //RootNode
+    400012: Group 3
     2300000: Group 1
     2300002: Group 5
     2300004: Group 7
+    2300006: Group 3
     3300000: Group 1
     3300002: Group 5
     3300004: Group 7
+    3300006: Group 3
     4300000: Mesh Group 1
     4300002: Mesh Group 5
     4300004: Mesh Group 7
+    4300006: Mesh Group 3
   materials:
     importMaterials: 1
     materialName: 2

@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 0000000001000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002000000021000000220000002300000024000000250000002600000027000000
   assetHash:
     serializedVersion: 2
-    Hash: 3cd0c9d4c47223f6304512ef6b7c1c58
+    Hash: 0b11acfed20c7c3927f6267375fe9ae8
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 82.6044312, y: 15.2790298, z: -25.8913403}
-      lookAt: {x: 42.9769096, y: 3.65696359, z: 6.08651876}
-      up: {x: -.17316635, y: .974929035, z: .139738455}
+      position: {x: 35.2200623, y: 8.57804298, z: -39.0954132}
+      lookAt: {x: 35.1224365, y: 3.84509015, z: -.0469068065}
+      up: {x: -.000300821062, y: .992734432, z: .120325625}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -26,11 +26,108 @@ SketchUpImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: DoorL
+    100004: DoorL 1
+    100006: DoorL 2
+    100008: DoorL 3
+    100010: DoorL 4
+    100012: DoorL 5
+    100014: DoorL 6
+    100016: DoorL 7
+    100018: DoorL 8
+    100020: DoorR
+    100022: DoorR 1
+    100024: DoorR 2
+    100026: DoorR 3
+    100028: DoorR 4
+    100030: DoorR 5
+    100032: DoorR 6
+    100034: DoorR 7
+    100036: DoorR 8
+    100038: DoorR 9
     400000: //RootNode
+    400002: DoorL
+    400004: DoorL 1
+    400006: DoorL 2
+    400008: DoorL 3
+    400010: DoorL 4
+    400012: DoorL 5
+    400014: DoorL 6
+    400016: DoorL 7
+    400018: DoorL 8
+    400020: DoorR
+    400022: DoorR 1
+    400024: DoorR 2
+    400026: DoorR 3
+    400028: DoorR 4
+    400030: DoorR 5
+    400032: DoorR 6
+    400034: DoorR 7
+    400036: DoorR 8
+    400038: DoorR 9
     2300000: //RootNode
+    2300002: DoorL
+    2300004: DoorL 1
+    2300006: DoorL 2
+    2300008: DoorL 3
+    2300010: DoorL 4
+    2300012: DoorL 5
+    2300014: DoorL 6
+    2300016: DoorL 7
+    2300018: DoorL 8
+    2300020: DoorR
+    2300022: DoorR 1
+    2300024: DoorR 2
+    2300026: DoorR 3
+    2300028: DoorR 4
+    2300030: DoorR 5
+    2300032: DoorR 6
+    2300034: DoorR 7
+    2300036: DoorR 8
+    2300038: DoorR 9
     3300000: //RootNode
+    3300002: DoorL
+    3300004: DoorL 1
+    3300006: DoorL 2
+    3300008: DoorL 3
+    3300010: DoorL 4
+    3300012: DoorL 5
+    3300014: DoorL 6
+    3300016: DoorL 7
+    3300018: DoorL 8
+    3300020: DoorR
+    3300022: DoorR 1
+    3300024: DoorR 2
+    3300026: DoorR 3
+    3300028: DoorR 4
+    3300030: DoorR 5
+    3300032: DoorR 6
+    3300034: DoorR 7
+    3300036: DoorR 8
+    3300038: DoorR 9
     4300000: Mesh aulas
+    4300002: Mesh DoorR
+    4300004: Mesh DoorL
     6400000: //RootNode
+    6400002: DoorL
+    6400004: DoorL 1
+    6400006: DoorL 2
+    6400008: DoorL 3
+    6400010: DoorL 4
+    6400012: DoorL 5
+    6400014: DoorL 6
+    6400016: DoorL 7
+    6400018: DoorL 8
+    6400020: DoorR
+    6400022: DoorR 1
+    6400024: DoorR 2
+    6400026: DoorR 3
+    6400028: DoorR 4
+    6400030: DoorR 5
+    6400032: DoorR 6
+    6400034: DoorR 7
+    6400036: DoorR 8
+    6400038: DoorR 9
   materials:
     importMaterials: 1
     materialName: 2

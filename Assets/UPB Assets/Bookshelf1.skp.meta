@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 33532699157c5a44790630991d7d45c7
+timeCreated: 1453785142
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000
+  assetHash:
+    serializedVersion: 2
+    Hash: eb54605ffaeaa481a0b3f654d30558f7
+  longitude: -105.283
+  latitude: 40.017000000000003
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 6.32574368, y: 3.56048894, z: 2.67860055}
+      lookAt: {x: -17.8803024, y: -.400434315, z: 1.93074358}
+      up: {x: -.161333948, y: .986887276, z: -.00498448825}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: book
+    100002: book 1
+    100004: book 2
+    100006: book 3
+    100008: book#1
+    100010: book#1 1
+    100012: book#1 2
+    100014: book#1 3
+    100016: book#1 4
+    100018: book#1 5
+    100020: book#1 6
+    100022: book#1 7
+    100024: Books
+    100026: Books 1
+    100028: Books 2
+    100030: Books 3
+    100032: Books horizontal 3
+    100034: Books horizontal 3 1
+    100036: Books vertical 1
+    100038: //RootNode
+    100040: Group 1
+    100042: Group 10
+    100044: Group 101
+    100046: Group 103
+    100048: Group 105
+    100050: Group 107
+    100052: Group 109
+    100054: Group 111
+    100056: Group 113
+    100058: Group 115
+    100060: Group 117
+    100062: Group 119
+    100064: Group 12
+    100066: Group 131
+    100068: Group 14
+    100070: Group 144
+    100072: Group 146
+    100074: Group 148
+    100076: Group 150
+    100078: Group 154
+    100080: Group 156
+    100082: Group 158
+    100084: Group 16
+    100086: Group 160
+    100088: Group 164
+    100090: Group 166
+    100092: Group 168
+    100094: Group 170
+    100096: Group 18
+    100098: Group 182
+    100100: Group 20
+    100102: Group 22
+    100104: Group 24
+    100106: Group 26
+    100108: Group 28
+    100110: Group 30
+    100112: Group 32
+    100114: Group 34
+    100116: Group 36
+    100118: Group 38
+    100120: Group 40
+    100122: Group 42
+    100124: Group 44
+    100126: Group 46
+    100128: Group 48
+    100130: Group 50
+    100132: Group 52
+    100134: Group 54
+    100136: Group 56
+    100138: Group 58
+    100140: Group 6
+    100142: Group 60
+    100144: Group 62
+    100146: Group 64
+    100148: Group 66
+    100150: Group 68
+    100152: Group 70
+    100154: Group 72
+    100156: Group 74
+    100158: Group 76
+    100160: Group 78
+    100162: Group 79
+    100164: Group 81
+    100166: Group 83
+    100168: Group 85
+    100170: Group 87
+    100172: Group 89
+    100174: Group 9
+    100176: Group 91
+    100178: Group 93
+    100180: Group 95
+    100182: Group 97
+    100184: Group 99
+    100186: Group#39
+    100188: Group#40
+    100190: leather bound books - yellow
+    100192: leather bound books - yellow 1
+    100194: More Books
+    400000: book
+    400002: book 1
+    400004: book 2
+    400006: book 3
+    400008: book#1
+    400010: book#1 1
+    400012: book#1 2
+    400014: book#1 3
+    400016: book#1 4
+    400018: book#1 5
+    400020: book#1 6
+    400022: book#1 7
+    400024: Books
+    400026: Books 1
+    400028: Books 2
+    400030: Books 3
+    400032: Books horizontal 3
+    400034: Books horizontal 3 1
+    400036: Books vertical 1
+    400038: //RootNode
+    400040: Group 1
+    400042: Group 10
+    400044: Group 101
+    400046: Group 103
+    400048: Group 105
+    400050: Group 107
+    400052: Group 109
+    400054: Group 111
+    400056: Group 113
+    400058: Group 115
+    400060: Group 117
+    400062: Group 119
+    400064: Group 12
+    400066: Group 131
+    400068: Group 14
+    400070: Group 144
+    400072: Group 146
+    400074: Group 148
+    400076: Group 150
+    400078: Group 154
+    400080: Group 156
+    400082: Group 158
+    400084: Group 16
+    400086: Group 160
+    400088: Group 164
+    400090: Group 166
+    400092: Group 168
+    400094: Group 170
+    400096: Group 18
+    400098: Group 182
+    400100: Group 20
+    400102: Group 22
+    400104: Group 24
+    400106: Group 26
+    400108: Group 28
+    400110: Group 30
+    400112: Group 32
+    400114: Group 34
+    400116: Group 36
+    400118: Group 38
+    400120: Group 40
+    400122: Group 42
+    400124: Group 44
+    400126: Group 46
+    400128: Group 48
+    400130: Group 50
+    400132: Group 52
+    400134: Group 54
+    400136: Group 56
+    400138: Group 58
+    400140: Group 6
+    400142: Group 60
+    400144: Group 62
+    400146: Group 64
+    400148: Group 66
+    400150: Group 68
+    400152: Group 70
+    400154: Group 72
+    400156: Group 74
+    400158: Group 76
+    400160: Group 78
+    400162: Group 79
+    400164: Group 81
+    400166: Group 83
+    400168: Group 85
+    400170: Group 87
+    400172: Group 89
+    400174: Group 9
+    400176: Group 91
+    400178: Group 93
+    400180: Group 95
+    400182: Group 97
+    400184: Group 99
+    400186: Group#39
+    400188: Group#40
+    400190: leather bound books - yellow
+    400192: leather bound books - yellow 1
+    400194: More Books
+    2300000: book
+    2300002: book 1
+    2300004: book 2
+    2300006: book 3
+    2300008: book#1
+    2300010: book#1 1
+    2300012: book#1 2
+    2300014: book#1 3
+    2300016: book#1 4
+    2300018: book#1 5
+    2300020: book#1 6
+    2300022: book#1 7
+    2300024: Books
+    2300026: Books 1
+    2300028: Books 3
+    2300030: Group 10
+    2300032: Group 101
+    2300034: Group 103
+    2300036: Group 105
+    2300038: Group 107
+    2300040: Group 109
+    2300042: Group 111
+    2300044: Group 113
+    2300046: Group 115
+    2300048: Group 117
+    2300050: Group 119
+    2300052: Group 12
+    2300054: Group 131
+    2300056: Group 14
+    2300058: Group 144
+    2300060: Group 146
+    2300062: Group 148
+    2300064: Group 150
+    2300066: Group 154
+    2300068: Group 156
+    2300070: Group 158
+    2300072: Group 16
+    2300074: Group 160
+    2300076: Group 164
+    2300078: Group 166
+    2300080: Group 168
+    2300082: Group 170
+    2300084: Group 18
+    2300086: Group 182
+    2300088: Group 20
+    2300090: Group 22
+    2300092: Group 24
+    2300094: Group 26
+    2300096: Group 28
+    2300098: Group 30
+    2300100: Group 32
+    2300102: Group 34
+    2300104: Group 36
+    2300106: Group 38
+    2300108: Group 40
+    2300110: Group 42
+    2300112: Group 44
+    2300114: Group 46
+    2300116: Group 48
+    2300118: Group 50
+    2300120: Group 52
+    2300122: Group 54
+    2300124: Group 56
+    2300126: Group 58
+    2300128: Group 6
+    2300130: Group 60
+    2300132: Group 62
+    2300134: Group 64
+    2300136: Group 66
+    2300138: Group 68
+    2300140: Group 70
+    2300142: Group 72
+    2300144: Group 74
+    2300146: Group 76
+    2300148: Group 79
+    2300150: Group 81
+    2300152: Group 83
+    2300154: Group 85
+    2300156: Group 87
+    2300158: Group 89
+    2300160: Group 91
+    2300162: Group 93
+    2300164: Group 95
+    2300166: Group 97
+    2300168: Group 99
+    2300170: Group#40
+    3300000: book
+    3300002: book 1
+    3300004: book 2
+    3300006: book 3
+    3300008: book#1
+    3300010: book#1 1
+    3300012: book#1 2
+    3300014: book#1 3
+    3300016: book#1 4
+    3300018: book#1 5
+    3300020: book#1 6
+    3300022: book#1 7
+    3300024: Books
+    3300026: Books 1
+    3300028: Books 3
+    3300030: Group 10
+    3300032: Group 101
+    3300034: Group 103
+    3300036: Group 105
+    3300038: Group 107
+    3300040: Group 109
+    3300042: Group 111
+    3300044: Group 113
+    3300046: Group 115
+    3300048: Group 117
+    3300050: Group 119
+    3300052: Group 12
+    3300054: Group 131
+    3300056: Group 14
+    3300058: Group 144
+    3300060: Group 146
+    3300062: Group 148
+    3300064: Group 150
+    3300066: Group 154
+    3300068: Group 156
+    3300070: Group 158
+    3300072: Group 16
+    3300074: Group 160
+    3300076: Group 164
+    3300078: Group 166
+    3300080: Group 168
+    3300082: Group 170
+    3300084: Group 18
+    3300086: Group 182
+    3300088: Group 20
+    3300090: Group 22
+    3300092: Group 24
+    3300094: Group 26
+    3300096: Group 28
+    3300098: Group 30
+    3300100: Group 32
+    3300102: Group 34
+    3300104: Group 36
+    3300106: Group 38
+    3300108: Group 40
+    3300110: Group 42
+    3300112: Group 44
+    3300114: Group 46
+    3300116: Group 48
+    3300118: Group 50
+    3300120: Group 52
+    3300122: Group 54
+    3300124: Group 56
+    3300126: Group 58
+    3300128: Group 6
+    3300130: Group 60
+    3300132: Group 62
+    3300134: Group 64
+    3300136: Group 66
+    3300138: Group 68
+    3300140: Group 70
+    3300142: Group 72
+    3300144: Group 74
+    3300146: Group 76
+    3300148: Group 79
+    3300150: Group 81
+    3300152: Group 83
+    3300154: Group 85
+    3300156: Group 87
+    3300158: Group 89
+    3300160: Group 91
+    3300162: Group 93
+    3300164: Group 95
+    3300166: Group 97
+    3300168: Group 99
+    3300170: Group#40
+    4300000: Mesh Group#40
+    4300002: Mesh Group 6
+    4300004: Mesh Group 10
+    4300006: Mesh Group 12
+    4300008: Mesh Group 14
+    4300010: Mesh Group 16
+    4300012: Mesh Group 18
+    4300014: Mesh Group 20
+    4300016: Mesh Group 22
+    4300018: Mesh Group 24
+    4300020: Mesh Group 26
+    4300022: Mesh Group 28
+    4300024: Mesh Group 30
+    4300026: Mesh Group 34
+    4300028: Mesh Group 36
+    4300030: Mesh Group 38
+    4300032: Mesh Group 40
+    4300034: Mesh Group 42
+    4300036: Mesh Group 46
+    4300038: Mesh Group 48
+    4300040: Mesh Group 50
+    4300042: Mesh Group 52
+    4300044: Mesh Group 54
+    4300046: Mesh Group 56
+    4300048: Mesh Group 58
+    4300050: Mesh Group 60
+    4300052: Mesh Group 62
+    4300054: Mesh Group 64
+    4300056: Mesh Group 66
+    4300058: Mesh Group 68
+    4300060: Mesh Group 70
+    4300062: Mesh Group 72
+    4300064: Mesh Group 74
+    4300066: Mesh Group 76
+    4300068: Mesh book
+    4300070: Mesh book
+    4300072: Mesh book
+    4300074: Mesh Group 131
+    4300076: Mesh book#1
+    4300078: Mesh book#1
+    4300080: Mesh book#1
+    4300082: Mesh book#1
+    4300084: Mesh Books
+    4300086: Mesh Group 144
+    4300088: Mesh Group 146
+    4300090: Mesh Group 148
+    4300092: Mesh Group 150
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

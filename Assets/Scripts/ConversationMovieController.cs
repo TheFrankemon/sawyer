@@ -43,6 +43,7 @@ public class ConversationMovieController : MonoBehaviour {
 	
 	void Update () {
 		if (MovieController.isRunning ()) {
+			MovieController.Update();
 			Debug.Log("Playing video");
 			if (Input.GetKeyDown("escape")) {
 				Debug.Log("escape");
@@ -63,7 +64,6 @@ public class ConversationMovieController : MonoBehaviour {
 				MovieController.StopMovie();
 				MovieController.Stop();
 			}
-			Debug.Log(MovieController.isRunning());
 		} else if (isTalking) {
 			if (Input.GetKeyDown("space")) {
 				if (textIsScrolling) {

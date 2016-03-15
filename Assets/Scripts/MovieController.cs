@@ -8,11 +8,15 @@ public class MovieController : MonoBehaviour {
 	//public string url = "http://becunningandfulloftricks.files.wordpress.com/2013/04/hedgehog_in_the_fog.ogg";
 	private static AudioSource audioSource;
 	private static Image loadImg;
+	private static Image iconImg;
 	private static Color loadColor;
 	private static RawImage img;
 	private static bool running;
 	private static bool paused;
 	private static float dload;
+	private static int iconTime;
+	private static Texture2D pauseSprite;
+	private static Texture2D playSprite;
 
 	// Use this for initialization
 	//void Start () {
@@ -22,16 +26,27 @@ public class MovieController : MonoBehaviour {
 		StartCoroutine (LoadMovie());*/
 		audioSource = GameObject.Find ("VideoScreen").GetComponent<AudioSource> ();
 		img = GameObject.Find ("VideoScreen").GetComponent<RawImage> ();
+		iconImg = GameObject.Find ("VideoIcon").GetComponent<Image> ();
 		loadImg = GameObject.Find ("LoadImage").GetComponent<Image> ();
+		pauseSprite = Resources.Load<Texture2D>("Image/Icons/PauseIcon");
+		playSprite = Resources.Load<Texture2D>("Image/Icons/PlayIcon");
 		loadColor = loadImg.color;
 		loadColor.a = 0;
 		running = false;
 		paused = false;
 		dload = 0.03f;
+		iconTime = 0;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public static void Update () {
+		Debug.Log ("showingIcon");
+		if (iconTime > 0) {
+			iconTime--;
+		} else {
+			iconImg.enabled = false;
+			loadImg.enabled = false;
+		}
 	}
 
 	public static bool isRunning() {
@@ -55,6 +70,9 @@ public class MovieController : MonoBehaviour {
 		GetComponent<Renderer> ().material.mainTexture = movieTexture;
 		GetComponent<AudioSource> ().clip = movieTexture.audioClip;*/
 
+		iconTime = 10;
+		iconImg.sprite = Sprite.Create(playSprite, new Rect(0, 0, playSprite.width, playSprite.height), new Vector2(.5f,.5f), 100);
+		iconImg.enabled = true;
 		paused = false;
 		movieTexture.Play ();
 		audioSource.Play ();
@@ -77,15 +95,15 @@ public class MovieController : MonoBehaviour {
 		movieTexture = www.movie;
 		running = true;
 		paused = true;
-		loadImg.enabled = true;
+
 		
 		while(!movieTexture.isReadyToPlay) {
+			loadImg.enabled = true;
 			if (loadColor.a < 0 || loadColor.a > 0.5) {
 				dload *= -1;
 			}
 			loadColor.a += dload;
 			loadImg.color = loadColor;
-			Debug.Log(loadImg.color.a);
 			yield return null;
 		}
 
@@ -98,6 +116,14 @@ public class MovieController : MonoBehaviour {
 	}
 
 	public static void PauseMovie() {
+		iconTime = 60;
+		loadImg.enabled = true;
+
+		loadColor.a = 0.8f;
+		loadImg.color = loadColor;		
+
+		iconImg.sprite = Sprite.Create(pauseSprite, new Rect(0, 0, pauseSprite.width, pauseSprite.height), new Vector2(.5f,.5f), 100);
+		iconImg.enabled = true;
 		paused = true;
 		movieTexture.Pause ();
 		audioSource.Pause ();

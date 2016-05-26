@@ -12441,7 +12441,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0ed9a60f18ce16a4e97ed7db81bce5d8, type: 3}
       propertyPath: m_Name
-      value: diseno
+      value: Diseno
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ed9a60f18ce16a4e97ed7db81bce5d8, type: 3}
       propertyPath: m_LocalScale.x
@@ -14019,7 +14019,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c94b8a283d7c70c46b74930e7945679c, type: 3}
       propertyPath: m_Name
-      value: aulas
+      value: Aaulas
       objectReference: {fileID: 0}
     - target: {fileID: 6400000, guid: c94b8a283d7c70c46b74930e7945679c, type: 3}
       propertyPath: m_Convex

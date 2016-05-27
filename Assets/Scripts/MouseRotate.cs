@@ -10,6 +10,12 @@ public class MouseRotate : MonoBehaviour {
 	private Vector3 avgSpeed;
 	private bool isDragging = false;
 	private Vector3 targetSpeedX;
+
+	void Start () {
+		Camera cam = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
+		transform.position = cam.ScreenToWorldPoint (new Vector3 (Screen.width / 2, Screen.height / 2, cam.nearClipPlane + 1));
+		transform.LookAt (cam.transform.position);
+	}
 	
 	void OnMouseDown() {
 		

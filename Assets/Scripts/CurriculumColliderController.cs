@@ -3,6 +3,9 @@ using System.Collections;
 
 public class CurriculumColliderController : MonoBehaviour {
 
+	public string image;
+	//public Texure image;
+
 	private MouseRotate curriculumController;
 
 	// Use this for initialization
@@ -17,7 +20,7 @@ public class CurriculumColliderController : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col) {
 		if (col.tag == "Player") {
-			curriculumController.Show();
+			curriculumController.Show(image);
 		}
 	}
 }

@@ -29,6 +29,8 @@ public class MouseRotate : MonoBehaviour {
 	private float yaw = 0.0f;
 	private float pitch = 0.0f;
 
+	private Vector3 angles;
+
 	void Start () {
 		playerCamera = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
@@ -59,7 +61,7 @@ public class MouseRotate : MonoBehaviour {
 		transform.Rotate(playerCamera.transform.right * theSpeed.y * rotationSpeed, Space.World);
 
 		float fov  = playerCamera.fieldOfView;
-		fov += Input.GetAxis("Mouse ScrollWheel") * sensitivity;
+		fov -= Input.GetAxis("Mouse ScrollWheel") * sensitivity;
 		fov = Mathf.Clamp(fov, minFov, maxFov);
 		Camera.main.fieldOfView = fov;
 
@@ -78,16 +80,16 @@ public class MouseRotate : MonoBehaviour {
 			yaw = maxYaw;
 		}
 
-		Debug.Log (yaw + " " + pitch);
+		//Debug.Log (yaw + " " + pitch);
 		
-		playerCamera.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+		playerCamera.transform.eulerAngles = new Vector3(angles.x + pitch, angles.y + yaw, angles.z + 0.0f);
 
 		if (Input.GetKeyDown ("escape")) {
 			Hide();
 		}
 	}
 
-	public void Show() {
+	public void Show(string image) {
 		transform.position = playerCamera.ScreenToWorldPoint (new Vector3 (Screen.width / 2, Screen.height / 2, playerCamera.nearClipPlane + 1));
 		transform.LookAt (playerCamera.transform.position);
 		enabled = true;
@@ -97,6 +99,11 @@ public class MouseRotate : MonoBehaviour {
 		bg.SetActive (true);
 
 		fpsController.enabled = false;
+
+		angles = playerCamera.transform.eulerAngles;
+
+		//GetComponent<MeshRenderer> ().material = Resources.Load<Material>("Materials/Curriculum/" + image);
+		GetComponent<MeshRenderer> ().material.mainTexture = Resources.Load<Texture2D>("Image/Curriculum/" + image);
 	}
 
 	public void Hide() {

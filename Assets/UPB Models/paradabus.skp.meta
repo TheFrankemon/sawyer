@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: adb5a14ca966b792e502cf3c4f634c91
+    Hash: 88ff6e02ce31322205d3cf918a1eca97
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -3.09409642, y: 2.8898983, z: -4.31794548}
-      lookAt: {x: 10.9341841, y: -2.51898551, z: 14.302784}
-      up: {x: .135990515, y: .974126697, z: .18050985}
+      position: {x: -.468376875, y: .598231316, z: .260588944}
+      lookAt: {x: 13.9731731, y: -3.45505261, z: 18.90979}
+      up: {x: .103693716, y: .985554159, z: .133905634}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh paradabus
+    4300002: Mesh ParadaBus
   materials:
     importMaterials: 1
     materialName: 2

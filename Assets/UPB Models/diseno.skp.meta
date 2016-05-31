@@ -8,7 +8,7 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: df5aa1703b0d88688900130fb0e87c7a
+    Hash: 78f472ab6dea0afc9cb2952496380f29
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
@@ -31,6 +31,7 @@ SketchUpImporter:
     3300000: //RootNode
     4300000: Mesh arq
     4300002: Mesh diseno
+    4300004: Mesh Diseno
     6400000: //RootNode
   materials:
     importMaterials: 1

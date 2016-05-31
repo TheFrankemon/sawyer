@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: a87dff2c41567add45d9e082db865b76
+    Hash: eaae7528eb4da121f6a282dc6f9c8676
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 24.4289474, y: -8.50635529, z: -13.3162584}
-      lookAt: {x: 7.70078564, y: -.305818319, z: -.912373841}
-      up: {x: .294313788, y: .930458963, z: -.218232825}
+      position: {x: 13.2517347, y: 9.26985931, z: 19.241127}
+      lookAt: {x: 7.3299284, y: 2.17670751, z: 7.88371849}
+      up: {x: -.22398077, y: .874814689, z: -.429571778}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh aulaspos
+    4300002: Mesh AulasPost
   materials:
     importMaterials: 1
     materialName: 2

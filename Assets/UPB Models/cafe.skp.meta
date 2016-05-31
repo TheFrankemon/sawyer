@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 83f3a440862af2726c954cbeac3df4cf
+    Hash: a7112caf80327c636e3e13e35b1ae227
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -22.2609615, y: 7.05277872, z: -1.89449012}
-      lookAt: {x: -16.7917767, y: 6.40484428, z: -1.23548543}
-      up: {x: .115975164, y: .993153811, z: .0139743267}
+      position: {x: 39.8646278, y: 8.2425642, z: 30.3608246}
+      lookAt: {x: 35.4210968, y: 5.79882717, z: 25.0541821}
+      up: {x: -.213740766, y: .942951918, z: -.255257845}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh cafe
+    4300002: Mesh Cafe
     6400000: //RootNode
   materials:
     importMaterials: 1

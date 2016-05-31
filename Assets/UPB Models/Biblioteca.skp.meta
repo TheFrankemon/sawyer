@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 6cb5dfd293f66f673cdf07a9e5ddd1f1
+    Hash: 5ef418b168bb1f20a13f68ad937491f5
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 16.6790905, y: 8.99478245, z: 35.1101799}
-      lookAt: {x: 10.2750902, y: 1.84913981, z: 4.47847366}
-      up: {x: -.0455548726, y: .974907696, z: -.217898697}
+      position: {x: 2.84379768, y: 2.01245856, z: 1.19981086}
+      lookAt: {x: 3.14017367, y: 3.81081724, z: 87.8816223}
+      up: {x: -7.091937e-05, y: .999784887, z: -.0207419619}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Biblio
+    4300002: Mesh Biblioteca
   materials:
     importMaterials: 1
     materialName: 2

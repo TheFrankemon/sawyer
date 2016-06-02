@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CurriculumColliderController : MonoBehaviour {
@@ -6,11 +6,14 @@ public class CurriculumColliderController : MonoBehaviour {
 	public string image;
 	//public Texure image;
 
-	private MouseRotate curriculumController;
+	private CurriculumMouseRotate curriculumController;
 
 	// Use this for initialization
 	void Start () {
-		curriculumController = GameObject.Find ("Curriculum").GetComponent<MouseRotate> ();
+		GameObject curr = GameObject.Find ("Curriculum");
+		curriculumController = curr.GetComponent<CurriculumMouseRotate> ();
+		Debug.Log (curr);
+		Debug.Log (curriculumController);
 	}
 	
 	// Update is called once per frame

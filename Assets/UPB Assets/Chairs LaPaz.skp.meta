@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: b06cfd640074d6249b45d1707f697387
+timeCreated: 1464230763
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+  assetHash:
+    serializedVersion: 2
+    Hash: c076f1b24958991c37f98720d0ed4975
+  longitude: -105.283
+  latitude: 40.017000000000003
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: .0456110574, y: 1.44298971, z: 2.70332336}
+      lookAt: {x: .293435484, y: 1.01254499, z: 1.28815174}
+      up: {x: .0495061241, y: .957930326, z: -.28269878}
+      fov: 30
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm
+    100002: Arm 1
+    100004: Back
+    100006: //RootNode
+    100008: Seat
+    100010: Arm 2
+    100012: Arm 3
+    100014: Arm 4
+    100016: Arm 5
+    100018: Back 1
+    100020: Back 2
+    100022: Back 3
+    100024: Back 4
+    100026: Seat 1
+    100028: Seat 2
+    100030: Seat 3
+    100032: Seat 4
+    400000: Arm
+    400002: Arm 1
+    400004: Back
+    400006: //RootNode
+    400008: Seat
+    400010: Arm 2
+    400012: Arm 3
+    400014: Arm 4
+    400016: Arm 5
+    400018: Back 1
+    400020: Back 2
+    400022: Back 3
+    400024: Back 4
+    400026: Seat 1
+    400028: Seat 2
+    400030: Seat 3
+    400032: Seat 4
+    2300000: Arm
+    2300002: Arm 1
+    2300004: Back
+    2300006: Seat
+    2300008: Arm 2
+    2300010: Arm 3
+    2300012: Arm 4
+    2300014: Arm 5
+    2300016: Back 1
+    2300018: Back 2
+    2300020: Back 3
+    2300022: Back 4
+    2300024: Seat 1
+    2300026: Seat 2
+    2300028: Seat 3
+    2300030: Seat 4
+    3300000: Arm
+    3300002: Arm 1
+    3300004: Back
+    3300006: Seat
+    3300008: Arm 2
+    3300010: Arm 3
+    3300012: Arm 4
+    3300014: Arm 5
+    3300016: Back 1
+    3300018: Back 2
+    3300020: Back 3
+    3300022: Back 4
+    3300024: Seat 1
+    3300026: Seat 2
+    3300028: Seat 3
+    3300030: Seat 4
+    4300000: Mesh Arm
+    4300002: Mesh Seat
+    4300004: Mesh Back
+    6400000: Arm
+    6400002: Arm 1
+    6400004: Back
+    6400006: Seat
+    6400008: Arm 2
+    6400010: Arm 3
+    6400012: Arm 4
+    6400014: Arm 5
+    6400016: Back 1
+    6400018: Back 2
+    6400020: Back 3
+    6400022: Back 4
+    6400024: Seat 1
+    6400026: Seat 2
+    6400028: Seat 3
+    6400030: Seat 4
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 974ca0251c781f2e264df4bc9d4127a5
+    Hash: e5d593a54ff69e9167a57df7e98d4946
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 5.85821295, y: 9.56393433, z: -8.01821327}
-      lookAt: {x: .354214638, y: .888823748, z: 5.37129641}
-      up: {x: -.195430562, y: .857776999, z: .475421518}
+      position: {x: 1.87254286, y: .629933238, z: 3.12598681}
+      lookAt: {x: 13.5034189, y: -8.16007042, z: -5.37630796}
+      up: {x: .420465022, y: .853660524, z: -.307364404}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh caseta
+    4300002: Mesh Caseta
   materials:
     importMaterials: 1
     materialName: 2

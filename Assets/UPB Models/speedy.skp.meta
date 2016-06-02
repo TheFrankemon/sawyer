@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 88e89eb2be10e0d84c516c06b225a18b
+    Hash: e4b2a7d23fcfe5b0eee648c7a4ac79df
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: .981536567, y: 4.06234598, z: 31.2449303}
-      lookAt: {x: 3.11793089, y: 2.96797252, z: 16.5655689}
-      up: {x: .0105962288, y: .997289717, z: -.0728076473}
+      position: {x: -17.7917805, y: 2.45803022, z: 18.267355}
+      lookAt: {x: 30.9087887, y: 7.7246809, z: -39.2136574}
+      up: {x: -.0450797938, y: .997565448, z: .053207431}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh speedy
+    4300002: Mesh Speedy
   materials:
     importMaterials: 1
     materialName: 2

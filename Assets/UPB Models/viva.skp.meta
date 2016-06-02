@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: d7604c68d5119d05abe03c68e12a6866
+    Hash: 68b2e81f456049991d3e18f4a9b6a2cd
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -15.4120464, y: -9.02737808, z: -25.752182}
-      lookAt: {x: -3.1524179, y: -3.00860381, z: -9.12434483}
-      up: {x: -.165991887, y: .960083544, z: -.225136176}
+      position: {x: -14.2240076, y: 3.08537054, z: -14.3229856}
+      lookAt: {x: -2.51697421, y: -.214566424, z: 3.42708111}
+      up: {x: .0844366774, y: .988170445, z: .128021896}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh viva
+    4300002: Mesh Viva
   materials:
     importMaterials: 1
     materialName: 2

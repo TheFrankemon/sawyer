@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 94d6d34c2518865d0dd6e720c889469c
+    Hash: 52c0e313ded9986f5f2f8a754a1bc760
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 12.3603802, y: 11.2110882, z: 59.7957726}
-      lookAt: {x: 22.1775055, y: 6.38874149, z: 19.9221363}
-      up: {x: .0278829169, y: .993175149, z: -.113250397}
+      position: {x: 14.4310741, y: 1.92523861, z: 19.9786339}
+      lookAt: {x: -16.7926044, y: -15.3592262, z: 8.2062273}
+      up: {x: -.430364102, y: .887951434, z: -.162262127}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh bisa
+    4300002: Mesh Bisa
   materials:
     importMaterials: 1
     materialName: 2

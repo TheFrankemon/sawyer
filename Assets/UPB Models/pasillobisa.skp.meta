@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 8d6c527756edcc146a5a3d7c46545c44
+    Hash: 2d5924c72b4daceb8c7215877ad17215
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -7.57199287, y: 4.23864412, z: 1.09395981}
-      lookAt: {x: -1.99434936, y: 2.08203292, z: 5.53125477}
-      up: {x: .226641089, y: .957143724, z: .180304348}
+      position: {x: 1.11236846, y: 27.4375496, z: -26.5382061}
+      lookAt: {x: 1.33810031, y: 23.3790264, z: -20.1916237}
+      up: {x: .0191410519, y: .842624128, z: .538161874}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh pasillobisa
+    4300002: Mesh PasilloBisa
   materials:
     importMaterials: 1
     materialName: 2

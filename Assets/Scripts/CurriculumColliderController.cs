@@ -1,13 +1,19 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CurriculumColliderController : MonoBehaviour {
 
-	private MouseRotate curriculumController;
+	public string image;
+	//public Texure image;
+
+	private CurriculumMouseRotate curriculumController;
 
 	// Use this for initialization
 	void Start () {
-		curriculumController = GameObject.Find ("Curriculum").GetComponent<MouseRotate> ();
+		GameObject curr = GameObject.Find ("Curriculum");
+		curriculumController = curr.GetComponent<CurriculumMouseRotate> ();
+		Debug.Log (curr);
+		Debug.Log (curriculumController);
 	}
 	
 	// Update is called once per frame
@@ -17,7 +23,7 @@ public class CurriculumColliderController : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col) {
 		if (col.tag == "Player") {
-			curriculumController.Show();
+			curriculumController.Show(image);
 		}
 	}
 }

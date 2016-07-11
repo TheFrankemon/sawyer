@@ -1,6 +1,7 @@
 {
-	name: "Ing. Oscar Fernández",
-	img: "Image/unknown",
+	//name: "Ing. Oscar Fernández",
+	name: "Ph.D. Cecilia Tapia",
+	img: "Image/Chiefs/ctapia",
 	start: [
 		{
 			text: "El Ingeniero Electromecánico posee el conocimiento para:",

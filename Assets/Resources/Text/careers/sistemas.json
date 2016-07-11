@@ -1,6 +1,6 @@
 {
 	name: "Mgr. Marcel Barrero",
-	img: "Image/MarcelToon",
+	img: "Image/Chiefs/mbarrero",
 	start: [
 		{
 			text: "Buenas tardes {0}",

@@ -19,6 +19,7 @@ public class DeskController : MonoBehaviour {
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
 		playerCamera = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
 		GetComponentInChildren<CurriculumController> ().setDeskController (this);
+		GetComponentInChildren<DeskPictureFrameController> ().setDeskController (this);
 		state = PlayerDeskState.NONE;
 
 		foreach (Transform t in transform)

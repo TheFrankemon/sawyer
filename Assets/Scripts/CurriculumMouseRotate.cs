@@ -16,6 +16,7 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	//private GameObject bg;
 	private FirstPersonController fpsController;
 	private CurriculumScrollController curriculum2D;
+	private DeskController deskController;
 	private float defaultFOV;
 	private Texture2D imgFront;
 	private Texture2D imgBack;
@@ -97,7 +98,30 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		}
 	}
 
-	public void Show(string image) {
+	public void Show(string image, DeskController controller) {
+		if (controller != null) {
+			deskController = controller;
+		}
+		deskController.lookAtLecturer ();
+		StartCoroutine (CenterCameraAndDisplay (image));
+	}
+
+	public IEnumerator CenterCameraAndDisplay(string image) {
+		/*if (controller != null) {
+			deskController = controller;
+			//deskController.lookAtLecturer();
+			//StartCoroutine(deskController.centerCameraToLecturer());
+			//deskController.centerCameraToLecturer();
+			Debug.Log("Finished");
+		}*/
+
+		while (!deskController.isLookingAtLecturer()) {
+			/*deskController.centerCameraToLecturer();*/
+			Debug.Log("Moving");
+			yield return new WaitForSeconds(0.3f);
+		}
+		Debug.Log ("Finished");
+
 		transform.position = playerCamera.ScreenToWorldPoint (new Vector3 (Screen.width / 2, Screen.height / 2, playerCamera.nearClipPlane + 1));
 		transform.LookAt (playerCamera.transform.position);
 		enabled = true;
@@ -111,8 +135,11 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		angles = playerCamera.transform.eulerAngles;
 
 		//GetComponent<MeshRenderer> ().material = Resources.Load<Material>("Materials/Curriculum/" + image);
-		imgFront = Resources.Load<Texture2D>("Image/Curriculum/" + image + " front");
-		imgBack = Resources.Load<Texture2D>("Image/Curriculum/" + image + " back");
+
+		if (image != null) {
+			imgFront = Resources.Load<Texture2D> ("Image/Curriculum/" + image + " front");
+			imgBack = Resources.Load<Texture2D> ("Image/Curriculum/" + image + " back");
+		}
 		//GetComponent<MeshRenderer> ().material.mainTexture = img;
 		MeshRenderer[] faces = GetComponentsInChildren<MeshRenderer>();
 		faces [0].material.mainTexture = imgBack;
@@ -128,6 +155,10 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	}
 
 	public void Back() {
-		fpsController.enabled = true;
+		//fpsController.enabled = true;
+		if (deskController != null) {
+			//deskController.enabled = true;
+			deskController.lookDown();
+		}
 	}
 }

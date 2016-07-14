@@ -8,6 +8,7 @@ public class CurriculumController : MonoBehaviour {
 	private Texture2D imgFront;
 	private Texture2D imgBack;
 	private CurriculumMouseRotate curriculumRotateController;
+	private DeskController deskController;
 
 	// Use this for initialization
 	void Start () {
@@ -20,12 +21,17 @@ public class CurriculumController : MonoBehaviour {
 
 		curriculumRotateController = GameObject.Find ("Curriculum").GetComponent<CurriculumMouseRotate> ();
 	}
+
+	public void setDeskController(DeskController controller) {
+		deskController = controller;
+	}
 	
 	// Update is called once per frame
 	void Update () {
 	}
 
 	void OnMouseDown() {
-		curriculumRotateController.Show(image);
+		//deskController.enabled = false;
+		curriculumRotateController.Show(image, deskController);
 	}
 }

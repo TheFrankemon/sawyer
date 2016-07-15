@@ -14,12 +14,17 @@ public class DeskController : MonoBehaviour {
 	private int speed = 5;
 	private Transform lecturer;
 	private PlayerDeskState state;
+	private CurriculumController curriculum;
+	private DeskPictureFrameController pictureFrame;
 
 	void Start () {
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
 		playerCamera = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
-		GetComponentInChildren<CurriculumController> ().setDeskController (this);
-		GetComponentInChildren<DeskPictureFrameController> ().setDeskController (this);
+		curriculum = GetComponentInChildren<CurriculumController> ();
+		pictureFrame = GetComponentInChildren<DeskPictureFrameController> ();
+
+		curriculum.setDeskController (this);
+		pictureFrame.setDeskController (this);
 		state = PlayerDeskState.NONE;
 
 		foreach (Transform t in transform)
@@ -39,13 +44,18 @@ public class DeskController : MonoBehaviour {
 	}
 
 	public void lookDown() {
+		enabled = true;
 		fpsController.enabled = false;
 		//isWaiting = true;
 		state = PlayerDeskState.WAITING;
+		curriculum.setAvailability (true);
+		pictureFrame.setAvailability (true);
 	}
 
 	public void lookAtLecturer() {
 		state = PlayerDeskState.LOOKING_AT_LECTURER;
+		curriculum.setAvailability (false);
+		pictureFrame.setAvailability (false);
 	}
 
 	void centerCameraToDesk() {
@@ -83,6 +93,7 @@ public class DeskController : MonoBehaviour {
 		if (Input.GetKeyDown ("escape")) {
 			fpsController.enabled = true;
 			isWaiting = false;
+			enabled = false;
 		}
 	}
 	

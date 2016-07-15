@@ -9,6 +9,7 @@ public class CurriculumController : MonoBehaviour {
 	private Texture2D imgBack;
 	private CurriculumMouseRotate curriculumRotateController;
 	private DeskController deskController;
+	private bool available = true;
 
 	// Use this for initialization
 	void Start () {
@@ -30,8 +31,14 @@ public class CurriculumController : MonoBehaviour {
 	void Update () {
 	}
 
+	public void setAvailability(bool b) {
+		available = b;
+	}
+
 	void OnMouseDown() {
 		//deskController.enabled = false;
-		curriculumRotateController.Show(image, deskController);
+		if (available) {
+			curriculumRotateController.Show (image, deskController);
+		}
 	}
 }

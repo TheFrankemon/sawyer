@@ -168,7 +168,7 @@ public class DeskConversationController : MonoBehaviour {
 		textGUI.text = "";
 		nameGUI.text = "";
 		isTalking = false;
-		fpsController.enabled = true;
+		//fpsController.enabled = true;
 		foreach (Button ans in answers) {
 			Destroy (ans.gameObject);
 		}
@@ -179,6 +179,7 @@ public class DeskConversationController : MonoBehaviour {
 		//anim.SetTrigger ("end");
 		anim.Play ("UIEnd");
 		//anim.enabled = false;
+		deskController.lookDown ();
 	}
 	
 	void changeConversation(Conversation next) {

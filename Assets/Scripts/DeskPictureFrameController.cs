@@ -7,6 +7,7 @@ public class DeskPictureFrameController : MonoBehaviour {
 
 	private DeskController deskController;
 	private DeskConversationController conversationController;
+	private bool available = true;
 
 	// Use this for initialization
 	void Start () {
@@ -22,11 +23,16 @@ public class DeskPictureFrameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	}
+
+	public void setAvailability(bool b) {
+		available = b;
 	}
 
 	void OnMouseDown() {
-		conversationController.StartConversation (deskController);
+		if (available) {
+			conversationController.StartConversation (deskController);
+		}
 	}
 
 	public void setDeskController(DeskController controller) {

@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 0000000001000000
+  selectedNodes: 000000000100000002000000030000000400000005000000
   assetHash:
     serializedVersion: 2
-    Hash: 68b2e81f456049991d3e18f4a9b6a2cd
+    Hash: f1ffed41afc625c6564258dd7344a722
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -14.2240076, y: 3.08537054, z: -14.3229856}
-      lookAt: {x: -2.51697421, y: -.214566424, z: 3.42708111}
-      up: {x: .0844366774, y: .988170445, z: .128021896}
+      position: {x: -10.1735964, y: 2.0704987, z: 1.04387438}
+      lookAt: {x: 21.7599831, y: 3.68717456, z: 11.3010263}
+      up: {x: -.0458383039, y: .998840392, z: -.0147233875}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -26,11 +26,20 @@ SketchUpImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: GlassDoor
+    100004: GlassDoor 1
     400000: //RootNode
+    400002: GlassDoor
+    400004: GlassDoor 1
     2300000: //RootNode
+    2300002: GlassDoor
+    2300004: GlassDoor 1
     3300000: //RootNode
+    3300002: GlassDoor
+    3300004: GlassDoor 1
     4300000: Mesh viva
     4300002: Mesh Viva
+    4300004: Mesh GlassDoor
   materials:
     importMaterials: 1
     materialName: 2

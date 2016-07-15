@@ -1,0 +1,12 @@
+{
+	name: "Cesar Villagomez",
+	img: "Image/Staff/cvillagomez",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

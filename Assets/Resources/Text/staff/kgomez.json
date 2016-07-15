@@ -1,0 +1,12 @@
+{
+	name: "Karla Gomez",
+	img: "Image/Staff/kgomez",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

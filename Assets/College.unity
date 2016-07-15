@@ -6917,6 +6917,10 @@ Prefab:
       propertyPath: m_Name
       value: Desk Cesar
       objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/cvillagomez
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
   m_IsPrefabParent: 0
@@ -7830,6 +7834,10 @@ Prefab:
       propertyPath: m_Name
       value: Desk Jazmin
       objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/jbutron
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
   m_IsPrefabParent: 0
@@ -7875,6 +7883,10 @@ Prefab:
     - target: {fileID: 132088, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
       propertyPath: m_Name
       value: Desk Gustavo
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/gmolina
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
@@ -9917,6 +9929,10 @@ Prefab:
     - target: {fileID: 132088, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
       propertyPath: m_Name
       value: Desk Ingles
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/sharo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
@@ -18466,6 +18482,10 @@ Prefab:
       propertyPath: m_Name
       value: Desk Karla
       objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/kgomez
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
   m_IsPrefabParent: 0
@@ -18565,6 +18585,10 @@ Prefab:
     - target: {fileID: 132088, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
       propertyPath: m_Name
       value: Desk Pueyo
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426276, guid: f617fa5715d37d548a31cc524d12d486, type: 2}
+      propertyPath: textPathName
+      value: staff/mpueyo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f617fa5715d37d548a31cc524d12d486, type: 2}

@@ -1,0 +1,12 @@
+{
+	name: "Jazmin Butron",
+	img: "Image/Staff/jbutron",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

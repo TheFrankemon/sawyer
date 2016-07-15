@@ -30,7 +30,7 @@ TextureImporter:
     filterMode: 2
     aniso: 1
     mipBias: 0
-    wrapMode: 1
+    wrapMode: 0
   nPOTScale: 1
   lightmap: 0
   rGBM: 0
@@ -66,3 +66,4 @@ TextureImporter:
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

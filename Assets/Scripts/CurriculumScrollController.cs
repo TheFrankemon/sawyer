@@ -112,5 +112,6 @@ public class CurriculumScrollController : MonoBehaviour {
 
 	public void Back() {
 		curriculum3d.enabled = true;
+		curriculum3d.Show (null, null);
 	}
 }

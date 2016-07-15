@@ -23,7 +23,7 @@ public class CurriculumColliderController : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col) {
 		if (col.tag == "Player") {
-			curriculumController.Show(image);
+			curriculumController.Show(image, null);
 		}
 	}
 }

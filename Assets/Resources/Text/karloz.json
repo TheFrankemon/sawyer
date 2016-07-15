@@ -1,6 +1,6 @@
 	{
 		name: "Ing. Carlos de la Torre",
-		img: "Image/KarlozToon",
+		img: "Image/cdelatorre",
 		messages: [
 			{
 				text: "Hola {0}, que tal!",

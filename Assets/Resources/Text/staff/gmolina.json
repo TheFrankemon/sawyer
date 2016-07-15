@@ -1,6 +1,6 @@
 	{
 		name: "Mgr. Gustavo Molina",
-		img: "Image/Chiefs/gmolina",
+		img: "Image/Staff/gmolina",
 		start: [
 			{
 				text: "¡Bienvenid@ {0}!",

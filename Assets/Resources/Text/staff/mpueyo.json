@@ -1,0 +1,12 @@
+{
+	name: "Maria Isabel Pueyo",
+	img: "Image/Staff/mpueyo",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

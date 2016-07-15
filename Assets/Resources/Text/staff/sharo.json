@@ -1,0 +1,12 @@
+{
+	name: "Silvia Haro",
+	img: "Image/Staff/sharo",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

@@ -26,6 +26,9 @@ public class ConversationController : MonoBehaviour {
 	private Image image;
 	private AudioSource audioSource;
 	private RectTransform canvas;
+	private Transform lecturer;
+	private Camera playerCamera;
+	private int speed = 5;
 
 	void Start() {
 		answers = new List<Button>();
@@ -39,6 +42,15 @@ public class ConversationController : MonoBehaviour {
 		textGUI = GameObject.Find ("NPC Text").GetComponent<Text> ();
 		nameGUI = GameObject.Find ("NPC Name").GetComponent<Text> ();
 		image = GameObject.Find ("NPC Image").GetComponent<Image> ();
+		playerCamera = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
+
+		foreach (Transform t in transform)
+		{
+			if(t.name == "Lecturer") {
+				lecturer = t;
+				break;
+			}
+		}
 	}
 
 	void Update () {
@@ -73,6 +85,7 @@ public class ConversationController : MonoBehaviour {
 
 
 			fpsController.enabled = false;
+			StartCoroutine(lookAtLecturer());
 			StartCoroutine(waitForAnim(anim));
 			//contGUI.SetActive(true);
 			/*image.enabled = true;
@@ -85,6 +98,24 @@ public class ConversationController : MonoBehaviour {
 			currentMessage = currentConversation.getNext();
 			StartCoroutine (startScrolling());*/
 
+		}
+	}
+
+	public bool isLookingAtLecturer() {
+		Vector3 dirFromAtoB = (lecturer.position - playerCamera.transform.position).normalized;
+		float dotProd = Vector3.Dot(dirFromAtoB, playerCamera.transform.forward);
+		return dotProd > 0.9;
+	}
+
+	public void centerCameraToLecturer() {
+		Quaternion targetRotation = Quaternion.LookRotation(lecturer.position - playerCamera.transform.position);
+		playerCamera.transform.rotation = Quaternion.Slerp(playerCamera.transform.rotation, targetRotation, speed * Time.deltaTime);
+	}
+
+	IEnumerator lookAtLecturer() {
+		while (!isLookingAtLecturer()) {
+			centerCameraToLecturer();
+			yield return new WaitForSeconds(0.03f);
 		}
 	}
 

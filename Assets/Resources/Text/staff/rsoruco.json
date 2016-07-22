@@ -1,0 +1,12 @@
+{
+	name: "Mgr. Roberto Soruco",
+	img: "Image/Staff/rsoruco",
+	start: [
+		{
+			text: "...",
+			audio: "Audio/player_hurt"
+		}
+	],
+	ans: [
+	]
+}

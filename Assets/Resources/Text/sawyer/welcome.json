@@ -11,11 +11,11 @@
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "Seré tu guía en este recorrido virtual.",
+				text: "Seré tu guía en este recorrido virtual. Puedes visualizar los controles con la tecla H.",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "¡Disfruta tu estadía acá!",
+				text: "¡Disfruta tu visita!",
 				audio: "Audio/player_hurt"
 			}
 		]

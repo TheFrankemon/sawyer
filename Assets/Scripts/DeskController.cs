@@ -50,6 +50,7 @@ public class DeskController : MonoBehaviour {
 		state = PlayerDeskState.WAITING;
 		curriculum.setAvailability (true);
 		pictureFrame.setAvailability (true);
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.DESK);
 	}
 
 	public void lookAtLecturer() {
@@ -94,6 +95,7 @@ public class DeskController : MonoBehaviour {
 			fpsController.enabled = true;
 			isWaiting = false;
 			enabled = false;
+			GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.NORMAL);
 		}
 	}
 	

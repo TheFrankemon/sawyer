@@ -104,6 +104,7 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		}
 		deskController.lookAtLecturer ();
 		StartCoroutine (CenterCameraAndDisplay (image));
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.CURRICULUM_ROTATE);
 	}
 
 	public IEnumerator CenterCameraAndDisplay(string image) {
@@ -150,6 +151,7 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		//bg.SetActive (false);
 		//fpsController.enabled = true;
 		playerCamera.fieldOfView = defaultFOV;
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 	}
 
 	public void Back() {

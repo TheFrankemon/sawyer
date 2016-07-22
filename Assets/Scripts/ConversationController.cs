@@ -87,6 +87,7 @@ public class ConversationController : MonoBehaviour {
 			fpsController.enabled = false;
 			StartCoroutine(lookAtLecturer());
 			StartCoroutine(waitForAnim(anim));
+			GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.CONVERSATION);
 			//contGUI.SetActive(true);
 			/*image.enabled = true;
 			currentConversation = JSONParser.createConversation(npcText);
@@ -211,6 +212,7 @@ public class ConversationController : MonoBehaviour {
 		image.enabled = false;
 		//anim.SetTrigger ("end");
 		anim.Play ("UIEnd");
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.NORMAL);
 		//anim.enabled = false;
 	}
 

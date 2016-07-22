@@ -76,6 +76,7 @@ public class DeskConversationController : MonoBehaviour {
 		deskController.lookAtLecturer ();
 		StartCoroutine(MoveToLecturer());
 		StartCoroutine(waitForAnim(anim));
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.CONVERSATION);
 	}
 
 	IEnumerator MoveToLecturer() {
@@ -179,6 +180,7 @@ public class DeskConversationController : MonoBehaviour {
 		//anim.SetTrigger ("end");
 		anim.Play ("UIEnd");
 		//anim.enabled = false;
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 		deskController.lookDown ();
 	}
 	

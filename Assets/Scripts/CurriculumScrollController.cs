@@ -90,6 +90,7 @@ public class CurriculumScrollController : MonoBehaviour {
 		GetComponent<Image>().enabled = true;
 		curriculumImage.enabled = true;
 		curriculumImage.sprite = Sprite.Create(img, new Rect(0, 0, img.width, img.height), new Vector2(.5f,.5f), 100);
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.CURRICULUM_BIG);
 		/*bg.transform.position = playerCamera.ScreenToWorldPoint (new Vector3 (Screen.width / 2, Screen.height / 2, playerCamera.nearClipPlane + 2));
 		bg.transform.LookAt (playerCamera.transform.position);
 		bg.SetActive (true);*/
@@ -107,6 +108,7 @@ public class CurriculumScrollController : MonoBehaviour {
 		GetComponent<Image>().enabled = false;
 		//bg.SetActive (false);
 		curriculumImage.enabled = false;
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 		//playerCamera.fieldOfView = defaultFOV;
 	}
 

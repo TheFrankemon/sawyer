@@ -54,6 +54,7 @@ public class GuideTextController : MonoBehaviour {
 		if (col.tag == "Player") {
 			fpsController.enabled = false;
 			StartCoroutine(waitForAnim(anim));
+			GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.CONVERSATION);
 		}
 	}
 	
@@ -101,6 +102,7 @@ public class GuideTextController : MonoBehaviour {
 		isWaiting = false;
 		image.enabled = false;
 		anim.Play ("UIEnd");
+		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 		Destroy (gameObject);
 	}
 }

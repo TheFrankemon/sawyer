@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
   assetHash:
     serializedVersion: 2
-    Hash: 440988aed009896edea2a019d149bfe9
+    Hash: 97c808835eb2fb592c5bef37b3f3ae5b
   longitude: -105.283
   latitude: 40.017000000000003
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 4.98233652, y: 2.95616484, z: 1.85956967}
-      lookAt: {x: 3.57750869, y: 2.21516848, z: 1.35462511}
-      up: {x: -.418406248, y: .895722687, z: -.15038991}
+      position: {x: 2.90810609, y: -1.79842293, z: 1.18553305}
+      lookAt: {x: 1.60089612, y: -.842901349, z: .790859997}
+      up: {x: .548862278, y: .819322646, z: .165712595}
       fov: 30
       aspectRatio: 0
       orthoSize: 1
@@ -58,6 +58,8 @@ SketchUpImporter:
     4300004: Mesh Group 4
     4300006: Mesh Group 10
     4300008: Mesh Group 12
+    4300010: Mesh Group 6
+    4300012: Mesh Group 8
     6400000: //RootNode
     6400002: Group 10
     6400004: Group 12

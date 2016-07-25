@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class LoadingMessage : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class LoadingMessage : MonoBehaviour {
 	void Start () {
 		transform.localScale = new Vector3 (currentScale, currentScale, currentScale);
 		transform.SetParent (GameObject.Find ("Canvas").transform);
+		GetComponentInChildren<Text> ().text = MessageLoader.Instance.getRandomMessage ();
 	}
 	
 	// Update is called once per frame

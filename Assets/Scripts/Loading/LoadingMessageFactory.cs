@@ -10,6 +10,8 @@ public class LoadingMessageFactory : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		InvokeRepeating ("createLoadingMessage", spawnTime, spawnTime);
+		Debug.Log ("Width: " + Screen.width);
+		Debug.Log ("Height: " + Screen.height);
 	}
 	
 	// Update is called once per frame
@@ -28,7 +30,13 @@ public class LoadingMessageFactory : MonoBehaviour {
 	}
 
 	Vector3 getRandomPosition() {
-		Vector3 pos = new Vector3 (Random.Range (0f, Screen.width - 500), Random.Range (50f, Screen.height), 0);
+		float x = Random.Range (230, Screen.width - 200);
+		float y = Random.Range (-70, -(Screen.height - 170)) + 371;
+		Vector3 pos = new Vector3 (x, y, 0);
+		Debug.Log ("x: " + x);
+		Debug.Log ("y: " + y);
+		Debug.Log (pos.ToString ());
+		//Vector3 pos = new Vector3 (Random.Range (230, Screen.width - 200), Random.Range (70, (Screen.height - 170)), 0);
 		return pos;
 	}
 

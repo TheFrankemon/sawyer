@@ -37,8 +37,8 @@ public class ConversationController : MonoBehaviour {
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
 		anim = GameObject.Find ("TxtGUI").GetComponent<Animation> ();
 		canvas = GameObject.Find ("PanelW").GetComponent<RectTransform> ();
-		Debug.Log (canvas.rect.width);
-		Debug.Log (canvas.rect.height);
+		//Debug.Log (canvas.rect.width);
+		//Debug.Log (canvas.rect.height);
 		textGUI = GameObject.Find ("NPC Text").GetComponent<Text> ();
 		nameGUI = GameObject.Find ("NPC Name").GetComponent<Text> ();
 		image = GameObject.Find ("NPC Image").GetComponent<Image> ();
@@ -66,13 +66,25 @@ public class ConversationController : MonoBehaviour {
 						StartCoroutine(startScrolling());
 					} else if (currentConversation.hasAnswers()) {
 						if (!isWaiting) {
-							Debug.Log("crear");
+							//Debug.Log("crear");
 							isWaiting = true;
 							createAnswerButtons();
 						}
 					} else {
 						stop();
 					}
+				}
+			} else if (Input.GetKeyDown("escape")) {
+				if (textIsScrolling) {
+					textGUI.text = currentMessage.getText();
+					textIsScrolling = false;
+					audioSource.Stop();
+				}
+				if (currentConversation.hasAnswers()) {
+					isWaiting = true;
+					createAnswerButtons();
+				} else {
+					stop();
 				}
 			}
 		}
@@ -173,7 +185,7 @@ public class ConversationController : MonoBehaviour {
 			answers[j].onClick.RemoveAllListeners();
 			answers[j].onClick.AddListener(() => changeConversation(conv));
 		}
-		Debug.Log(answers.Count);
+		//Debug.Log(answers.Count);
 	}
 
 	IEnumerator startScrolling() {

@@ -37,11 +37,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 162048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 137568afbc0585744b1ba9c02ac3dd2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60e21770c28d0b841acd9c6cee24035d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 130076, guid: 4fc9e991ba76119498a105848d596304, type: 2}
-  spawnTime: 5
+  spawnTime: 15
+  textColors:
+  - serializedVersion: 2
+    rgba: 4294967294
+  - serializedVersion: 2
+    rgba: 4294967294
+  - serializedVersion: 2
+    rgba: 4278190080
+  - serializedVersion: 2
+    rgba: 4294967295
+  - serializedVersion: 2
+    rgba: 4294967295
+  backColors:
+  - serializedVersion: 2
+    rgba: 4292900095
+  - serializedVersion: 2
+    rgba: 4290286974
+  - serializedVersion: 2
+    rgba: 4294967294
+  - serializedVersion: 2
+    rgba: 4289334004
+  - serializedVersion: 2
+    rgba: 4292569905
 --- !u!114 &11495718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53,8 +75,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b20092914f0984da5053dbeebf8486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emptyProgressBar: {fileID: 2800000, guid: 7700d93a317c89246a647c7a6c3e7399, type: 3}
-  fullProgressBar: {fileID: 2800000, guid: 4b42c70f54fe4f24d84cdc651f46c005, type: 3}
+  barHeight: 30
+  emptyProgressBar: {fileID: 2800000, guid: 89caf625890f8fa499f02011a11b27b1, type: 3}
+  fullProgressBar: {fileID: 2800000, guid: d2dba9d079cab2645ae67a289f7a5e50, type: 3}
   nextLevelNumber: 1
   nextLevelButton: {fileID: 0}
   textStyle:

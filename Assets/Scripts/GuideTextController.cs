@@ -46,6 +46,13 @@ public class GuideTextController : MonoBehaviour {
 						stop();
 					}
 				}
+			} else if (Input.GetKeyDown("escape")) {
+				if (textIsScrolling) {
+					textGUI.text = currentMessage.getText();
+					textIsScrolling = false;
+					audioSource.Stop();
+				}
+				stop();
 			}
 		}
 	}

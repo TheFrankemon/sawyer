@@ -18682,7 +18682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 773.905762
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class ControlsUIController : MonoBehaviour {
 
 	public enum ControlsType {
-		NORMAL, DESK, CURRICULUM_ROTATE, CURRICULUM_BIG, CONVERSATION
+		NORMAL, DESK, CURRICULUM_ROTATE, CURRICULUM_BIG, CONVERSATION, MAP
 	}
 
 	private GameObject controlsPanel;
@@ -23,6 +23,7 @@ public class ControlsUIController : MonoBehaviour {
 		controlsNames.Add (ControlsType.CURRICULUM_ROTATE, "CurriculumRotate");
 		controlsNames.Add (ControlsType.CURRICULUM_BIG, "CurriculumBig");
 		controlsNames.Add (ControlsType.CONVERSATION, "Conversation");
+		controlsNames.Add (ControlsType.MAP, "Map");
 
 		changeControls (ControlsType.NORMAL);
 	}

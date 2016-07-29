@@ -15,6 +15,7 @@ public class MapCameraController : MonoBehaviour {
 	private bool fullMap = false;
 	private Quaternion fullMapRotation = Quaternion.Euler(90, 0, 0);
 	private FirstPersonController fpsController;
+	private ControlsUIController controlsUI;
 	private Vector3 defaultPosition;
 	private BlurOptimized cameraBlur;
 	//private GameObject mapBackground;
@@ -23,6 +24,7 @@ public class MapCameraController : MonoBehaviour {
 	void Start() {
 		cam = gameObject.GetComponent<Camera> ();
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
+		controlsUI	 = GameObject.FindGameObjectWithTag ("Player").GetComponent<ControlsUIController>();
 		cameraBlur = GameObject.FindGameObjectWithTag ("Player").GetComponentInChildren<BlurOptimized>();
 		//mapBackground = GameObject.Find ("MapBackground");
 		defaultPosition = new Vector3 (target.position.x, transform.position.y, target.position.z);
@@ -55,16 +57,24 @@ public class MapCameraController : MonoBehaviour {
 				//mapBackground.SetActive(false);
 			}
 		}
+		if (Input.GetKeyDown ("escape")) {
+			fullMap = false;
+			displayMiniMap();
+			fpsController.enabled = true;
+			cameraBlur.enabled = false;
+		}
 	}
 
 	void displayFullMap() {
 		cam.rect = fullRect;
 		cam.orthographicSize = fullFOV;
+		controlsUI.changeControls (ControlsUIController.ControlsType.MAP);
 	}
 
 	void displayMiniMap() {
 		cam.rect = miniRect;
 		cam.orthographicSize = miniFOV;
+		controlsUI.changeControls (ControlsUIController.ControlsType.NORMAL);
 	}
 	
 	// Update is called once per frame

@@ -369,8 +369,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192208}
-  m_LocalRotation: {x: 0, y: .00353586697, z: 0, w: .999993742}
-  m_LocalPosition: {x: 13.7370996, y: .100000016, z: 14.0961876}
+  m_LocalRotation: {x: 0, y: .681998193, z: -0, w: -.731353939}
+  m_LocalPosition: {x: 9.51000023, y: .100000001, z: 2.33699989}
   m_LocalScale: {x: .65934062, y: .65934056, z: .65934062}
   m_Children:
   - {fileID: 437606}
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textScrollSpeed: 25
-  textPathName: careers/sistemas
+  textPathName: careers/diseno
   answerButton: {fileID: 11444384, guid: ed2fcb5e6a58b45488bc66107f4c30de, type: 2}
 --- !u!114 &11430878
 MonoBehaviour:
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5522478e30a8f4aa01ce42583c744c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: electro
+  image: Diseno
 --- !u!114 &11450828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c30b9c8ac86ea4aa18d6a8139f7a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 2800000, guid: 6407b178809b949438c27802d7832459, type: 3}
+  portrait: {fileID: 2800000, guid: 4fb494945e11380479835d2ddde0854f, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -1,0 +1,22 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "Este es el Edificio de Aulas.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Tres pisos de aulas...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...desde la A1 (a.k.a. Aula Cochabamba)...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...hasta la A18.",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

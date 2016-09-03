@@ -9,9 +9,8 @@ public class GuideTextController : MonoBehaviour {
 
 	public int textScrollSpeed;
 	public string textPathName;
-	
+
 	private bool isTalking;
-	private bool isWaiting;
 	private bool textIsScrolling;
 	private FirstPersonController fpsController;
 	private Conversation currentConversation;
@@ -21,6 +20,7 @@ public class GuideTextController : MonoBehaviour {
 	private Text nameGUI;
 	private Image image;
 	private AudioSource audioSource;
+	private GameObject[] sameTagList;
 	
 	void Start() {
 		audioSource = GameObject.Find ("FPSController").GetComponent<AudioSource> ();
@@ -29,6 +29,7 @@ public class GuideTextController : MonoBehaviour {
 		textGUI = GameObject.Find ("NPC Text").GetComponent<Text> ();
 		nameGUI = GameObject.Find ("NPC Name").GetComponent<Text> ();
 		image = GameObject.Find ("NPC Image").GetComponent<Image> ();
+		sameTagList = GameObject.FindGameObjectsWithTag (gameObject.tag);	
 	}
 	
 	void Update () {
@@ -96,9 +97,7 @@ public class GuideTextController : MonoBehaviour {
 			} else {
 				return false;
 			}
-		}
-		
-		textIsScrolling = false;
+		}		
 	}
 	
 	void stop() {
@@ -106,10 +105,12 @@ public class GuideTextController : MonoBehaviour {
 		nameGUI.text = "";
 		isTalking = false;
 		fpsController.enabled = true;
-		isWaiting = false;
 		image.enabled = false;
 		anim.Play ("UIEnd");
 		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 		Destroy (gameObject);
+		foreach(GameObject obj in sameTagList) {
+			Destroy(obj);
+		}
 	}
 }

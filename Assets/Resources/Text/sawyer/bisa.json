@@ -3,15 +3,15 @@
 		img: "Image/owl8bit",
 		messages: [
 			{
-				text: "Estás ingresando a la Cafetería.",
+				text: "El Salón de Eventos Bisa...",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "Está llena de estudiantes la mayoría del tiempo.",
+				text: "...deportes, premiaciones, cultura, conferencia, colaciones de grado...",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "¡Incluso la utilizan para estudiar!",
+				text: "...EVENTOS.",
 				audio: "Audio/player_hurt"
 			}
 		]

@@ -3,11 +3,11 @@
 		img: "Image/owl8bit",
 		messages: [
 			{
-				text: "Esta es la biblioteca.",
+				text: "Esta es la Biblioteca Julio León Prado.",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "¿Sabías que anteriormente era una iglesia?",
+				text: "¿Sabías que anteriormente...era una iglesia?",
 				audio: "Audio/player_hurt"
 			}
 		]

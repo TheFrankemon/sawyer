@@ -3,7 +3,7 @@
 		img: "Image/owl8bit",
 		messages: [
 			{
-				text: "Este es el edificio fundadores.",
+				text: "Este es el Edificio Fundadores.",
 				audio: "Audio/player_hurt"
 			},
 			{
@@ -11,7 +11,7 @@
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "Bueno, excepto al medio día, ¡ellos también comen!",
+				text: "Bueno, excepto al medio día, ¡Ellos también comen!",
 				audio: "Audio/player_hurt"
 			}
 		]

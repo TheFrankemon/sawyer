@@ -1,0 +1,22 @@
+	{
+		name: "Sawyer",
+		img: "Image/owl8bit",
+		messages: [
+			{
+				text: "El Edificio de Laboratorios...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...Computación, Fotografía, Física, Química...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...práctica, práctica, práctica, práctica, práctica,...",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "...práctica, práctica, práctica.",
+				audio: "Audio/player_hurt"
+			}
+		]
+	}

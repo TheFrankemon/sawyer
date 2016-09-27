@@ -11516,7 +11516,7 @@ GameObject:
   - 222: {fileID: 852058877}
   - 114: {fileID: 852058876}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Help Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11564,7 +11564,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Presiona 'H' para mostrar/ocultar ayuda.0
+  m_Text: Presiona 'H' para mostrar/ocultar ayuda.
 --- !u!222 &852058877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21588,7 +21588,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 927.160034
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity

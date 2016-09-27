@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c000000
+  selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 540946056deb091848f0f5d01262570a
+    Hash: b32dad7e51cab48f59103b70fed87411
   longitude: -105.283
   latitude: 40.017000000000003
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -7.29788542, y: 3.49443817, z: 10.9994402}
-      lookAt: {x: -3.14327765, y: 3.58974051, z: 7.4725709}
-      up: {x: -.0133296028, y: .999847174, z: .011315573}
+      position: {x: 20.1264477, y: 2.01606774, z: -8.14592457}
+      lookAt: {x: 16.0555897, y: 2.18720531, z: -4.52549601}
+      up: {x: .0234618708, y: .99950695, z: -.0208658911}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -54,6 +54,13 @@ SketchUpImporter:
     100052: Group 5
     100054: Group 7
     100056: Group 9
+    100058: TheSawyer_MeshPart0
+    100060: TheSawyer_MeshPart1
+    100062: TheSawyer_MeshPart2
+    100064: TheSawyer_MeshPart3
+    100066: TheSawyer_MeshPart4
+    100068: TheSawyer_MeshPart5
+    100070: TheSawyer_MeshPart6
     400000: //RootNode
     400002: Componente#3
     400004: Componente#3 1
@@ -83,6 +90,13 @@ SketchUpImporter:
     400052: Group 5
     400054: Group 7
     400056: Group 9
+    400058: TheSawyer_MeshPart0
+    400060: TheSawyer_MeshPart1
+    400062: TheSawyer_MeshPart2
+    400064: TheSawyer_MeshPart3
+    400066: TheSawyer_MeshPart4
+    400068: TheSawyer_MeshPart5
+    400070: TheSawyer_MeshPart6
     2300000: Componente#3
     2300002: Componente#3 1
     2300004: Componente#6
@@ -109,6 +123,13 @@ SketchUpImporter:
     2300046: Group 5
     2300048: Group 7
     2300050: Group 9
+    2300052: TheSawyer_MeshPart0
+    2300054: TheSawyer_MeshPart1
+    2300056: TheSawyer_MeshPart2
+    2300058: TheSawyer_MeshPart3
+    2300060: TheSawyer_MeshPart4
+    2300062: TheSawyer_MeshPart5
+    2300064: TheSawyer_MeshPart6
     3300000: Componente#3
     3300002: Componente#3 1
     3300004: Componente#6
@@ -135,6 +156,13 @@ SketchUpImporter:
     3300046: Group 5
     3300048: Group 7
     3300050: Group 9
+    3300052: TheSawyer_MeshPart0
+    3300054: TheSawyer_MeshPart1
+    3300056: TheSawyer_MeshPart2
+    3300058: TheSawyer_MeshPart3
+    3300060: TheSawyer_MeshPart4
+    3300062: TheSawyer_MeshPart5
+    3300064: TheSawyer_MeshPart6
     4300000: Mesh Group 1
     4300002: Mesh Group 3
     4300004: Mesh Group 5
@@ -153,6 +181,13 @@ SketchUpImporter:
     4300030: Mesh Group 39_MeshPart0
     4300032: Mesh Group 39_MeshPart1
     4300034: Mesh Group 39_MeshPart2
+    4300036: Mesh TheSawyer_MeshPart0
+    4300038: Mesh TheSawyer_MeshPart1
+    4300040: Mesh TheSawyer_MeshPart2
+    4300042: Mesh TheSawyer_MeshPart3
+    4300044: Mesh TheSawyer_MeshPart4
+    4300046: Mesh TheSawyer_MeshPart5
+    4300048: Mesh TheSawyer_MeshPart6
     6400000: Componente#3
     6400002: Componente#3 1
     6400004: Componente#6
@@ -179,6 +214,13 @@ SketchUpImporter:
     6400046: Group 5
     6400048: Group 7
     6400050: Group 9
+    6400052: TheSawyer_MeshPart0
+    6400054: TheSawyer_MeshPart1
+    6400056: TheSawyer_MeshPart2
+    6400058: TheSawyer_MeshPart3
+    6400060: TheSawyer_MeshPart4
+    6400062: TheSawyer_MeshPart5
+    6400064: TheSawyer_MeshPart6
   materials:
     importMaterials: 1
     materialName: 2

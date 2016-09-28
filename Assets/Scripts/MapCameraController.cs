@@ -43,38 +43,43 @@ public class MapCameraController : MonoBehaviour {
 
 	void Update() {
 		if (Input.GetKeyDown ("m")) {
-			fullMap = !fullMap;
 
-			if (fullMap) {
+			if (!fullMap) {
 				displayFullMap();
-				fpsController.enabled = false;
+				//fpsController.enabled = false;
 				//mapBackground.SetActive(true);
-				cameraBlur.enabled = true;
+				//cameraBlur.enabled = true;
 			} else {
 				displayMiniMap();
-				fpsController.enabled = true;
-				cameraBlur.enabled = false;
+				//fpsController.enabled = true;
+				//cameraBlur.enabled = false;
 				//mapBackground.SetActive(false);
 			}
 		}
 		if (Input.GetKeyDown ("escape")) {
-			fullMap = false;
+			//fullMap = false;
 			displayMiniMap();
-			fpsController.enabled = true;
-			cameraBlur.enabled = false;
+			//fpsController.enabled = true;
+			//cameraBlur.enabled = false;
 		}
 	}
 
-	void displayFullMap() {
+	public void displayFullMap() {
 		cam.rect = fullRect;
 		cam.orthographicSize = fullFOV;
 		controlsUI.changeControls (ControlsUIController.ControlsType.MAP);
+		fpsController.enabled = false;
+		cameraBlur.enabled = true;
+		fullMap = true;
 	}
 
-	void displayMiniMap() {
+	public void displayMiniMap() {
 		cam.rect = miniRect;
 		cam.orthographicSize = miniFOV;
 		controlsUI.changeControls (ControlsUIController.ControlsType.NORMAL);
+		fpsController.enabled = true;
+		cameraBlur.enabled = false;
+		fullMap = false;
 	}
 	
 	// Update is called once per frame

@@ -8,6 +8,7 @@ TagManager:
   - FundadoresOwlConv
   - CafeOwlConv
   - AulasOwlConv
+  - Map Icon
   layers:
   - Default
   - TransparentFX

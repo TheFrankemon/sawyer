@@ -9282,6 +9282,10 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 593140479}
+    - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
+      propertyPath: targetIcon
+      value: 
+      objectReference: {fileID: 1109782479}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
   m_IsPrefabParent: 0
@@ -21698,7 +21702,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 927.160034
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity

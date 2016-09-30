@@ -9242,6 +9242,14 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
+      propertyPath: targets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
+      propertyPath: targetIcons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 450234, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 195.747406
@@ -9284,6 +9292,14 @@ Prefab:
       objectReference: {fileID: 593140479}
     - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
       propertyPath: targetIcon
+      value: 
+      objectReference: {fileID: 1109782479}
+    - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
+      propertyPath: targets.Array.data[0]
+      value: 
+      objectReference: {fileID: 593140479}
+    - target: {fileID: 11468894, guid: 90d08a86aece43d4caee4d92f53f915e, type: 2}
+      propertyPath: targetIcons.Array.data[0]
       value: 
       objectReference: {fileID: 1109782479}
     m_RemovedComponents: []
@@ -15367,7 +15383,7 @@ GameObject:
   - 4: {fileID: 1109782480}
   - 212: {fileID: 1109782481}
   m_Layer: 8
-  m_Name: Icon
+  m_Name: Cafe Icon
   m_TagString: Map Icon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21702,7 +21718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 927.160034
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity

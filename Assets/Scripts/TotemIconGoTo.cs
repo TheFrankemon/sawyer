@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class TotemIconGoTo : MonoBehaviour {
 
@@ -7,6 +8,7 @@ public class TotemIconGoTo : MonoBehaviour {
 	public Material highlighter;
 	public GameObject[] targets;
 	public GameObject[] targetIcons;
+	public string text;
 
 	private Material[][] defaultMaterials;
 	private bool iconIsActive = false;
@@ -19,6 +21,14 @@ public class TotemIconGoTo : MonoBehaviour {
 
 		//Debug.Log ("Materials = " + defaultMaterials.Length);
 	}*/
+
+	void OnMouseEnter() {
+		GameObject.Find ("Auxiliar Text").GetComponent<Text> ().text = text;
+	}
+
+	void OnMouseExit() {
+		GameObject.Find ("Auxiliar Text").GetComponent<Text> ().text = "";
+	}
 
 	void OnMouseDown() {
 		/*foreach (GameObject target in targets) {

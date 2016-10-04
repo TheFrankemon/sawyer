@@ -11,6 +11,7 @@ public class ControlsUIController : MonoBehaviour {
 	private GameObject controlsPanel;
 	private Dictionary<ControlsType, string> controlsNames = new Dictionary<ControlsType, string>();
 	private bool showing = false;
+	private ControlsType current;
 
 	// Use this for initialization
 	void Start () {
@@ -38,6 +39,7 @@ public class ControlsUIController : MonoBehaviour {
 	}
 
 	public void changeControls(ControlsType currentControls) {
+		current = currentControls;
 		foreach (Transform t in controlsPanel.transform) {
 			if (t.name == controlsNames[currentControls]) {
 				t.gameObject.SetActive(true);
@@ -45,5 +47,9 @@ public class ControlsUIController : MonoBehaviour {
 				t.gameObject.SetActive(false);
 			}
 		}
+	}
+
+	public ControlsType getCurrentControls() {
+		return current;
 	}
 }

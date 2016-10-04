@@ -24053,7 +24053,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 927.160034
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity
@@ -25571,7 +25571,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 125518, guid: 58426a585ad68924b9dc8e45c34c119b, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11466392, guid: 58426a585ad68924b9dc8e45c34c119b, type: 2}
       propertyPath: m_Text
@@ -30395,6 +30395,7 @@ GameObject:
   - 224: {fileID: 1972924769}
   - 222: {fileID: 1972924771}
   - 114: {fileID: 1972924770}
+  - 114: {fileID: 1972924772}
   m_Layer: 5
   m_Name: Logo
   m_TagString: Untagged
@@ -30446,6 +30447,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1972924768}
+--- !u!114 &1972924772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972924768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97184bd5af8de6244a4df07f082c5fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1972974812
 GameObject:
   m_ObjectHideFlags: 0

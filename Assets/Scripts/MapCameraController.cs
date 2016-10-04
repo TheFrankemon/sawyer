@@ -42,25 +42,28 @@ public class MapCameraController : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Input.GetKeyDown ("m")) {
+		if (controlsUI.getCurrentControls () == ControlsUIController.ControlsType.MAP ||
+			controlsUI.getCurrentControls () == ControlsUIController.ControlsType.NORMAL) {
+			if (Input.GetKeyDown ("m")) {
 
-			if (!fullMap) {
-				displayFullMap();
-				//fpsController.enabled = false;
-				//mapBackground.SetActive(true);
-				//cameraBlur.enabled = true;
-			} else {
-				displayMiniMap();
+				if (!fullMap) {
+					displayFullMap ();
+					//fpsController.enabled = false;
+					//mapBackground.SetActive(true);
+					//cameraBlur.enabled = true;
+				} else {
+					displayMiniMap ();
+					//fpsController.enabled = true;
+					//cameraBlur.enabled = false;
+					//mapBackground.SetActive(false);
+				}
+			}
+			if (Input.GetKeyDown ("escape")) {
+				//fullMap = false;
+				displayMiniMap ();
 				//fpsController.enabled = true;
 				//cameraBlur.enabled = false;
-				//mapBackground.SetActive(false);
 			}
-		}
-		if (Input.GetKeyDown ("escape")) {
-			//fullMap = false;
-			displayMiniMap();
-			//fpsController.enabled = true;
-			//cameraBlur.enabled = false;
 		}
 	}
 

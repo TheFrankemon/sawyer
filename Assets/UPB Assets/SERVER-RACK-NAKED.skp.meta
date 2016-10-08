@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: e6d6935797683da4b91664d953138dae
+timeCreated: 1475904864
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000
+  assetHash:
+    serializedVersion: 2
+    Hash: b4071948a6ef23c5372484ff23cb2752
+  longitude: 13.417
+  latitude: 52.533000000000001
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 3.02547264, y: 1.66388869, z: -3.34800577}
+      lookAt: {x: 1.83876216, y: 1.32141423, z: -1.11910236}
+      up: {x: -.0631607026, y: .990927696, z: .118629679}
+      fov: 33.7035141
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: <-- 0.157.57.22
+    100002: <-- 0.157.57.22 1
+    100004: <-- 0.157.57.22 2
+    100006: <-- 0.157.57.22 3
+    100008: Admin
+    100010: Group 1
+    100012: Group 101
+    100014: Group 105
+    100016: Group 11
+    100018: Group 119
+    100020: Group 123
+    100022: Group 127
+    100024: Group 13
+    100026: Group 131
+    100028: Group 135
+    100030: Group 139
+    100032: Group 143
+    100034: Group 147
+    100036: Group 15
+    100038: Group 161
+    100040: Group 165
+    100042: Group 169
+    100044: Group 17
+    100046: Group 173
+    100048: Group 177
+    100050: Group 181
+    100052: Group 185
+    100054: Group 189
+    100056: Group 19
+    100058: Group 203
+    100060: Group 207
+    100062: Group 21
+    100064: Group 211
+    100066: Group 215
+    100068: Group 219
+    100070: Group 223
+    100072: Group 227
+    100074: Group 23
+    100076: Group 231
+    100078: Group 25
+    100080: Group 27
+    100082: Group 29
+    100084: Group 3
+    100086: Group 31
+    100088: Group 33
+    100090: Group 35
+    100092: Group 37
+    100094: Group 39
+    100096: Group 41
+    100098: Group 43
+    100100: Group 45
+    100102: Group 47
+    100104: Group 49
+    100106: Group 5
+    100108: Group 7
+    100110: Group 77
+    100112: Group 81
+    100114: Group 85
+    100116: Group 89
+    100118: Group 9
+    100120: Group 93
+    100122: Group 97
+    100124: LAN - Controller
+    100126: LAN-CONTROLLER#1
+    100128: OFF
+    100130: ON
+    100132: ON  OFF
+    100134: ON/OFF -->
+    100136: ON/OFF --> 1
+    100138: ON/OFF --> 2
+    100140: ON/OFF --> 3
+    100142: REBOOT
+    100144: REQUEST STATUS..
+    100146: RJ-45 (LAN) Jack
+    100148: RJ-45 (LAN) Jack 1
+    100150: RJ-45 (LAN) Jack 2
+    100152: RJ-45 (LAN) Jack 3
+    100154: RJ-45 (LAN) Jack 4
+    100156: RJ-45 Jack Plate
+    100158: RJ-45 Jack Plate 1
+    100160: RJ-45 Jack Plate 2
+    100162: RJ-45 Jack Plate 3
+    100164: RJ-45 Jack Plate 4
+    100166: RJ2-SERVER-RACKMOUNT
+    100168: RJ2-SERVER-RACKMOUNT 1
+    100170: RJ2-SERVER-RACKMOUNT 2
+    100172: RJ2-SERVER-RACKMOUNT 3
+    100174: RJ3-SERVER-RACKMOUNT
+    100176: //RootNode
+    100178: STARTING SYSTEM.
+    100180: VMware Hard Disk
+    100182: VMware Hard Disk 1
+    100184: VMware Hard Disk 10
+    100186: VMware Hard Disk 11
+    100188: VMware Hard Disk 12
+    100190: VMware Hard Disk 13
+    100192: VMware Hard Disk 14
+    100194: VMware Hard Disk 15
+    100196: VMware Hard Disk 16
+    100198: VMware Hard Disk 17
+    100200: VMware Hard Disk 18
+    100202: VMware Hard Disk 19
+    100204: VMware Hard Disk 2
+    100206: VMware Hard Disk 20
+    100208: VMware Hard Disk 21
+    100210: VMware Hard Disk 22
+    100212: VMware Hard Disk 23
+    100214: VMware Hard Disk 24
+    100216: VMware Hard Disk 25
+    100218: VMware Hard Disk 26
+    100220: VMware Hard Disk 27
+    100222: VMware Hard Disk 28
+    100224: VMware Hard Disk 29
+    100226: VMware Hard Disk 3
+    100228: VMware Hard Disk 30
+    100230: VMware Hard Disk 31
+    100232: VMware Hard Disk 4
+    100234: VMware Hard Disk 5
+    100236: VMware Hard Disk 6
+    100238: VMware Hard Disk 7
+    100240: VMware Hard Disk 8
+    100242: VMware Hard Disk 9
+    400000: <-- 0.157.57.22
+    400002: <-- 0.157.57.22 1
+    400004: <-- 0.157.57.22 2
+    400006: <-- 0.157.57.22 3
+    400008: Admin
+    400010: Group 1
+    400012: Group 101
+    400014: Group 105
+    400016: Group 11
+    400018: Group 119
+    400020: Group 123
+    400022: Group 127
+    400024: Group 13
+    400026: Group 131
+    400028: Group 135
+    400030: Group 139
+    400032: Group 143
+    400034: Group 147
+    400036: Group 15
+    400038: Group 161
+    400040: Group 165
+    400042: Group 169
+    400044: Group 17
+    400046: Group 173
+    400048: Group 177
+    400050: Group 181
+    400052: Group 185
+    400054: Group 189
+    400056: Group 19
+    400058: Group 203
+    400060: Group 207
+    400062: Group 21
+    400064: Group 211
+    400066: Group 215
+    400068: Group 219
+    400070: Group 223
+    400072: Group 227
+    400074: Group 23
+    400076: Group 231
+    400078: Group 25
+    400080: Group 27
+    400082: Group 29
+    400084: Group 3
+    400086: Group 31
+    400088: Group 33
+    400090: Group 35
+    400092: Group 37
+    400094: Group 39
+    400096: Group 41
+    400098: Group 43
+    400100: Group 45
+    400102: Group 47
+    400104: Group 49
+    400106: Group 5
+    400108: Group 7
+    400110: Group 77
+    400112: Group 81
+    400114: Group 85
+    400116: Group 89
+    400118: Group 9
+    400120: Group 93
+    400122: Group 97
+    400124: LAN - Controller
+    400126: LAN-CONTROLLER#1
+    400128: OFF
+    400130: ON
+    400132: ON  OFF
+    400134: ON/OFF -->
+    400136: ON/OFF --> 1
+    400138: ON/OFF --> 2
+    400140: ON/OFF --> 3
+    400142: REBOOT
+    400144: REQUEST STATUS..
+    400146: RJ-45 (LAN) Jack
+    400148: RJ-45 (LAN) Jack 1
+    400150: RJ-45 (LAN) Jack 2
+    400152: RJ-45 (LAN) Jack 3
+    400154: RJ-45 (LAN) Jack 4
+    400156: RJ-45 Jack Plate
+    400158: RJ-45 Jack Plate 1
+    400160: RJ-45 Jack Plate 2
+    400162: RJ-45 Jack Plate 3
+    400164: RJ-45 Jack Plate 4
+    400166: RJ2-SERVER-RACKMOUNT
+    400168: RJ2-SERVER-RACKMOUNT 1
+    400170: RJ2-SERVER-RACKMOUNT 2
+    400172: RJ2-SERVER-RACKMOUNT 3
+    400174: RJ3-SERVER-RACKMOUNT
+    400176: //RootNode
+    400178: STARTING SYSTEM.
+    400180: VMware Hard Disk
+    400182: VMware Hard Disk 1
+    400184: VMware Hard Disk 10
+    400186: VMware Hard Disk 11
+    400188: VMware Hard Disk 12
+    400190: VMware Hard Disk 13
+    400192: VMware Hard Disk 14
+    400194: VMware Hard Disk 15
+    400196: VMware Hard Disk 16
+    400198: VMware Hard Disk 17
+    400200: VMware Hard Disk 18
+    400202: VMware Hard Disk 19
+    400204: VMware Hard Disk 2
+    400206: VMware Hard Disk 20
+    400208: VMware Hard Disk 21
+    400210: VMware Hard Disk 22
+    400212: VMware Hard Disk 23
+    400214: VMware Hard Disk 24
+    400216: VMware Hard Disk 25
+    400218: VMware Hard Disk 26
+    400220: VMware Hard Disk 27
+    400222: VMware Hard Disk 28
+    400224: VMware Hard Disk 29
+    400226: VMware Hard Disk 3
+    400228: VMware Hard Disk 30
+    400230: VMware Hard Disk 31
+    400232: VMware Hard Disk 4
+    400234: VMware Hard Disk 5
+    400236: VMware Hard Disk 6
+    400238: VMware Hard Disk 7
+    400240: VMware Hard Disk 8
+    400242: VMware Hard Disk 9
+    2300000: <-- 0.157.57.22
+    2300002: <-- 0.157.57.22 1
+    2300004: <-- 0.157.57.22 2
+    2300006: <-- 0.157.57.22 3
+    2300008: Admin
+    2300010: Group 1
+    2300012: Group 101
+    2300014: Group 105
+    2300016: Group 11
+    2300018: Group 119
+    2300020: Group 123
+    2300022: Group 127
+    2300024: Group 13
+    2300026: Group 131
+    2300028: Group 135
+    2300030: Group 139
+    2300032: Group 143
+    2300034: Group 147
+    2300036: Group 15
+    2300038: Group 161
+    2300040: Group 165
+    2300042: Group 169
+    2300044: Group 17
+    2300046: Group 173
+    2300048: Group 177
+    2300050: Group 181
+    2300052: Group 185
+    2300054: Group 189
+    2300056: Group 19
+    2300058: Group 203
+    2300060: Group 207
+    2300062: Group 21
+    2300064: Group 211
+    2300066: Group 215
+    2300068: Group 219
+    2300070: Group 223
+    2300072: Group 227
+    2300074: Group 23
+    2300076: Group 231
+    2300078: Group 25
+    2300080: Group 27
+    2300082: Group 29
+    2300084: Group 3
+    2300086: Group 31
+    2300088: Group 33
+    2300090: Group 35
+    2300092: Group 37
+    2300094: Group 39
+    2300096: Group 41
+    2300098: Group 43
+    2300100: Group 45
+    2300102: Group 47
+    2300104: Group 49
+    2300106: Group 5
+    2300108: Group 7
+    2300110: Group 77
+    2300112: Group 81
+    2300114: Group 85
+    2300116: Group 89
+    2300118: Group 9
+    2300120: Group 93
+    2300122: Group 97
+    2300124: LAN - Controller
+    2300126: LAN-CONTROLLER#1
+    2300128: OFF
+    2300130: ON
+    2300132: ON  OFF
+    2300134: ON/OFF -->
+    2300136: ON/OFF --> 1
+    2300138: ON/OFF --> 2
+    2300140: ON/OFF --> 3
+    2300142: REBOOT
+    2300144: REQUEST STATUS..
+    2300146: RJ-45 (LAN) Jack
+    2300148: RJ-45 (LAN) Jack 1
+    2300150: RJ-45 (LAN) Jack 2
+    2300152: RJ-45 (LAN) Jack 3
+    2300154: RJ-45 (LAN) Jack 4
+    2300156: RJ-45 Jack Plate
+    2300158: RJ-45 Jack Plate 1
+    2300160: RJ-45 Jack Plate 2
+    2300162: RJ-45 Jack Plate 3
+    2300164: RJ-45 Jack Plate 4
+    2300166: RJ2-SERVER-RACKMOUNT
+    2300168: RJ2-SERVER-RACKMOUNT 1
+    2300170: RJ2-SERVER-RACKMOUNT 2
+    2300172: RJ2-SERVER-RACKMOUNT 3
+    2300174: RJ3-SERVER-RACKMOUNT
+    2300176: STARTING SYSTEM.
+    2300178: VMware Hard Disk
+    2300180: VMware Hard Disk 1
+    2300182: VMware Hard Disk 10
+    2300184: VMware Hard Disk 11
+    2300186: VMware Hard Disk 12
+    2300188: VMware Hard Disk 13
+    2300190: VMware Hard Disk 14
+    2300192: VMware Hard Disk 15
+    2300194: VMware Hard Disk 16
+    2300196: VMware Hard Disk 17
+    2300198: VMware Hard Disk 18
+    2300200: VMware Hard Disk 19
+    2300202: VMware Hard Disk 2
+    2300204: VMware Hard Disk 20
+    2300206: VMware Hard Disk 21
+    2300208: VMware Hard Disk 22
+    2300210: VMware Hard Disk 23
+    2300212: VMware Hard Disk 24
+    2300214: VMware Hard Disk 25
+    2300216: VMware Hard Disk 26
+    2300218: VMware Hard Disk 27
+    2300220: VMware Hard Disk 28
+    2300222: VMware Hard Disk 29
+    2300224: VMware Hard Disk 3
+    2300226: VMware Hard Disk 30
+    2300228: VMware Hard Disk 31
+    2300230: VMware Hard Disk 4
+    2300232: VMware Hard Disk 5
+    2300234: VMware Hard Disk 6
+    2300236: VMware Hard Disk 7
+    2300238: VMware Hard Disk 8
+    2300240: VMware Hard Disk 9
+    3300000: <-- 0.157.57.22
+    3300002: <-- 0.157.57.22 1
+    3300004: <-- 0.157.57.22 2
+    3300006: <-- 0.157.57.22 3
+    3300008: Admin
+    3300010: Group 1
+    3300012: Group 101
+    3300014: Group 105
+    3300016: Group 11
+    3300018: Group 119
+    3300020: Group 123
+    3300022: Group 127
+    3300024: Group 13
+    3300026: Group 131
+    3300028: Group 135
+    3300030: Group 139
+    3300032: Group 143
+    3300034: Group 147
+    3300036: Group 15
+    3300038: Group 161
+    3300040: Group 165
+    3300042: Group 169
+    3300044: Group 17
+    3300046: Group 173
+    3300048: Group 177
+    3300050: Group 181
+    3300052: Group 185
+    3300054: Group 189
+    3300056: Group 19
+    3300058: Group 203
+    3300060: Group 207
+    3300062: Group 21
+    3300064: Group 211
+    3300066: Group 215
+    3300068: Group 219
+    3300070: Group 223
+    3300072: Group 227
+    3300074: Group 23
+    3300076: Group 231
+    3300078: Group 25
+    3300080: Group 27
+    3300082: Group 29
+    3300084: Group 3
+    3300086: Group 31
+    3300088: Group 33
+    3300090: Group 35
+    3300092: Group 37
+    3300094: Group 39
+    3300096: Group 41
+    3300098: Group 43
+    3300100: Group 45
+    3300102: Group 47
+    3300104: Group 49
+    3300106: Group 5
+    3300108: Group 7
+    3300110: Group 77
+    3300112: Group 81
+    3300114: Group 85
+    3300116: Group 89
+    3300118: Group 9
+    3300120: Group 93
+    3300122: Group 97
+    3300124: LAN - Controller
+    3300126: LAN-CONTROLLER#1
+    3300128: OFF
+    3300130: ON
+    3300132: ON  OFF
+    3300134: ON/OFF -->
+    3300136: ON/OFF --> 1
+    3300138: ON/OFF --> 2
+    3300140: ON/OFF --> 3
+    3300142: REBOOT
+    3300144: REQUEST STATUS..
+    3300146: RJ-45 (LAN) Jack
+    3300148: RJ-45 (LAN) Jack 1
+    3300150: RJ-45 (LAN) Jack 2
+    3300152: RJ-45 (LAN) Jack 3
+    3300154: RJ-45 (LAN) Jack 4
+    3300156: RJ-45 Jack Plate
+    3300158: RJ-45 Jack Plate 1
+    3300160: RJ-45 Jack Plate 2
+    3300162: RJ-45 Jack Plate 3
+    3300164: RJ-45 Jack Plate 4
+    3300166: RJ2-SERVER-RACKMOUNT
+    3300168: RJ2-SERVER-RACKMOUNT 1
+    3300170: RJ2-SERVER-RACKMOUNT 2
+    3300172: RJ2-SERVER-RACKMOUNT 3
+    3300174: RJ3-SERVER-RACKMOUNT
+    3300176: STARTING SYSTEM.
+    3300178: VMware Hard Disk
+    3300180: VMware Hard Disk 1
+    3300182: VMware Hard Disk 10
+    3300184: VMware Hard Disk 11
+    3300186: VMware Hard Disk 12
+    3300188: VMware Hard Disk 13
+    3300190: VMware Hard Disk 14
+    3300192: VMware Hard Disk 15
+    3300194: VMware Hard Disk 16
+    3300196: VMware Hard Disk 17
+    3300198: VMware Hard Disk 18
+    3300200: VMware Hard Disk 19
+    3300202: VMware Hard Disk 2
+    3300204: VMware Hard Disk 20
+    3300206: VMware Hard Disk 21
+    3300208: VMware Hard Disk 22
+    3300210: VMware Hard Disk 23
+    3300212: VMware Hard Disk 24
+    3300214: VMware Hard Disk 25
+    3300216: VMware Hard Disk 26
+    3300218: VMware Hard Disk 27
+    3300220: VMware Hard Disk 28
+    3300222: VMware Hard Disk 29
+    3300224: VMware Hard Disk 3
+    3300226: VMware Hard Disk 30
+    3300228: VMware Hard Disk 31
+    3300230: VMware Hard Disk 4
+    3300232: VMware Hard Disk 5
+    3300234: VMware Hard Disk 6
+    3300236: VMware Hard Disk 7
+    3300238: VMware Hard Disk 8
+    3300240: VMware Hard Disk 9
+    4300000: Mesh Group 1
+    4300002: Mesh Group 3
+    4300004: Mesh LAN-CONTROLLER#1
+    4300006: Mesh LAN - Controller
+    4300008: Mesh ON  OFF
+    4300010: Mesh RJ-45 (LAN) Jack
+    4300012: Mesh RJ-45 Jack Plate
+    4300014: Mesh Admin
+    4300016: Mesh REQUEST STATUS..
+    4300018: Mesh RJ3-SERVER-RACKMOUNT
+    4300020: Mesh ON
+    4300022: Mesh OFF
+    4300024: Mesh REBOOT
+    4300026: Mesh STARTING SYSTEM.
+    4300028: Mesh RJ2-SERVER-RACKMOUNT
+    4300030: Mesh Group 77
+    4300032: Mesh VMware Hard Disk
+    4300034: Mesh ON/OFF -->
+    4300036: Mesh <-- 0.157.57.22
+    6400000: <-- 0.157.57.22
+    6400002: <-- 0.157.57.22 1
+    6400004: <-- 0.157.57.22 2
+    6400006: <-- 0.157.57.22 3
+    6400008: Admin
+    6400010: Group 1
+    6400012: Group 101
+    6400014: Group 105
+    6400016: Group 11
+    6400018: Group 119
+    6400020: Group 123
+    6400022: Group 127
+    6400024: Group 13
+    6400026: Group 131
+    6400028: Group 135
+    6400030: Group 139
+    6400032: Group 143
+    6400034: Group 147
+    6400036: Group 15
+    6400038: Group 161
+    6400040: Group 165
+    6400042: Group 169
+    6400044: Group 17
+    6400046: Group 173
+    6400048: Group 177
+    6400050: Group 181
+    6400052: Group 185
+    6400054: Group 189
+    6400056: Group 19
+    6400058: Group 203
+    6400060: Group 207
+    6400062: Group 21
+    6400064: Group 211
+    6400066: Group 215
+    6400068: Group 219
+    6400070: Group 223
+    6400072: Group 227
+    6400074: Group 23
+    6400076: Group 231
+    6400078: Group 25
+    6400080: Group 27
+    6400082: Group 29
+    6400084: Group 3
+    6400086: Group 31
+    6400088: Group 33
+    6400090: Group 35
+    6400092: Group 37
+    6400094: Group 39
+    6400096: Group 41
+    6400098: Group 43
+    6400100: Group 45
+    6400102: Group 47
+    6400104: Group 49
+    6400106: Group 5
+    6400108: Group 7
+    6400110: Group 77
+    6400112: Group 81
+    6400114: Group 85
+    6400116: Group 89
+    6400118: Group 9
+    6400120: Group 93
+    6400122: Group 97
+    6400124: LAN - Controller
+    6400126: LAN-CONTROLLER#1
+    6400128: OFF
+    6400130: ON
+    6400132: ON  OFF
+    6400134: ON/OFF -->
+    6400136: ON/OFF --> 1
+    6400138: ON/OFF --> 2
+    6400140: ON/OFF --> 3
+    6400142: REBOOT
+    6400144: REQUEST STATUS..
+    6400146: RJ-45 (LAN) Jack
+    6400148: RJ-45 (LAN) Jack 1
+    6400150: RJ-45 (LAN) Jack 2
+    6400152: RJ-45 (LAN) Jack 3
+    6400154: RJ-45 (LAN) Jack 4
+    6400156: RJ-45 Jack Plate
+    6400158: RJ-45 Jack Plate 1
+    6400160: RJ-45 Jack Plate 2
+    6400162: RJ-45 Jack Plate 3
+    6400164: RJ-45 Jack Plate 4
+    6400166: RJ2-SERVER-RACKMOUNT
+    6400168: RJ2-SERVER-RACKMOUNT 1
+    6400170: RJ2-SERVER-RACKMOUNT 2
+    6400172: RJ2-SERVER-RACKMOUNT 3
+    6400174: RJ3-SERVER-RACKMOUNT
+    6400176: STARTING SYSTEM.
+    6400178: VMware Hard Disk
+    6400180: VMware Hard Disk 1
+    6400182: VMware Hard Disk 10
+    6400184: VMware Hard Disk 11
+    6400186: VMware Hard Disk 12
+    6400188: VMware Hard Disk 13
+    6400190: VMware Hard Disk 14
+    6400192: VMware Hard Disk 15
+    6400194: VMware Hard Disk 16
+    6400196: VMware Hard Disk 17
+    6400198: VMware Hard Disk 18
+    6400200: VMware Hard Disk 19
+    6400202: VMware Hard Disk 2
+    6400204: VMware Hard Disk 20
+    6400206: VMware Hard Disk 21
+    6400208: VMware Hard Disk 22
+    6400210: VMware Hard Disk 23
+    6400212: VMware Hard Disk 24
+    6400214: VMware Hard Disk 25
+    6400216: VMware Hard Disk 26
+    6400218: VMware Hard Disk 27
+    6400220: VMware Hard Disk 28
+    6400222: VMware Hard Disk 29
+    6400224: VMware Hard Disk 3
+    6400226: VMware Hard Disk 30
+    6400228: VMware Hard Disk 31
+    6400230: VMware Hard Disk 4
+    6400232: VMware Hard Disk 5
+    6400234: VMware Hard Disk 6
+    6400236: VMware Hard Disk 7
+    6400238: VMware Hard Disk 8
+    6400240: VMware Hard Disk 9
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

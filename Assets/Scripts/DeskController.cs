@@ -10,7 +10,7 @@ public class DeskController : MonoBehaviour {
 
 	private FirstPersonController fpsController;
 	private Camera playerCamera;
-	private bool isWaiting = false;
+	//private bool isWaiting = false;
 	private int speed = 5;
 	private Transform lecturer;
 	private PlayerDeskState state;
@@ -93,7 +93,7 @@ public class DeskController : MonoBehaviour {
 	void handleExit() {
 		if (Input.GetKeyDown ("escape")) {
 			fpsController.enabled = true;
-			isWaiting = false;
+			//isWaiting = false;
 			enabled = false;
 			GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.NORMAL);
 		}

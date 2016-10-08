@@ -8,7 +8,7 @@ public class PressMe : MonoBehaviour {
 	public int numberOfRepetitions = 5;
 	public float speed = 10f;
 
-	float dRot = 1f;
+	//float dRot = 1f;
 	int repetitions = 0;
 	float currentRotation = 0f;
 	bool isWaiting = false;

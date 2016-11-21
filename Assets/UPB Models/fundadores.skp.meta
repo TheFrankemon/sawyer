@@ -5,19 +5,19 @@ licenseType: Pro
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000
   assetHash:
     serializedVersion: 2
-    Hash: eb10a1840fa9728b211431424258f1ab
+    Hash: f381bd5166fb243fac08b2637a5e03b1
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 7.83253288, y: .555072904, z: 8.21002865}
-      lookAt: {x: 32.1002312, y: -7.45534325, z: 41.3519859}
-      up: {x: .113079518, y: .981511176, z: .154430643}
+      position: {x: 24.5393753, y: 11.5406561, z: -33.5840721}
+      lookAt: {x: 25.2589169, y: 10.9234524, z: 6.18368196}
+      up: {x: .000280690554, y: .999879658, z: .0155132376}
       fov: 49.4662323
       aspectRatio: 0
       orthoSize: 1
@@ -71,6 +71,23 @@ SketchUpImporter:
     100086: CUADRO DE HONOR
     100088: CuadroHonorBecarios
     100090: CuadroHonorGraduados
+    100092: Desk L
+    100094: Waiting Bench
+    100096: Waiting Bench 1
+    100098: Waiting Bench 1_MeshPart0
+    100100: Waiting Bench 1_MeshPart1
+    100102: Waiting Bench 1_MeshPart2
+    100104: Waiting Bench 2
+    100106: Waiting Bench 2_MeshPart0
+    100108: Waiting Bench 2_MeshPart1
+    100110: Waiting Bench 2_MeshPart2
+    100112: Waiting Bench 3
+    100114: Waiting Bench 3_MeshPart0
+    100116: Waiting Bench 3_MeshPart1
+    100118: Waiting Bench 3_MeshPart2
+    100120: Waiting Bench_MeshPart0
+    100122: Waiting Bench_MeshPart1
+    100124: Waiting Bench_MeshPart2
     400000: //RootNode
     400002: DoorF
     400004: DoorF 1
@@ -117,6 +134,23 @@ SketchUpImporter:
     400086: CUADRO DE HONOR
     400088: CuadroHonorBecarios
     400090: CuadroHonorGraduados
+    400092: Desk L
+    400094: Waiting Bench
+    400096: Waiting Bench 1
+    400098: Waiting Bench 1_MeshPart0
+    400100: Waiting Bench 1_MeshPart1
+    400102: Waiting Bench 1_MeshPart2
+    400104: Waiting Bench 2
+    400106: Waiting Bench 2_MeshPart0
+    400108: Waiting Bench 2_MeshPart1
+    400110: Waiting Bench 2_MeshPart2
+    400112: Waiting Bench 3
+    400114: Waiting Bench 3_MeshPart0
+    400116: Waiting Bench 3_MeshPart1
+    400118: Waiting Bench 3_MeshPart2
+    400120: Waiting Bench_MeshPart0
+    400122: Waiting Bench_MeshPart1
+    400124: Waiting Bench_MeshPart2
     2300000: //RootNode
     2300002: DoorF
     2300004: DoorF 1
@@ -163,6 +197,19 @@ SketchUpImporter:
     2300086: CUADRO DE HONOR
     2300088: CuadroHonorBecarios
     2300090: CuadroHonorGraduados
+    2300092: Desk L
+    2300094: Waiting Bench 1_MeshPart0
+    2300096: Waiting Bench 1_MeshPart1
+    2300098: Waiting Bench 1_MeshPart2
+    2300100: Waiting Bench 2_MeshPart0
+    2300102: Waiting Bench 2_MeshPart1
+    2300104: Waiting Bench 2_MeshPart2
+    2300106: Waiting Bench 3_MeshPart0
+    2300108: Waiting Bench 3_MeshPart1
+    2300110: Waiting Bench 3_MeshPart2
+    2300112: Waiting Bench_MeshPart0
+    2300114: Waiting Bench_MeshPart1
+    2300116: Waiting Bench_MeshPart2
     3300000: //RootNode
     3300002: DoorF
     3300004: DoorF 1
@@ -209,6 +256,19 @@ SketchUpImporter:
     3300086: CUADRO DE HONOR
     3300088: CuadroHonorBecarios
     3300090: CuadroHonorGraduados
+    3300092: Desk L
+    3300094: Waiting Bench 1_MeshPart0
+    3300096: Waiting Bench 1_MeshPart1
+    3300098: Waiting Bench 1_MeshPart2
+    3300100: Waiting Bench 2_MeshPart0
+    3300102: Waiting Bench 2_MeshPart1
+    3300104: Waiting Bench 2_MeshPart2
+    3300106: Waiting Bench 3_MeshPart0
+    3300108: Waiting Bench 3_MeshPart1
+    3300110: Waiting Bench 3_MeshPart2
+    3300112: Waiting Bench_MeshPart0
+    3300114: Waiting Bench_MeshPart1
+    3300116: Waiting Bench_MeshPart2
     4300000: Mesh fundadores
     4300002: Mesh DoorF
     4300004: Mesh DoorF
@@ -218,6 +278,10 @@ SketchUpImporter:
     4300012: Mesh CuadroHonorBecarios
     4300014: Mesh CUADRO DE HONOR
     4300016: Mesh CuadroHonorGraduados
+    4300018: Mesh Desk L
+    4300020: Mesh Waiting Bench_MeshPart0
+    4300022: Mesh Waiting Bench_MeshPart1
+    4300024: Mesh Waiting Bench_MeshPart2
   materials:
     importMaterials: 1
     materialName: 2

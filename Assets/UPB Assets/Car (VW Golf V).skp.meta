@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 89e91ef324c4fe542a626b2ed9946677
+timeCreated: 1479856831
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  assetHash:
+    serializedVersion: 2
+    Hash: eb9b9e59383a3d3623ab990ed3d0c029
+  longitude: -105.283
+  latitude: 40.017000000000003
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: .171850383, y: .11207328, z: .0727742761}
+      lookAt: {x: .000218225498, y: .00150727096, z: .00873681437}
+      up: {x: -.502226651, y: .854713798, z: -.131273597}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chassis
+    100004: chassis_MeshPart0
+    100006: chassis_MeshPart1
+    100008: chassis_vl
+    100010: exhaust_ok
+    100012: skla
+    100014: skp15C
+    100016: wheel2
+    100018: wheel2 1
+    100020: wheel2 2
+    100022: wheel2 3
+    400000: //RootNode
+    400002: chassis
+    400004: chassis_MeshPart0
+    400006: chassis_MeshPart1
+    400008: chassis_vl
+    400010: exhaust_ok
+    400012: skla
+    400014: skp15C
+    400016: wheel2
+    400018: wheel2 1
+    400020: wheel2 2
+    400022: wheel2 3
+    2300000: chassis_MeshPart0
+    2300002: chassis_MeshPart1
+    2300004: chassis_vl
+    2300006: exhaust_ok
+    2300008: skla
+    2300010: wheel2
+    2300012: wheel2 1
+    2300014: wheel2 2
+    2300016: wheel2 3
+    3300000: chassis_MeshPart0
+    3300002: chassis_MeshPart1
+    3300004: chassis_vl
+    3300006: exhaust_ok
+    3300008: skla
+    3300010: wheel2
+    3300012: wheel2 1
+    3300014: wheel2 2
+    3300016: wheel2 3
+    4300000: Mesh wheel2
+    4300002: Mesh chassis_MeshPart0
+    4300004: Mesh chassis_MeshPart1
+    4300006: Mesh exhaust_ok
+    4300008: Mesh chassis_vl
+    4300010: Mesh skla
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

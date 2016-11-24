@@ -5,19 +5,19 @@ licenseType: Free
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
   assetHash:
     serializedVersion: 2
-    Hash: eb9b9e59383a3d3623ab990ed3d0c029
+    Hash: 5916b61e948ed0b9d9a7f8dd65231163
   longitude: -105.283
   latitude: 40.017000000000003
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: .171850383, y: .11207328, z: .0727742761}
-      lookAt: {x: .000218225498, y: .00150727096, z: .00873681437}
-      up: {x: -.502226651, y: .854713798, z: -.131273597}
+      position: {x: .0463864952, y: .0402669422, z: -.165573239}
+      lookAt: {x: -.0248395838, y: -.00426375819, z: -.0127040343}
+      up: {x: -.107820459, y: .966863096, z: .231410012}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -58,6 +58,8 @@ SketchUpImporter:
     2300012: wheel2 1
     2300014: wheel2 2
     2300016: wheel2 3
+    2300018: //RootNode
+    2300020: chassis
     3300000: chassis_MeshPart0
     3300002: chassis_MeshPart1
     3300004: chassis_vl
@@ -67,12 +69,16 @@ SketchUpImporter:
     3300012: wheel2 1
     3300014: wheel2 2
     3300016: wheel2 3
+    3300018: //RootNode
+    3300020: chassis
     4300000: Mesh wheel2
     4300002: Mesh chassis_MeshPart0
     4300004: Mesh chassis_MeshPart1
     4300006: Mesh exhaust_ok
     4300008: Mesh chassis_vl
     4300010: Mesh skla
+    4300012: Mesh Car (VW Golf V)
+    4300014: Mesh chassis
   materials:
     importMaterials: 1
     materialName: 2

@@ -11038,7 +11038,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 23
 --- !u!1001 &526904559
 Prefab:
   m_ObjectHideFlags: 0
@@ -14994,7 +14994,7 @@ Transform:
   - {fileID: 576541407}
   - {fileID: 1974180228}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!1001 &726519382
 Prefab:
   m_ObjectHideFlags: 0
@@ -16122,7 +16122,7 @@ Transform:
   - {fileID: 1399830034}
   - {fileID: 1033794717}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
 --- !u!1001 &811995355
 Prefab:
   m_ObjectHideFlags: 0
@@ -20175,7 +20175,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -35437,6 +35437,14 @@ Prefab:
       propertyPath: image
       value: Sistemas
       objectReference: {fileID: 0}
+    - target: {fileID: 11418172, guid: c584f37977cb9cd4f9806778c08d71d3, type: 2}
+      propertyPath: textPathName
+      value: careers/sistemas
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455212, guid: c584f37977cb9cd4f9806778c08d71d3, type: 2}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 2800000, guid: 6407b178809b949438c27802d7832459, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c584f37977cb9cd4f9806778c08d71d3, type: 2}
   m_IsPrefabParent: 0
@@ -41927,4 +41935,4 @@ Transform:
   - {fileID: 1191925659}
   - {fileID: 150538453}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 32

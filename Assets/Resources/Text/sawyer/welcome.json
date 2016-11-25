@@ -3,15 +3,23 @@
 		img: "Image/owl8bit",
 		messages: [
 			{
-				text: "¡Bienvenid@ {0} a la UPB!",
+				text: "¡Hola! ¡Bienvenid@ a la UPB! Presiona \"espacio\" para continuar...",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "Mi nombre es Tom, pero puedes llamarme Sawyer.",
+				text: "Mi nombre es Tom, pero puedes llamarme Sawyer. Seré tu guía en este recorrido virtual.",
 				audio: "Audio/player_hurt"
 			},
 			{
-				text: "Seré tu guía en este recorrido virtual. Puedes visualizar los controles con la tecla H.",
+				text: "Puedes moverte con las teclas WASD o con las flechas del teclado.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Para rotar la cámara, utiliza el mouse.",
+				audio: "Audio/player_hurt"
+			},
+			{
+				text: "Si en algún momento te encuentras estancado, presiona la tecla \"H\" para visualizar la ayuda.",
 				audio: "Audio/player_hurt"
 			},
 			{

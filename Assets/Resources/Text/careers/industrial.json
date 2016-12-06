@@ -1,35 +1,95 @@
 {
-	name: "Mgr. Fernando López",
+	name: "XXX. Agatha Da Silva",
 	img: "Image/unknown",
 	start: [
 		{
-			text: "El Ingeniero Industrial y de Sistemas tiene las habilidades profesionales para:",
+			text: "Hola, ¿cómo estás?, yo soy Agatha Da Silva, y soy la jefa de carrera de Ingeniería Industrial y de Sistemas.",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Planificar, desarrollar e implementar sistemas de información",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar y/o mejorar los sistemas de actividad humana",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Preparar y evaluar proyectos de inversión",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Planificar, administrar y optimizar los procesos productivos",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Organizar y coordinar grupos de trabajo utilizando el enfoque sistémico",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar e implementar sistemas de calidad",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Nuestra carrera está enfocada a la gestión de recursos y a la gestión de procesos de transformación de materia prima a producto terminado.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Así como la optimización de todos los recursos se manejan dentro de la industria.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "La diferenciación que tenemos en la UPB, es que nuestra carrera está completamente enfocada a un análisis sistémico.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "La mayoría se pregunta ¿Por qué  “y de sistemas”? … “Y de sistemas” se refiere al enfoque sistémico que damos y a la gestión de los sistemas humanos,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "de los sistemas dinámicos, de los sistemas que manejan tanto recursos físicos como recursos humanos.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Entonces eso es nuestro diferencial, el cual la mayoría de las universidades no lo tienen en sí,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "y nosotros creemos que el profesional tiene que ser completo y tiene que tener la capacidad de analizar la empresa como un todo. Eso es lo que ofrecemos.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero Industrial y de Sistemas tiene las habilidades profesionales para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Planificar, desarrollar e implementar sistemas de información",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar y/o mejorar los sistemas de actividad humana",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Preparar y evaluar proyectos de inversión",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Planificar, administrar y optimizar los procesos productivos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Organizar y coordinar grupos de trabajo utilizando el enfoque sistémico",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar e implementar sistemas de calidad",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

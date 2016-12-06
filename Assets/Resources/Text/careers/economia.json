@@ -3,25 +3,69 @@
 	img: "Image/Chiefs/rnogales",
 	start: [
 		{
-			text: "El Licenciado en Economía tiene capacidad para:",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Efectuar diagnósticos de la evolución económica",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Evaluar los impactos de políticas sobre actividades económicas y sociales",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Efectuar análisis de la evolución económica orientada a mejorar la toma de decisiones de las empresas con respecto a las inversiones",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Analizar los mercados",
+			text: "Hola, ¿qué tal? Mi nombre es Ricardo Nogales, soy el jefe de carrera de Economía.",
 			audio: "Audio/player_hurt"
 		}
+		{
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
+		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "¿Quieres estudiar una carrera que te puede llevar a ser un excelente empresario? ¿Quizás una excelente persona dedicada a la política?",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "¿O quizá una persona dedicada a la gestión de recursos en organismos no gubernamentales?",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Estudia Economía con nosotros, con los más altos estándares académicos, con nuestra reciente titulación paralela con la University of London.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Licenciado en Economía tiene capacidad para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Efectuar diagnósticos de la evolución económica",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Evaluar los impactos de políticas sobre actividades económicas y sociales",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Efectuar análisis de la evolución económica orientada a mejorar la toma de decisiones de las empresas con respecto a las inversiones",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Analizar los mercados",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

@@ -3,21 +3,52 @@
 	img: "Image/Chiefs/loropeza",
 	start: [
 		{
-			text: "El Ingeniero de Petróleo y Gas Natural es un profesional capacitado para:",
+			text: "Hola",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Incorporar e innovar tecnología en la industria de hidrocarburos",
+			text: "Mi nombre es , soy el jefe de la carrera de ",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Aplicar conocimientos en negociación de hidrocarburos y economía de la energía",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Promover conciencia y formación práctica en gestión integral de las empresas del sector",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero de Petróleo y Gas Natural es un profesional capacitado para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Incorporar e innovar tecnología en la industria de hidrocarburos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Aplicar conocimientos en negociación de hidrocarburos y economía de la energía",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Promover conciencia y formación práctica en gestión integral de las empresas del sector",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

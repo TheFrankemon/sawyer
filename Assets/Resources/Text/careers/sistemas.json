@@ -3,19 +3,40 @@
 	img: "Image/Chiefs/mbarrero",
 	start: [
 		{
-			text: "Buenas tardes {0}",
+			text: "Hola, ¿cómo estás? Mi nombre es Marcel Barrero y soy el jefe de la carrera de Ingeniería de Sistemas Computacionales. ",
 			audio: "Audio/player_hurt"
-		},
+		}
 		{
-			text: "Mi nombre es Marcel, soy el jefe de la carrera de Ingeniería de Sistemas Computacionales",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "¿Deseas averiguar información sobre algún tema de la carrera?",
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
 			audio: "Audio/player_hurt"
 		}
 	],
 	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Si desde pequeño te ha interesado, o has sido curioso, de saber cómo funciona el mundo, esta es una carrera para ti.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Las tecnologías de la información están presentes en todas partes. El motor que mueve y desarrolla al mundo está relacionado con tecnologías de información.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Es un mercado que está creciendo y es cada vez más demandante de profesionales. No de cualquier profesional, sino de profesionales de calidad.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Es por eso que en nuestra universidad nosotros no solamente te mostramos el camino, sino te decimos hasta dónde puedes llegar. ",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Y en ese sentido, estamos vinculados con asociaciones internacionales como el IEEE, que nos permiten mantenernos actualizados y vigentes.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
 		{
 			text: "Perfil profesional",
 			nans: [
@@ -119,7 +140,7 @@
 					audio: "Audio/player_hurt"
 				}
 				{
-					text: "¡Vuelve cuando quieras!",
+					text: "¡Te espero! Estás bienvenido a ser parte de este desarrollo y cambio en el mundo.",
 					audio: "Audio/player_hurt"
 				}
 			]

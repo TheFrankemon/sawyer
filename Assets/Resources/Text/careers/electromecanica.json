@@ -1,32 +1,87 @@
 {
-	//name: "Ing. Oscar Fernández",
 	name: "Ph.D. Cecilia Tapia",
 	img: "Image/Chiefs/ctapia",
 	start: [
 		{
-			text: "El Ingeniero Electromecánico posee el conocimiento para:",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Analizar, diseñar, instalar y mantener sistemas electromecánicos",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar y adaptar tecnologías tendientes a la automatización de procesos de producción",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Planificar y optimizar el mantenimiento en una organización industrial",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar, optimizar y controlar los procesos de fabricación de máquinas, piezas y equipos",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Integrar tecnologías del área eléctrica, mecánica, informática, electrónica, control y automatización",
+			text: "Soy Cecilia Tapia, jefa de la carrera de Ingeniería Electromecánica.",
 			audio: "Audio/player_hurt"
 		}
+		{
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
+		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "¿Por qué estudiar Ingeniería Electromecánica en la UPB? ",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Porque te damos muchas herramientas que no te dan en otras universidades. Te damos una introducción a la investigación,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "te dejamos trabajar con nosotros en los centros de investigación, permitiendo que puedas trabajar toda la creatividad que tienen los ingenieros.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Por otro lado, te damos herramientas administrativas de gestión de empresa, para que puedas crear tu propia empresa cuando termines la carrera.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Finalmente, porque Ingeniería Electromecánica es una de las ingenierías más versátiles y flexibles entre las ingenierías y, en la UPB,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "te damos todas las herramientas necesarias para que puedas desarrollarte en cualquier área de las que cubre esta ingeniería.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero Electromecánico posee el conocimiento para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Analizar, diseñar, instalar y mantener sistemas electromecánicos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar y adaptar tecnologías tendientes a la automatización de procesos de producción",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Planificar y optimizar el mantenimiento en una organización industrial",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar, optimizar y controlar los procesos de fabricación de máquinas, piezas y equipos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Integrar tecnologías del área eléctrica, mecánica, informática, electrónica, control y automatización",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

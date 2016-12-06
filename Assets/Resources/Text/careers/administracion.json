@@ -3,26 +3,73 @@
 	img: "Image/Chiefs/jcjordan",
 	start: [
 		{
-			text: "Entre las competencias de un Licenciado en Administración de Empresas están:",
+			text: "Bienvenido, mi nombre es Juan Carlos Jordán, soy el jefe de carrera de Administración de Empresas.",
 			audio: "Audio/player_hurt"
-		},
+		}
 		{
-			text: "Crear y desarrollar empresas",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Aplicar modernas herramientas de administración",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Desarrollar y potenciar habilidades de liderazgo",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Utilizar la tecnología como herramienta de gestión.",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
 	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Si en unos años te ves dirigiendo una empresa nacional o internacional, o te ves realizándote como emprendedor creando la tuya propia,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "te gusta administrar recursos tanto materiales, económicos y humanos, y además te gusta que las cosas funcionen.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Pues te invito a estudiar la carrera de Administración de Empresas en la UPB,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "donde podrás poner en práctica tus habilidades de gestión y liderazgo desde el primer día, y además mejorarlas a través de una educación de la más alta calidad.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "Entre las competencias de un Licenciado en Administración de Empresas están:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Crear y desarrollar empresas",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Aplicar modernas herramientas de administración",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Desarrollar y potenciar habilidades de liderazgo",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Utilizar la tecnología como herramienta de gestión.",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
 	]
 }

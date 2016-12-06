@@ -3,25 +3,85 @@
 	img: "Image/Chiefs/faguirre",
 	start: [
 		{
-			text: "El Ingeniero Civil cuenta con los conocimientos para:",
+			text: "Hola, soy el Dr. Francisco Aguirre y soy jefe de carrera de Ingeniería Civil.",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Participar en las licitaciones de obras públicas y privadas",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Aplicar normas nacionales o internacionales para el control de calidad",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Realizar estudios de factibilidad técnico-económica y diseño final de proyectos de obras civiles",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Vincularse directamente al diseño, construcción y mantenimiento de obras",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Ingeniería Civil es una carrera que mejora todo lo que es la arquitectura de los países. Y Bolivia, ya sabes, que es un país en crecimiento y necesita mejorar.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "La mayoría de los docentes de nuestra carrera son doctores en ingeniería, significa que ellos tienen un nivel de conocimiento muy elevado y eso es lo que se te transmitirá.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "También tenemos un centro de investigación, el cual está a cargo del Dr. Saavedra, que tiene formación en Alemania y Japón,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "en ese centro realizarás trabajos de investigación que serán publicados en congresos y revistas especializadas.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Por otro lado, estamos acreditados a varios programas, como por ejemplo MERCOSUR.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Y también estamos aplicando a tener la doble titulación con universidades europeas.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero Civil cuenta con los conocimientos para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Participar en las licitaciones de obras públicas y privadas",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Aplicar normas nacionales o internacionales para el control de calidad",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Realizar estudios de factibilidad técnico-económica y diseño final de proyectos de obras civiles",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Vincularse directamente al diseño, construcción y mantenimiento de obras",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "Te espero, para que puedas ver la calidad de enseñanza que tenemos y te garantizamos una excelencia en los procesos de enseñanza y aprendizaje.",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

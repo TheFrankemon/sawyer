@@ -3,29 +3,77 @@
 	img: "Image/Chiefs/marandia",
 	start: [
 		{
-			text: "Las competencias de un Licenciado en Marketing y Logística le permiten:",
+			text: "Hola, mi nombre es Martín Arandia, soy el jefe de la carrera de Marketing.",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Responder a las necesidades cambiantes de los consumidores",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Posicionar productos y servicios",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Aplicar técnicas de comercialización de alta competitividad",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Optimizar los procedimientos de distribución de los bienes o servicios",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Asesorar sobre las ventajas de la localización del negocio y puntos de venta (logística)",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Ahora te voy a comentar el por qué estudiar marketing en esta universidad.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Es básicamente porque nos mantenemos informados, actualizados y vamos a ser la primera carrera en Bolivia con un propio laboratorio de neuromarketing,",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "que es un tema que está muy de moda y nos permite conocer con profundidad qué es lo que realmente quiere la gente.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Y ahí viene la importancia de esta profesión; nos dedicamos a buscar y encontrar qué es lo que quiere la gente y les ofertamos, y de esa manera poder tener mercado.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "Las competencias de un Licenciado en Marketing y Logística le permiten:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Responder a las necesidades cambiantes de los consumidores",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Posicionar productos y servicios",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Aplicar técnicas de comercialización de alta competitividad",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Optimizar los procedimientos de distribución de los bienes o servicios",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Asesorar sobre las ventajas de la localización del negocio y puntos de venta (logística)",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

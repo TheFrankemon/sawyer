@@ -3,29 +3,85 @@
 	img: "Image/Chiefs/etorres",
 	start: [
 		{
-			text: "El Ingeniero de la Producción tiene habilidades profesionales para:",
+			text: "Hola, ¿qué tal?, mi nombre es Elizabeth Torres Santa Cruz, soy jefa de la carrera de Ingeniería de la Producción.",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Combinar el manejo de los recursos naturales, humanos, financieros, tecnológicos y sociales",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Conciliar las operaciones de producción",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar, instalar, operar, controlar y optimizar los sistemas productivos",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Desenvolverse en industrias manufactureras y/o de servicios en ingeniería",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Administrar y gerenciar proyectos",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Esta es una carrera enfocada al diseño, instalación, optimización e implementación de procesos industriales. Existen tres grandes ventajas en esta carrera.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "La primera es que estamos acreditados por el MERCOSUR.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "La segunda es que dentro de nuestra currícula vemos materias como los procesos unitarios, la planificación, el control, etc. ",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "pero también vemos materias del área empresarial, tales como la administración de empresas, costos industriales, etc.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Y la tercera gran ventaja es que tenemos los mejores laboratorios de procesos unitarios de Bolivia;",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "esto permite a los estudiantes que puedan aplicar los conocimientos que aprenden en aula, en laboratorio e inclusive en planta piloto.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero de la Producción tiene habilidades profesionales para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Combinar el manejo de los recursos naturales, humanos, financieros, tecnológicos y sociales",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Conciliar las operaciones de producción",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar, instalar, operar, controlar y optimizar los sistemas productivos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Desenvolverse en industrias manufactureras y/o de servicios en ingeniería",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Administrar y gerenciar proyectos",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

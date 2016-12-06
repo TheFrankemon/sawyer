@@ -3,25 +3,56 @@
 	img: "Image/Chiefs/bcabrerizo",
 	start: [
 		{
-			text: "El Arquitecto está capacitado para:",
+			text: "Hola",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Desarrollar proyectos arquitectónicos",
+			text: "Mi nombre es , soy el jefe de la carrera de ",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Administrar recursos técnicos",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Promover la profundización de valores socioculturales de las construcciones",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Dirigir la planificación, diseño y ejecución de obras civiles",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Arquitecto está capacitado para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Desarrollar proyectos arquitectónicos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Administrar recursos técnicos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Promover la profundización de valores socioculturales de las construcciones",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Dirigir la planificación, diseño y ejecución de obras civiles",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

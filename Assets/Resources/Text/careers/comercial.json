@@ -3,29 +3,60 @@
 	img: "Image/Chiefs/rrojas",
 	start: [
 		{
-			text: "El Ingeniero Comercial posee amplios conocimientos en:",
+			text: "Hola",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Marketing Estratégico",
+			text: "Mi nombre es , soy el jefe de la carrera de ",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Negocios Internacionales (International Business)",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Comercio Electrónico (e-Business, e-Commerce)",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "El área financiera",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Simulación de modelos de comercio.",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero Comercial posee amplios conocimientos en:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Marketing Estratégico",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Negocios Internacionales (International Business)",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Comercio Electrónico (e-Business, e-Commerce)",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "El área financiera",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Simulación de modelos de comercio.",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

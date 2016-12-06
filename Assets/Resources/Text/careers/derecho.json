@@ -3,33 +3,85 @@
 	img: "Image/Chiefs/lgarcia",
 	start: [
 		{
-			text: "El Licenciado en Derecho posee aptitudes de:",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Análisis, interpretación y aplicación de la norma jurídica",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Profundos conocimientos legales teórico-prácticos en las diferentes áreas del Derecho",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Destrezas en procedimientos judiciales, administrativos, arbitrales y gestión de empresas",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Eficiente comunicación oral y escrita",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Ejercicio ético de la profesión",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Capacidad para investigar, innovar y lograr un aprendizaje permanente",
+			text: "Hola, mi nombre es Laura García, soy jefa de la carrera de Derecho. ",
 			audio: "Audio/player_hurt"
 		}
+		{
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
+		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Descripción general",
+			nans: [
+				{
+					text: "Muchas personas me preguntan ¿Por qué estudiar derecho?",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "En principio, yo les digo que es una carrera tradicional que solidifica unas fuertes bases en lo que es la cultura general de las personas.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Está dirigida a jóvenes o personas interesadas y con una alta vocación de justicia, que además creen en una firme lucha por los derechos humanos.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "En la Universidad Privada Boliviana nos basamos principalmente en dos áreas, que son el derecho empresarial/corporativo y el derecho internacional.",
+					audio: "Audio/career_text"
+				},
+				{
+					text: "Esto nos permite abrir las puertas a los jóvenes estudiantes a lo que son los procesos de globalización y el hábito de las relaciones internacionales.",
+					audio: "Audio/career_text"
+				}
+			]
+		},
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Licenciado en Derecho posee aptitudes de:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Análisis, interpretación y aplicación de la norma jurídica",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Profundos conocimientos legales teórico-prácticos en las diferentes áreas del Derecho",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Destrezas en procedimientos judiciales, administrativos, arbitrales y gestión de empresas",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Eficiente comunicación oral y escrita",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Ejercicio ético de la profesión",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Capacidad para investigar, innovar y lograr un aprendizaje permanente",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

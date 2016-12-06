@@ -3,25 +3,69 @@
 	img: "Image/Chiefs/oormachea",
 	start: [
 		{
-			text: "El Ingeniero en Electrónica y Telecomunicaciones está capacitado para:",
+			text: "Hola",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Diseñar e implementar sistemas electrónicos digitales y analógicos",
+			text: "Mi nombre es , soy el jefe de la carrera de ",
 			audio: "Audio/player_hurt"
 		},
 		{
-			text: "Implementar y controlar comunicaciones satelitales y de fibra óptica",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Diseñar e implementar redes de transmisión de datos (MAN y WAN)",
-			audio: "Audio/player_hurt"
-		},
-		{
-			text: "Desarrollar soluciones telemáticas",
-			audio: "Audio/player_hurt"
+			text: "¿Deseas averiguar información sobre algún tema de esta carrera?",
+			audio: "Audio/career_text"
 		}
 	],
-	ans: []
+	ans: [
+		{
+			text: "Perfil profesional",
+			nans: [
+				{
+					text: "El Ingeniero en Electrónica y Telecomunicaciones está capacitado para:",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar e implementar sistemas electrónicos digitales y analógicos",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Implementar y controlar comunicaciones satelitales y de fibra óptica",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Diseñar e implementar redes de transmisión de datos (MAN y WAN)",
+					audio: "Audio/player_hurt"
+				},
+				{
+					text: "Desarrollar soluciones telemáticas",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		},
+		{
+			text: "No, gracias",
+			nans: [
+				{
+					text: "Fue un gusto hablar contigo.",
+					audio: "Audio/player_hurt"
+				}
+				{
+					text: "¡Vuelve cuando quieras!",
+					audio: "Audio/player_hurt"
+				}
+			]
+		}
+	]
 }

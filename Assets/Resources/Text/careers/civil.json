@@ -3,7 +3,7 @@
 	img: "Image/Chiefs/faguirre",
 	start: [
 		{
-			text: "Hola, soy el Dr. Francisco Aguirre y soy jefe de carrera de Ingeniería Civil.",
+			text: "Hola, soy el PhD. Francisco Aguirre y soy jefe de carrera de Ingeniería Civil.",
 			audio: "Audio/player_hurt"
 		},
 		{
@@ -28,7 +28,7 @@
 					audio: "Audio/career_text"
 				},
 				{
-					text: "También tenemos un centro de investigación, el cual está a cargo del Dr. Saavedra, que tiene formación en Alemania y Japón,",
+					text: "También tenemos un centro de investigación, el cual está a cargo del PhD. Saavedra, que tiene formación en Alemania y Japón,",
 					audio: "Audio/career_text"
 				},
 				{

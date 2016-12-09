@@ -46,6 +46,7 @@ GameObject:
   - 4: {fileID: 484142}
   - 33: {fileID: 3364196}
   - 23: {fileID: 2321798}
+  - 64: {fileID: 6422184}
   m_Layer: 0
   m_Name: totem
   m_TagString: Untagged
@@ -1852,6 +1853,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
+--- !u!64 &6422184
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 2eeefa1b1010cb440bb908b6a99a28cf, type: 3}
 --- !u!64 &6457088
 MeshCollider:
   m_ObjectHideFlags: 1

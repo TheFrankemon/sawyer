@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: a5421630c4bc0a0517e8f06724f0315f
+    Hash: 1d4784b9e210c8b85e06cf19efb14716
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -5.74100924, y: 3.90241838, z: -1.59482932}
-      lookAt: {x: -3.95808673, y: 3.0151329, z: -1.32555628}
-      up: {x: .43656671, y: .89725256, z: .0659342483}
+      position: {x: 2.19485211, y: 2.45108223, z: 2.1315372}
+      lookAt: {x: .511805117, y: 1.32547474, z: .771324635}
+      up: {x: -.358903259, y: .88716048, z: -.290060073}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh totem
+    6400000: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -55,7 +56,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

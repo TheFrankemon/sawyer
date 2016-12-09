@@ -8,7 +8,7 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 88ff6e02ce31322205d3cf918a1eca97
+    Hash: afa1cf2b894725b0b63c99547c99f78f
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
@@ -31,6 +31,7 @@ SketchUpImporter:
     3300000: //RootNode
     4300000: Mesh paradabus
     4300002: Mesh ParadaBus
+    6400000: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -56,7 +57,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

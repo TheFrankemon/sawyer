@@ -453,6 +453,92 @@ SketchUpImporter:
     4300090: Mesh Group 148
     4300092: Mesh Group 150
     4300094: Mesh Books#1
+    6400000: book
+    6400002: book 1
+    6400004: book 2
+    6400006: book 3
+    6400008: book#1
+    6400010: book#1 1
+    6400012: book#1 2
+    6400014: book#1 3
+    6400016: book#1 4
+    6400018: book#1 5
+    6400020: book#1 6
+    6400022: book#1 7
+    6400024: Books#1
+    6400026: Books#1 1
+    6400028: Books#1 2
+    6400030: Group 10
+    6400032: Group 101
+    6400034: Group 103
+    6400036: Group 105
+    6400038: Group 107
+    6400040: Group 109
+    6400042: Group 111
+    6400044: Group 113
+    6400046: Group 115
+    6400048: Group 117
+    6400050: Group 119
+    6400052: Group 12
+    6400054: Group 131
+    6400056: Group 14
+    6400058: Group 144
+    6400060: Group 146
+    6400062: Group 148
+    6400064: Group 150
+    6400066: Group 154
+    6400068: Group 156
+    6400070: Group 158
+    6400072: Group 16
+    6400074: Group 160
+    6400076: Group 164
+    6400078: Group 166
+    6400080: Group 168
+    6400082: Group 170
+    6400084: Group 18
+    6400086: Group 182
+    6400088: Group 20
+    6400090: Group 22
+    6400092: Group 24
+    6400094: Group 26
+    6400096: Group 28
+    6400098: Group 30
+    6400100: Group 32
+    6400102: Group 34
+    6400104: Group 36
+    6400106: Group 38
+    6400108: Group 40
+    6400110: Group 42
+    6400112: Group 44
+    6400114: Group 46
+    6400116: Group 48
+    6400118: Group 50
+    6400120: Group 52
+    6400122: Group 54
+    6400124: Group 56
+    6400126: Group 58
+    6400128: Group 6
+    6400130: Group 60
+    6400132: Group 62
+    6400134: Group 64
+    6400136: Group 66
+    6400138: Group 68
+    6400140: Group 70
+    6400142: Group 72
+    6400144: Group 74
+    6400146: Group 76
+    6400148: Group 79
+    6400150: Group 81
+    6400152: Group 83
+    6400154: Group 85
+    6400156: Group 87
+    6400158: Group 89
+    6400160: Group 91
+    6400162: Group 93
+    6400164: Group 95
+    6400166: Group 97
+    6400168: Group 99
+    6400170: Group#40
   materials:
     importMaterials: 1
     materialName: 2
@@ -478,7 +564,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

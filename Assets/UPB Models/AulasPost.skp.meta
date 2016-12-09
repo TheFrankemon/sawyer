@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: eaae7528eb4da121f6a282dc6f9c8676
+    Hash: b8c114971826cc5527443c1931069569
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 13.2517347, y: 9.26985931, z: 19.241127}
-      lookAt: {x: 7.3299284, y: 2.17670751, z: 7.88371849}
-      up: {x: -.22398077, y: .874814689, z: -.429571778}
+      position: {x: 29.4020443, y: 5.7173667, z: -1.52958059}
+      lookAt: {x: 20.1969509, y: 1.54801297, z: 10.518362}
+      up: {x: -.16097343, y: .964208663, z: .210687593}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -31,6 +31,7 @@ SketchUpImporter:
     3300000: //RootNode
     4300000: Mesh aulaspos
     4300002: Mesh AulasPost
+    6400000: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -56,7 +57,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

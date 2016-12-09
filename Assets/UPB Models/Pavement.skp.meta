@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 20337fd98a712e5a6dcdf1ebc559a4dc
+    Hash: d0a55e818c491a58117e3c701e0f4904
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 10.0389013, y: 6.50967932, z: -4.18438339}
-      lookAt: {x: -21.8268967, y: -11.8301258, z: 22.5961304}
-      up: {x: -.308666676, y: .915113211, z: .259408295}
+      position: {x: 2.78638959, y: .471094161, z: -.941628277}
+      lookAt: {x: -46.9677887, y: -6.77818394, z: 33.2041855}
+      up: {x: -.0983428434, y: .992861271, z: .0674917474}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Pavement
+    6400000: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -55,7 +56,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

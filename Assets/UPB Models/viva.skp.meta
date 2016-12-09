@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000
   assetHash:
     serializedVersion: 2
-    Hash: f1ffed41afc625c6564258dd7344a722
+    Hash: f95f0cee3a6dd8a2ec1bcff6b6885e44
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -10.1735964, y: 2.0704987, z: 1.04387438}
-      lookAt: {x: 21.7599831, y: 3.68717456, z: 11.3010263}
-      up: {x: -.0458383039, y: .998840392, z: -.0147233875}
+      position: {x: -20.2735558, y: 14.5177288, z: -7.56750631}
+      lookAt: {x: 4.63041782, y: -6.88154411, z: -.536183536}
+      up: {x: .613298059, y: .770637512, z: .173156962}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -40,6 +40,9 @@ SketchUpImporter:
     4300000: Mesh viva
     4300002: Mesh Viva
     4300004: Mesh GlassDoor
+    6400000: GlassDoor
+    6400002: GlassDoor 1
+    6400004: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -65,7 +68,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

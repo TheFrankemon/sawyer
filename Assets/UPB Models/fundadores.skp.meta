@@ -8,15 +8,15 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000
   assetHash:
     serializedVersion: 2
-    Hash: f381bd5166fb243fac08b2637a5e03b1
+    Hash: 37cd26d74d4a192ac20908dc72f912cd
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 24.5393753, y: 11.5406561, z: -33.5840721}
-      lookAt: {x: 25.2589169, y: 10.9234524, z: 6.18368196}
+      position: {x: 7.12925911, y: .679585516, z: 12.861455}
+      lookAt: {x: 7.84880161, y: .0623826608, z: 52.6292076}
       up: {x: .000280690554, y: .999879658, z: .0155132376}
       fov: 49.4662323
       aspectRatio: 0
@@ -282,6 +282,65 @@ SketchUpImporter:
     4300020: Mesh Waiting Bench_MeshPart0
     4300022: Mesh Waiting Bench_MeshPart1
     4300024: Mesh Waiting Bench_MeshPart2
+    6400000: CUADRO DE HONOR
+    6400002: CuadroHonorBecarios
+    6400004: CuadroHonorGraduados
+    6400006: Desk L
+    6400008: DoorF
+    6400010: DoorF 1
+    6400012: DoorF 10
+    6400014: DoorF 11
+    6400016: DoorF 12
+    6400018: DoorF 13
+    6400020: DoorF 14
+    6400022: DoorF 15
+    6400024: DoorF 16
+    6400026: DoorF 17
+    6400028: DoorF 18
+    6400030: DoorF 19
+    6400032: DoorF 2
+    6400034: DoorF 20
+    6400036: DoorF 21
+    6400038: DoorF 22
+    6400040: DoorF 23
+    6400042: DoorF 24
+    6400044: DoorF 25
+    6400046: DoorF 26
+    6400048: DoorF 27
+    6400050: DoorF 28
+    6400052: DoorF 29
+    6400054: DoorF 3
+    6400056: DoorF 30
+    6400058: DoorF 31
+    6400060: DoorF 4
+    6400062: DoorF 5
+    6400064: DoorF 6
+    6400066: DoorF 7
+    6400068: DoorF 8
+    6400070: DoorF 9
+    6400072: //RootNode
+    6400074: Waiting Bench 1_MeshPart0
+    6400076: Waiting Bench 1_MeshPart1
+    6400078: Waiting Bench 1_MeshPart2
+    6400080: Waiting Bench 2_MeshPart0
+    6400082: Waiting Bench 2_MeshPart1
+    6400084: Waiting Bench 2_MeshPart2
+    6400086: Waiting Bench 3_MeshPart0
+    6400088: Waiting Bench 3_MeshPart1
+    6400090: Waiting Bench 3_MeshPart2
+    6400092: Waiting Bench_MeshPart0
+    6400094: Waiting Bench_MeshPart1
+    6400096: Waiting Bench_MeshPart2
+    6400098: windows2
+    6400100: windows2 1
+    6400102: windows2 2
+    6400104: windows2 3
+    6400106: windows3
+    6400108: windows3 1
+    6400110: windows3 2
+    6400112: windows3 3
+    6400114: windows3 4
+    6400116: windows3 5
   materials:
     importMaterials: 1
     materialName: 2
@@ -307,7 +366,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

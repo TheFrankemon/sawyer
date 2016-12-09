@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f0000003000000031000000
   assetHash:
     serializedVersion: 2
-    Hash: 948296f7ef1029046ee8fbb8da3b6ed2
+    Hash: f952bdb512d10a1da570f42f4d6a7b72
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 16.2261753, y: 11.4315939, z: 9.10508347}
-      lookAt: {x: 4.99928761, y: -30.5041752, z: 38.8068352}
-      up: {x: -.281883836, y: .6036551, z: .745749295}
+      position: {x: 11.6678438, y: 8.96850872, z: 10.4674482}
+      lookAt: {x: -17.6293144, y: -1.58303916, z: 42.3676682}
+      up: {x: -.160103738, y: .97158438, z: .174329013}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -132,6 +132,31 @@ SketchUpImporter:
     4300000: Mesh Labos
     4300002: Mesh DoorR
     4300004: Mesh DoorL
+    6400000: DoorL
+    6400002: DoorL 1
+    6400004: DoorL 10
+    6400006: DoorL 11
+    6400008: DoorL 12
+    6400010: DoorL 13
+    6400012: DoorL 2
+    6400014: DoorL 3
+    6400016: DoorL 4
+    6400018: DoorL 5
+    6400020: DoorL 6
+    6400022: DoorL 7
+    6400024: DoorL 8
+    6400026: DoorL 9
+    6400028: DoorR
+    6400030: DoorR 1
+    6400032: DoorR 2
+    6400034: DoorR 3
+    6400036: DoorR 4
+    6400038: DoorR 5
+    6400040: DoorR 6
+    6400042: DoorR 7
+    6400044: DoorR 8
+    6400046: DoorR 9
+    6400048: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -157,7 +182,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

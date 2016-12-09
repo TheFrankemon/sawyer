@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 110741cb3ba9c9fabb0b58e7c70d143f
+    Hash: 75548c97f902b792cb442e823cefc967
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -4.41968441, y: 4.65467262, z: -1.6682018}
-      lookAt: {x: 14.5836525, y: -3.46501875, z: 7.25291157}
-      up: {x: .326543182, y: .932668209, z: .153295651}
+      position: {x: -2.27845263, y: 1.45281851, z: -1.1408757}
+      lookAt: {x: 11.3179684, y: -4.01885843, z: 15.9424658}
+      up: {x: .151380613, y: .970003426, z: .190203488}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -31,6 +31,7 @@ SketchUpImporter:
     3300000: //RootNode
     4300000: Mesh lacto
     4300002: Mesh Lacto
+    6400000: //RootNode
   materials:
     importMaterials: 1
     materialName: 2
@@ -56,7 +57,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

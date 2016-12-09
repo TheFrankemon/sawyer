@@ -8,16 +8,16 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
   assetHash:
     serializedVersion: 2
-    Hash: b74e28e485fb1caedd8cef3c87c4f928
+    Hash: 895c92cb66a128c696b03bb1dcfd5970
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 16.6265316, y: 2.37919998, z: -6.45294905}
-      lookAt: {x: -133.986877, y: -2.15588593, z: 145.215256}
-      up: {x: -.0149469525, y: .999774992, z: .0150516322}
+      position: {x: 18.0640564, y: 4.4652977, z: 2.98200679}
+      lookAt: {x: -8.05724049, y: -6.07357979, z: 14.971796}
+      up: {x: -.312878251, y: .938873112, z: .143612459}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -52,6 +52,12 @@ SketchUpImporter:
     4300000: Mesh arqui
     4300002: Mesh AulasArquitectura
     4300004: Mesh DoorF
+    6400000: //RootNode
+    6400002: DoorF
+    6400004: DoorF 1
+    6400006: DoorF 2
+    6400008: DoorF 3
+    6400010: DoorF 4
   materials:
     importMaterials: 1
     materialName: 2
@@ -77,7 +83,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

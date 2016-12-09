@@ -8,7 +8,7 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000
   assetHash:
     serializedVersion: 2
-    Hash: 97b99dc188e73826412d8367ce4f2c86
+    Hash: 95902e9ac1adc526aa4728699d91ea25
   longitude: -105.283
   latitude: 40.017000000000003
   northCorrection: -0
@@ -100,6 +100,23 @@ SketchUpImporter:
     4300000: Mesh Component
     4300002: Mesh Component1
     4300004: Mesh Component2
+    6400000: Component
+    6400002: Component1
+    6400004: Component1 1
+    6400006: Component1 10
+    6400008: Component1 11
+    6400010: Component1 12
+    6400012: Component1 13
+    6400014: Component1 2
+    6400016: Component1 3
+    6400018: Component1 4
+    6400020: Component1 5
+    6400022: Component1 6
+    6400024: Component1 7
+    6400026: Component1 8
+    6400028: Component1 9
+    6400030: Component2
+    6400032: Component2 1
   materials:
     importMaterials: 1
     materialName: 2
@@ -125,7 +142,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

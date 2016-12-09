@@ -79,6 +79,14 @@ SketchUpImporter:
     4300010: Mesh skla
     4300012: Mesh Car (VW Golf V)
     4300014: Mesh chassis
+    6400000: //RootNode
+    6400002: chassis
+    6400004: chassis_vl
+    6400006: skla
+    6400008: wheel2
+    6400010: wheel2 1
+    6400012: wheel2 2
+    6400014: wheel2 3
   materials:
     importMaterials: 1
     materialName: 2
@@ -104,7 +112,7 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: .0253999997
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

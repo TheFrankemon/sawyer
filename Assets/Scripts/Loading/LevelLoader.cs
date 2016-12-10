@@ -15,6 +15,7 @@ public class LevelLoader : MonoBehaviour {
 	
 	void Start () {
 		nextLevelButton.gameObject.SetActive (false);
+		textStyle.normal.textColor = Color.white;
 	}
 
 	void OnGUI () {
@@ -23,6 +24,9 @@ public class LevelLoader : MonoBehaviour {
 
 		int amountLoaded = ((int)(Application.GetStreamProgressForLevel (nextLevelNumber) * 100));
 		Rect textRect = new Rect (Screen.width / 2 - 100, Screen.height - barHeight, 200, barHeight);
+		if (amountLoaded > 50) {
+			textStyle.normal.textColor = Color.black;
+		}
 		if (amountLoaded == 100) {
 			GUI.Label (textRect, "Carga terminada", textStyle);
 		} else {

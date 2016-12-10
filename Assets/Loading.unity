@@ -814,6 +814,10 @@ Prefab:
       propertyPath: spawnTime
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 11495718, guid: 4de6a18a3379d1e448daecf6e36d7def, type: 2}
+      propertyPath: textStyle.m_Normal.m_Background
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4de6a18a3379d1e448daecf6e36d7def, type: 2}
   m_IsPrefabParent: 0

@@ -18502,6 +18502,10 @@ Prefab:
       propertyPath: m_Name
       value: Boy1
       objectReference: {fileID: 0}
+    - target: {fileID: 130644, guid: 16e5aca9861e75b43aad74b12103c777, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16e5aca9861e75b43aad74b12103c777, type: 2}
   m_IsPrefabParent: 0
@@ -32430,7 +32434,7 @@ Transform:
   - {fileID: 1554033803}
   - {fileID: 1914621801}
   m_Father: {fileID: 181955355}
-  m_RootOrder: 63
+  m_RootOrder: 73
 --- !u!1001 &1489454579
 Prefab:
   m_ObjectHideFlags: 0
@@ -33631,7 +33635,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 979.745544
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity
@@ -34268,7 +34272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1583691314
 Transform:
   m_ObjectHideFlags: 0
@@ -44581,6 +44585,10 @@ Prefab:
       propertyPath: route
       value: 
       objectReference: {fileID: 1780273539}
+    - target: {fileID: 185106, guid: ab7680bcacff8c14ab9dac5a5bb2dee4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab7680bcacff8c14ab9dac5a5bb2dee4, type: 2}
   m_IsPrefabParent: 0

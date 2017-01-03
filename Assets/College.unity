@@ -18442,6 +18442,10 @@ Prefab:
       propertyPath: m_Name
       value: Boy1
       objectReference: {fileID: 0}
+    - target: {fileID: 130644, guid: 16e5aca9861e75b43aad74b12103c777, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16e5aca9861e75b43aad74b12103c777, type: 2}
   m_IsPrefabParent: 0
@@ -34208,7 +34212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1583691314
 Transform:
   m_ObjectHideFlags: 0
@@ -44401,6 +44405,10 @@ Prefab:
       propertyPath: route
       value: 
       objectReference: {fileID: 1780273539}
+    - target: {fileID: 185106, guid: ab7680bcacff8c14ab9dac5a5bb2dee4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab7680bcacff8c14ab9dac5a5bb2dee4, type: 2}
   m_IsPrefabParent: 0

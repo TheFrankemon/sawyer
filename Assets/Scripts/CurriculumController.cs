@@ -15,7 +15,6 @@ public class CurriculumController : MonoBehaviour {
 	void Start () {
 		imgFront = Resources.Load<Texture2D>("Image/Curriculum/" + image + "1");
 		imgBack = Resources.Load<Texture2D>("Image/Curriculum/" + image + "2");
-		//GetComponent<MeshRenderer> ().material.mainTexture = img;
 		MeshRenderer[] faces = GetComponentsInChildren<MeshRenderer>();
 		faces [0].material.mainTexture = imgBack;
 		faces [2].material.mainTexture = imgFront;

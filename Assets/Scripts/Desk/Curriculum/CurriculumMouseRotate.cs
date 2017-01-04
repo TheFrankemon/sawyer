@@ -13,7 +13,6 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	private Vector3 targetSpeedX;
 
 	private Camera playerCamera;
-	//private GameObject bg;
 	private FirstPersonController fpsController;
 	private CurriculumScrollController curriculum2D;
 	private DeskController deskController;
@@ -39,8 +38,7 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		playerCamera = GameObject.Find ("FPSController").GetComponentInChildren<Camera> ();
 		curriculum2D = GameObject.Find ("Curriculum ScrollView").GetComponent<CurriculumScrollController> ();
 		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
-		//bg = GameObject.Find ("Curriculum BG");
-		defaultFOV = playerCamera.fieldOfView;;//playerCamera.orthographicSize;
+		defaultFOV = playerCamera.fieldOfView;
 		Hide ();
 	}
 	
@@ -49,45 +47,8 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	}
 	
 	void Update() {
-		
-		if (Input.GetMouseButton(0) && isDragging) {
-			theSpeed = new Vector3(-Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 0.0F);
-			avgSpeed = Vector3.Lerp(avgSpeed, theSpeed, Time.deltaTime * 5);
-		} else {
-			if (isDragging) {
-				theSpeed = avgSpeed;
-				isDragging = false;
-			}
-			float i = Time.deltaTime * lerpSpeed;
-			theSpeed = Vector3.Lerp(theSpeed, Vector3.zero, i);
-		}
-
-		transform.Rotate(playerCamera.transform.up * theSpeed.x * rotationSpeed, Space.World);
-		transform.Rotate(playerCamera.transform.right * theSpeed.y * rotationSpeed, Space.World);
-
-		float fov  = playerCamera.fieldOfView;
-		fov -= Input.GetAxis("Mouse ScrollWheel") * sensitivity;
-		fov = Mathf.Clamp(fov, minFov, maxFov);
-		Camera.main.fieldOfView = fov;
-
-		yaw += speedH * Input.GetAxis("Mouse X");
-		pitch -= speedV * Input.GetAxis("Mouse Y");
-
-		if (pitch < -maxPitch) {
-			pitch = -maxPitch;
-		} else if (pitch > maxPitch) {
-			pitch = maxPitch;
-		}
-
-		if (yaw < -maxYaw) {
-			yaw = -maxYaw;
-		} else if (yaw > maxYaw) {
-			yaw = maxYaw;
-		}
-
-		//Debug.Log (yaw + " " + pitch);
-		
-		playerCamera.transform.eulerAngles = new Vector3(angles.x + pitch, angles.y + yaw, angles.z + 0.0f);
+		HandleRotation ();
+		HandleCameraMovement ();
 
 		if (Input.GetKeyDown ("escape")) {
 			Hide();
@@ -96,6 +57,47 @@ public class CurriculumMouseRotate : MonoBehaviour {
 			//Hide ();
 			curriculum2D.Show(imgBack);
 		}
+	}
+
+	private void HandleRotation() {
+		if (Input.GetMouseButton (0) && isDragging) {
+			theSpeed = new Vector3 (-Input.GetAxis ("Mouse X"), Input.GetAxis ("Mouse Y"), 0.0F);
+			avgSpeed = Vector3.Lerp (avgSpeed, theSpeed, Time.deltaTime * 5);
+		} else {
+			if (isDragging) {
+				theSpeed = avgSpeed;
+				isDragging = false;
+			}
+			float i = Time.deltaTime * lerpSpeed;
+			theSpeed = Vector3.Lerp (theSpeed, Vector3.zero, i);
+		}
+		
+		transform.Rotate (playerCamera.transform.up * theSpeed.x * rotationSpeed, Space.World);
+		transform.Rotate (playerCamera.transform.right * theSpeed.y * rotationSpeed, Space.World);
+	}
+
+	private void HandleCameraMovement() {
+		float fov = playerCamera.fieldOfView;
+		fov -= Input.GetAxis ("Mouse ScrollWheel") * sensitivity;
+		fov = Mathf.Clamp (fov, minFov, maxFov);
+		Camera.main.fieldOfView = fov;
+		
+		yaw += speedH * Input.GetAxis ("Mouse X");
+		pitch -= speedV * Input.GetAxis ("Mouse Y");
+		
+		if (pitch < -maxPitch) {
+			pitch = -maxPitch;
+		} else if (pitch > maxPitch) {
+			pitch = maxPitch;
+		}
+		
+		if (yaw < -maxYaw) {
+			yaw = -maxYaw;
+		} else if (yaw > maxYaw) {
+			yaw = maxYaw;
+		}
+		
+		playerCamera.transform.eulerAngles = new Vector3 (angles.x + pitch, angles.y + yaw, angles.z + 0.0f);
 	}
 
 	public void Show(string image, DeskController controller) {
@@ -108,16 +110,8 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	}
 
 	public IEnumerator CenterCameraAndDisplay(string image) {
-		/*if (controller != null) {
-			deskController = controller;
-			//deskController.lookAtLecturer();
-			//StartCoroutine(deskController.centerCameraToLecturer());
-			//deskController.centerCameraToLecturer();
-			Debug.Log("Finished");
-		}*/
 
 		while (!deskController.isLookingAtLecturer()) {
-			/*deskController.centerCameraToLecturer();*/
 			yield return new WaitForSeconds(0.3f);
 		}
 
@@ -125,21 +119,16 @@ public class CurriculumMouseRotate : MonoBehaviour {
 		transform.LookAt (playerCamera.transform.position);
 		enabled = true;
 
-		/*bg.transform.position = playerCamera.ScreenToWorldPoint (new Vector3 (Screen.width / 2, Screen.height / 2, playerCamera.nearClipPlane + 2));
-		bg.transform.LookAt (playerCamera.transform.position);
-		bg.SetActive (true);*/
-
 		fpsController.enabled = false;
 
 		angles = playerCamera.transform.eulerAngles;
 
-		//GetComponent<MeshRenderer> ().material = Resources.Load<Material>("Materials/Curriculum/" + image);
 
 		if (image != null) {
 			imgFront = Resources.Load<Texture2D> ("Image/Curriculum/" + image + "1");
 			imgBack = Resources.Load<Texture2D> ("Image/Curriculum/" + image + "2");
 		}
-		//GetComponent<MeshRenderer> ().material.mainTexture = img;
+
 		MeshRenderer[] faces = GetComponentsInChildren<MeshRenderer>();
 		faces [0].material.mainTexture = imgBack;
 		faces [2].material.mainTexture = imgFront;
@@ -148,16 +137,12 @@ public class CurriculumMouseRotate : MonoBehaviour {
 	public void Hide() {
 		transform.position = (new Vector3 (0, 0, 0));
 		enabled = false;
-		//bg.SetActive (false);
-		//fpsController.enabled = true;
 		playerCamera.fieldOfView = defaultFOV;
 		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 	}
 
 	public void Back() {
-		//fpsController.enabled = true;
 		if (deskController != null) {
-			//deskController.enabled = true;
 			deskController.lookDown();
 		}
 	}

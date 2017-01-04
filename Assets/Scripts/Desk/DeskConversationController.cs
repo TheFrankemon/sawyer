@@ -5,42 +5,22 @@ using UnityEngine.UI;
 using SimpleJSON;
 using System.Collections.Generic;
 
-public class DeskConversationController : MonoBehaviour {
+public class DeskConversationController : ConversationController {
 
-	public int textScrollSpeed;
-	public string textPathName;
 	public Button answerButton;
-	
-	//public GameObject contGUI;
-	
-	private bool isTalking;
-	private bool isWaiting;
-	private bool textIsScrolling;
-	private FirstPersonController fpsController;
-	private List<Button> answers;
-	private List<Conversation> nextConversations;
-	private Conversation currentConversation;
-	private Message currentMessage;
-	private Animation anim;
-	private Text textGUI;
-	private Text nameGUI;
-	private Image image;
-	private AudioSource audioSource;
+
+	protected bool isWaiting;
+	protected List<Button> answers;
+	protected List<Conversation> nextConversations;
+	protected DeskController deskController;
+
 	private RectTransform canvas;
-	private DeskController deskController;
 	
 	void Start() {
+		BaseStart ();
 		answers = new List<Button>();
 		nextConversations = new List<Conversation>();
-		audioSource = GameObject.Find ("FPSController").GetComponent<AudioSource> ();
-		fpsController = GameObject.FindGameObjectWithTag ("Player").GetComponent<FirstPersonController>();
-		anim = GameObject.Find ("TxtGUI").GetComponent<Animation> ();
 		canvas = GameObject.Find ("PanelW").GetComponent<RectTransform> ();
-		//Debug.Log (canvas.rect.width);
-		//Debug.Log (canvas.rect.height);
-		textGUI = GameObject.Find ("NPC Text").GetComponent<Text> ();
-		nameGUI = GameObject.Find ("NPC Name").GetComponent<Text> ();
-		image = GameObject.Find ("NPC Image").GetComponent<Image> ();
 	}
 	
 	void Update () {
@@ -56,7 +36,6 @@ public class DeskConversationController : MonoBehaviour {
 						StartCoroutine(startScrolling());
 					} else if (currentConversation.hasAnswers()) {
 						if (!isWaiting) {
-							//Debug.Log("crear");
 							isWaiting = true;
 							createAnswerButtons();
 						}
@@ -99,22 +78,6 @@ public class DeskConversationController : MonoBehaviour {
 		//waitForAnim (anim);
 	}
 	
-	IEnumerator waitForAnim(Animation anim) {
-		anim.Play("UIBegin");
-		currentConversation = JSONParser.createConversation(textPathName);
-		Texture2D texture = Resources.Load<Texture2D>(currentConversation.getImg());
-		image.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(.5f,.5f), 100);
-		currentMessage = currentConversation.getNext();
-		do
-		{
-			yield return null;
-		} while (anim.isPlaying);
-		nameGUI.text = currentConversation.getName();
-		image.enabled = true;
-		isTalking = true;
-		StartCoroutine (startScrolling());
-	}
-	
 	void createAnswerButtons() {
 		textGUI.text = "";
 		float width = canvas.rect.width;
@@ -155,44 +118,17 @@ public class DeskConversationController : MonoBehaviour {
 		//Debug.Log(answers.Count);
 	}
 	
-	IEnumerator startScrolling() {
-		audioSource.clip = currentMessage.getAudio();
-		audioSource.Play ();
-		
-		textIsScrolling = true;
-		string startText = currentMessage.getText();
-		string displayText = "";
-		
-		for (int i = 0; i < currentMessage.getText().Length; i++) {
-			if (textIsScrolling && currentMessage.getText() == startText) {
-				displayText += currentMessage.getText()[i];
-				textGUI.text = displayText;
-				yield return new WaitForSeconds (1 / textScrollSpeed);
-			} else {
-				return false;
-			}
-		}
-		
-		textIsScrolling = false;
-	}
-	
-	void stop() {
+	protected override void stop() {
+		base.stop ();
 		currentConversation.reset ();
-		textGUI.text = "";
-		nameGUI.text = "";
-		isTalking = false;
-		//fpsController.enabled = true;
 		foreach (Button ans in answers) {
 			Destroy (ans.gameObject);
 		}
 		answers.Clear ();
 		nextConversations.Clear ();
 		isWaiting = false;
-		image.enabled = false;
-		//anim.SetTrigger ("end");
-		anim.Play ("UIEnd");
-		//anim.enabled = false;
-		GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
+		//fpsController.enabled = true;
+		//GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls (ControlsUIController.ControlsType.NORMAL);
 		deskController.lookDown ();
 	}
 	
@@ -207,5 +143,10 @@ public class DeskConversationController : MonoBehaviour {
 		currentMessage = currentConversation.getNext();
 		StartCoroutine (startScrolling());
 		isWaiting = false;
+	}
+
+	protected override IEnumerator waitForAnim(Animation anim) {
+		currentConversation = JSONParser.createConversation(textPathName);
+		return base.waitForAnim (anim);
 	}
 }

@@ -4,7 +4,6 @@ using System.Collections;
 public class CurriculumColliderController : MonoBehaviour {
 
 	public string image;
-	//public Texure image;
 
 	private CurriculumMouseRotate curriculumController;
 

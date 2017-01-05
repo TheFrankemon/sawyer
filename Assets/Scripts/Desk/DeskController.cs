@@ -10,7 +10,6 @@ public class DeskController : MonoBehaviour {
 
 	private FirstPersonController fpsController;
 	private Camera playerCamera;
-	//private bool isWaiting = false;
 	private int speed = 5;
 	private Transform lecturer;
 	private PlayerDeskState state;
@@ -67,19 +66,6 @@ public class DeskController : MonoBehaviour {
 	}
 
 	public void centerCameraToLecturer() {
-		/*Quaternion targetRotation;
-		Vector3 dirFromAtoB;
-		float dotProd = 0;
-		while (dotProd < 0.9) {
-
-			targetRotation = Quaternion.LookRotation(lecturer.position - playerCamera.transform.position);
-			playerCamera.transform.rotation = Quaternion.Slerp(playerCamera.transform.rotation, targetRotation, speed * Time.deltaTime);
-			dirFromAtoB = (lecturer.position - playerCamera.transform.position).normalized;
-			dotProd = Vector3.Dot(dirFromAtoB, playerCamera.transform.forward);
-			Debug.Log("moving cam");
-			//yield return new WaitForSeconds(0.1f);
-		}*/
-
 		Quaternion targetRotation = Quaternion.LookRotation(lecturer.position - playerCamera.transform.position);
 		playerCamera.transform.rotation = Quaternion.Slerp(playerCamera.transform.rotation, targetRotation, speed * Time.deltaTime);
 	}
@@ -93,7 +79,6 @@ public class DeskController : MonoBehaviour {
 	void handleExit() {
 		if (Input.GetKeyDown ("escape")) {
 			fpsController.enabled = true;
-			//isWaiting = false;
 			enabled = false;
 			GameObject.Find ("FPSController").GetComponent<ControlsUIController> ().changeControls(ControlsUIController.ControlsType.NORMAL);
 		}
@@ -112,12 +97,5 @@ public class DeskController : MonoBehaviour {
 			default:
 				break;
 		}
-		/*if (isWaiting) {
-			centerCamera();
-			if (Input.GetKeyDown ("escape")) {
-				fpsController.enabled = true;
-				isWaiting = false;
-			}
-		}*/
 	}
 }

@@ -40,11 +40,13 @@ public class ControlsUIController : MonoBehaviour {
 
 	public void changeControls(ControlsType currentControls) {
 		current = currentControls;
-		foreach (Transform t in controlsPanel.transform) {
-			if (t.name == controlsNames[currentControls]) {
-				t.gameObject.SetActive(true);
-			} else {
-				t.gameObject.SetActive(false);
+		if (controlsPanel != null) {
+			foreach (Transform t in controlsPanel.transform) {
+				if (t.name == controlsNames [currentControls]) {
+					t.gameObject.SetActive (true);
+				} else {
+					t.gameObject.SetActive (false);
+				}
 			}
 		}
 	}

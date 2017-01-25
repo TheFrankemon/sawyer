@@ -33579,7 +33579,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22427902, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 773.905762
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11419278, guid: f97663d0f99f19e40b1b57c34f1577d4, type: 2}
       propertyPath: m_ScrollSensitivity
@@ -41876,6 +41876,62 @@ Prefab:
     - target: {fileID: 466864, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.60000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457544, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420310, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494232, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445750, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416374, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/fundadores
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430562, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/fundadores
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461288, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/viva
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413734, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/biblioteca
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433722, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/bisa
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442896, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/aulas
+      objectReference: {fileID: 0}
+    - target: {fileID: 11459160, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/aulas
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439496, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/aulas
+      objectReference: {fileID: 0}
+    - target: {fileID: 11449252, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/aulas
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490294, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
+      propertyPath: textPathName
+      value: SawyerOwl/labos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05acdf67183660a44b742e536a2e21be, type: 2}
